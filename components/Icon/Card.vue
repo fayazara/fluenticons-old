@@ -1,0 +1,54 @@
+<template>
+  <article class="pb-[100%] relative border rounded-lg">
+    <div class="absolute inset-0">
+      <button
+        @click="selectIcon"
+        class="block w-full h-full focus:outline-none group relative"
+        :aria-label="icon.name"
+      >
+        <div class="absolute inset-0">
+          <div class="flex flex-row justify-center items-center h-full">
+            <component :is="icon.componentName" />
+          </div>
+        </div>
+        <div class="p-4 absolute inset-x-0 bottom-0">
+          <div class="-mx-2 -my-1 flex flex-row justify-center">
+            <p
+              class="
+                subpixel-antialiased
+                px-2
+                py-1
+                tracking-wide
+                leading-tight
+                text-cool-gray-600
+                dark:text-cool-gray-400
+                cursor-text
+                select-text
+                text-xs
+                truncate
+              "
+            >
+              {{ icon.name.replace(/([A-Z])/g, " $1") }}
+            </p>
+          </div>
+        </div>
+      </button>
+    </div>
+  </article>
+</template>
+
+<script>
+export default {
+  props: {
+    icon: {
+      type: Object,
+      required: true,
+    },
+  },
+  methods: {
+    selectIcon() {
+      this.$emit("setIcon", this.icon);
+    },
+  },
+};
+</script>

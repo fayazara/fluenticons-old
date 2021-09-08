@@ -1,0 +1,5966 @@
+[
+  {
+    "name": "AccessTime",
+    "componentName": "FluentIconOutlinedAccessTime"
+  },
+  {
+    "name": "Accessibility",
+    "componentName": "FluentIconOutlinedAccessibility"
+  },
+  {
+    "name": "AccessibilityCheckmark",
+    "componentName": "FluentIconOutlinedAccessibilityCheckmark"
+  },
+  {
+    "name": "Add",
+    "componentName": "FluentIconOutlinedAdd"
+  },
+  {
+    "name": "AddCircle",
+    "componentName": "FluentIconOutlinedAddCircle"
+  },
+  {
+    "name": "AddSquare",
+    "componentName": "FluentIconOutlinedAddSquare"
+  },
+  {
+    "name": "AddSubtractCircle",
+    "componentName": "FluentIconOutlinedAddSubtractCircle"
+  },
+  {
+    "name": "Airplane",
+    "componentName": "FluentIconOutlinedAirplane"
+  },
+  {
+    "name": "AirplaneTakeOff",
+    "componentName": "FluentIconOutlinedAirplaneTakeOff"
+  },
+  {
+    "name": "Album",
+    "componentName": "FluentIconOutlinedAlbum"
+  },
+  {
+    "name": "AlbumAdd",
+    "componentName": "FluentIconOutlinedAlbumAdd"
+  },
+  {
+    "name": "Alert",
+    "componentName": "FluentIconOutlinedAlert"
+  },
+  {
+    "name": "AlertOff",
+    "componentName": "FluentIconOutlinedAlertOff"
+  },
+  {
+    "name": "AlertOn",
+    "componentName": "FluentIconOutlinedAlertOn"
+  },
+  {
+    "name": "AlertSnooze",
+    "componentName": "FluentIconOutlinedAlertSnooze"
+  },
+  {
+    "name": "AlertUrgent",
+    "componentName": "FluentIconOutlinedAlertUrgent"
+  },
+  {
+    "name": "AlignBottom",
+    "componentName": "FluentIconOutlinedAlignBottom"
+  },
+  {
+    "name": "AlignCenterHorizontal",
+    "componentName": "FluentIconOutlinedAlignCenterHorizontal"
+  },
+  {
+    "name": "AlignCenterVertical",
+    "componentName": "FluentIconOutlinedAlignCenterVertical"
+  },
+  {
+    "name": "AlignLeft",
+    "componentName": "FluentIconOutlinedAlignLeft"
+  },
+  {
+    "name": "AlignRight",
+    "componentName": "FluentIconOutlinedAlignRight"
+  },
+  {
+    "name": "AlignTop",
+    "componentName": "FluentIconOutlinedAlignTop"
+  },
+  {
+    "name": "AnimalCat",
+    "componentName": "FluentIconOutlinedAnimalCat"
+  },
+  {
+    "name": "AnimalDog",
+    "componentName": "FluentIconOutlinedAnimalDog"
+  },
+  {
+    "name": "AnimalRabbit",
+    "componentName": "FluentIconOutlinedAnimalRabbit"
+  },
+  {
+    "name": "AnimalTurtle",
+    "componentName": "FluentIconOutlinedAnimalTurtle"
+  },
+  {
+    "name": "AppFolder",
+    "componentName": "FluentIconOutlinedAppFolder"
+  },
+  {
+    "name": "AppGeneric",
+    "componentName": "FluentIconOutlinedAppGeneric"
+  },
+  {
+    "name": "AppRecent",
+    "componentName": "FluentIconOutlinedAppRecent"
+  },
+  {
+    "name": "AppStore",
+    "componentName": "FluentIconOutlinedAppStore"
+  },
+  {
+    "name": "AppTitle",
+    "componentName": "FluentIconOutlinedAppTitle"
+  },
+  {
+    "name": "ApprovalsApp",
+    "componentName": "FluentIconOutlinedApprovalsApp"
+  },
+  {
+    "name": "Apps",
+    "componentName": "FluentIconOutlinedApps"
+  },
+  {
+    "name": "AppsAddIn",
+    "componentName": "FluentIconOutlinedAppsAddIn"
+  },
+  {
+    "name": "AppsList",
+    "componentName": "FluentIconOutlinedAppsList"
+  },
+  {
+    "name": "AppsListDetail",
+    "componentName": "FluentIconOutlinedAppsListDetail"
+  },
+  {
+    "name": "Archive",
+    "componentName": "FluentIconOutlinedArchive"
+  },
+  {
+    "name": "ArrowAutofitContent",
+    "componentName": "FluentIconOutlinedArrowAutofitContent"
+  },
+  {
+    "name": "ArrowAutofitDown",
+    "componentName": "FluentIconOutlinedArrowAutofitDown"
+  },
+  {
+    "name": "ArrowAutofitHeight",
+    "componentName": "FluentIconOutlinedArrowAutofitHeight"
+  },
+  {
+    "name": "ArrowAutofitHeightDotted",
+    "componentName": "FluentIconOutlinedArrowAutofitHeightDotted"
+  },
+  {
+    "name": "ArrowAutofitUp",
+    "componentName": "FluentIconOutlinedArrowAutofitUp"
+  },
+  {
+    "name": "ArrowAutofitWidth",
+    "componentName": "FluentIconOutlinedArrowAutofitWidth"
+  },
+  {
+    "name": "ArrowAutofitWidthDotted",
+    "componentName": "FluentIconOutlinedArrowAutofitWidthDotted"
+  },
+  {
+    "name": "ArrowBidirectionalUpDown",
+    "componentName": "FluentIconOutlinedArrowBidirectionalUpDown"
+  },
+  {
+    "name": "ArrowBounce",
+    "componentName": "FluentIconOutlinedArrowBounce"
+  },
+  {
+    "name": "ArrowCircleDown",
+    "componentName": "FluentIconOutlinedArrowCircleDown"
+  },
+  {
+    "name": "ArrowCircleDownDouble",
+    "componentName": "FluentIconOutlinedArrowCircleDownDouble"
+  },
+  {
+    "name": "ArrowCircleDownRight",
+    "componentName": "FluentIconOutlinedArrowCircleDownRight"
+  },
+  {
+    "name": "ArrowCircleDownSplit",
+    "componentName": "FluentIconOutlinedArrowCircleDownSplit"
+  },
+  {
+    "name": "ArrowCircleLeft",
+    "componentName": "FluentIconOutlinedArrowCircleLeft"
+  },
+  {
+    "name": "ArrowCircleRight",
+    "componentName": "FluentIconOutlinedArrowCircleRight"
+  },
+  {
+    "name": "ArrowCircleUp",
+    "componentName": "FluentIconOutlinedArrowCircleUp"
+  },
+  {
+    "name": "ArrowCircleUpLeft",
+    "componentName": "FluentIconOutlinedArrowCircleUpLeft"
+  },
+  {
+    "name": "ArrowClockwise",
+    "componentName": "FluentIconOutlinedArrowClockwise"
+  },
+  {
+    "name": "ArrowClockwiseDashes",
+    "componentName": "FluentIconOutlinedArrowClockwiseDashes"
+  },
+  {
+    "name": "ArrowCollapseAll",
+    "componentName": "FluentIconOutlinedArrowCollapseAll"
+  },
+  {
+    "name": "ArrowCounterclockwise",
+    "componentName": "FluentIconOutlinedArrowCounterclockwise"
+  },
+  {
+    "name": "ArrowCounterclockwiseDashes",
+    "componentName": "FluentIconOutlinedArrowCounterclockwiseDashes"
+  },
+  {
+    "name": "ArrowCurveDownLeft",
+    "componentName": "FluentIconOutlinedArrowCurveDownLeft"
+  },
+  {
+    "name": "ArrowDown",
+    "componentName": "FluentIconOutlinedArrowDown"
+  },
+  {
+    "name": "ArrowDownLeft",
+    "componentName": "FluentIconOutlinedArrowDownLeft"
+  },
+  {
+    "name": "ArrowDownload",
+    "componentName": "FluentIconOutlinedArrowDownload"
+  },
+  {
+    "name": "ArrowEnterLeft",
+    "componentName": "FluentIconOutlinedArrowEnterLeft"
+  },
+  {
+    "name": "ArrowEnterUp",
+    "componentName": "FluentIconOutlinedArrowEnterUp"
+  },
+  {
+    "name": "ArrowExpand",
+    "componentName": "FluentIconOutlinedArrowExpand"
+  },
+  {
+    "name": "ArrowExportLtr",
+    "componentName": "FluentIconOutlinedArrowExportLtr"
+  },
+  {
+    "name": "ArrowExportUp",
+    "componentName": "FluentIconOutlinedArrowExportUp"
+  },
+  {
+    "name": "ArrowForward",
+    "componentName": "FluentIconOutlinedArrowForward"
+  },
+  {
+    "name": "ArrowGrowth",
+    "componentName": "FluentIconOutlinedArrowGrowth"
+  },
+  {
+    "name": "ArrowHookDownLeft",
+    "componentName": "FluentIconOutlinedArrowHookDownLeft"
+  },
+  {
+    "name": "ArrowHookDownRight",
+    "componentName": "FluentIconOutlinedArrowHookDownRight"
+  },
+  {
+    "name": "ArrowHookUpLeft",
+    "componentName": "FluentIconOutlinedArrowHookUpLeft"
+  },
+  {
+    "name": "ArrowHookUpRight",
+    "componentName": "FluentIconOutlinedArrowHookUpRight"
+  },
+  {
+    "name": "ArrowImport",
+    "componentName": "FluentIconOutlinedArrowImport"
+  },
+  {
+    "name": "ArrowLeft",
+    "componentName": "FluentIconOutlinedArrowLeft"
+  },
+  {
+    "name": "ArrowMaximize",
+    "componentName": "FluentIconOutlinedArrowMaximize"
+  },
+  {
+    "name": "ArrowMaximizeVertical",
+    "componentName": "FluentIconOutlinedArrowMaximizeVertical"
+  },
+  {
+    "name": "ArrowMinimize",
+    "componentName": "FluentIconOutlinedArrowMinimize"
+  },
+  {
+    "name": "ArrowMinimizeVertical",
+    "componentName": "FluentIconOutlinedArrowMinimizeVertical"
+  },
+  {
+    "name": "ArrowMove",
+    "componentName": "FluentIconOutlinedArrowMove"
+  },
+  {
+    "name": "ArrowNext",
+    "componentName": "FluentIconOutlinedArrowNext"
+  },
+  {
+    "name": "ArrowPrevious",
+    "componentName": "FluentIconOutlinedArrowPrevious"
+  },
+  {
+    "name": "ArrowRedo",
+    "componentName": "FluentIconOutlinedArrowRedo"
+  },
+  {
+    "name": "ArrowRepeatAll",
+    "componentName": "FluentIconOutlinedArrowRepeatAll"
+  },
+  {
+    "name": "ArrowRepeatAllOff",
+    "componentName": "FluentIconOutlinedArrowRepeatAllOff"
+  },
+  {
+    "name": "ArrowReply",
+    "componentName": "FluentIconOutlinedArrowReply"
+  },
+  {
+    "name": "ArrowReplyAll",
+    "componentName": "FluentIconOutlinedArrowReplyAll"
+  },
+  {
+    "name": "ArrowReplyDown",
+    "componentName": "FluentIconOutlinedArrowReplyDown"
+  },
+  {
+    "name": "ArrowReset",
+    "componentName": "FluentIconOutlinedArrowReset"
+  },
+  {
+    "name": "ArrowRight",
+    "componentName": "FluentIconOutlinedArrowRight"
+  },
+  {
+    "name": "ArrowRotateClockwise",
+    "componentName": "FluentIconOutlinedArrowRotateClockwise"
+  },
+  {
+    "name": "ArrowRotateCounterclockwise",
+    "componentName": "FluentIconOutlinedArrowRotateCounterclockwise"
+  },
+  {
+    "name": "ArrowRouting",
+    "componentName": "FluentIconOutlinedArrowRouting"
+  },
+  {
+    "name": "ArrowRoutingRectangleMultiple",
+    "componentName": "FluentIconOutlinedArrowRoutingRectangleMultiple"
+  },
+  {
+    "name": "ArrowSort",
+    "componentName": "FluentIconOutlinedArrowSort"
+  },
+  {
+    "name": "ArrowSortDown",
+    "componentName": "FluentIconOutlinedArrowSortDown"
+  },
+  {
+    "name": "ArrowSortUp",
+    "componentName": "FluentIconOutlinedArrowSortUp"
+  },
+  {
+    "name": "ArrowSquareDown",
+    "componentName": "FluentIconOutlinedArrowSquareDown"
+  },
+  {
+    "name": "ArrowSwap",
+    "componentName": "FluentIconOutlinedArrowSwap"
+  },
+  {
+    "name": "ArrowSync",
+    "componentName": "FluentIconOutlinedArrowSync"
+  },
+  {
+    "name": "ArrowSyncCircle",
+    "componentName": "FluentIconOutlinedArrowSyncCircle"
+  },
+  {
+    "name": "ArrowTrending",
+    "componentName": "FluentIconOutlinedArrowTrending"
+  },
+  {
+    "name": "ArrowTrendingCheckmark",
+    "componentName": "FluentIconOutlinedArrowTrendingCheckmark"
+  },
+  {
+    "name": "ArrowTrendingLines",
+    "componentName": "FluentIconOutlinedArrowTrendingLines"
+  },
+  {
+    "name": "ArrowTrendingSettings",
+    "componentName": "FluentIconOutlinedArrowTrendingSettings"
+  },
+  {
+    "name": "ArrowTurnBidirectionalDownRight",
+    "componentName": "FluentIconOutlinedArrowTurnBidirectionalDownRight"
+  },
+  {
+    "name": "ArrowTurnRight",
+    "componentName": "FluentIconOutlinedArrowTurnRight"
+  },
+  {
+    "name": "ArrowUndo",
+    "componentName": "FluentIconOutlinedArrowUndo"
+  },
+  {
+    "name": "ArrowUp",
+    "componentName": "FluentIconOutlinedArrowUp"
+  },
+  {
+    "name": "ArrowUpLeft",
+    "componentName": "FluentIconOutlinedArrowUpLeft"
+  },
+  {
+    "name": "ArrowUpRight",
+    "componentName": "FluentIconOutlinedArrowUpRight"
+  },
+  {
+    "name": "ArrowUpload",
+    "componentName": "FluentIconOutlinedArrowUpload"
+  },
+  {
+    "name": "ArrowsBidirectional",
+    "componentName": "FluentIconOutlinedArrowsBidirectional"
+  },
+  {
+    "name": "Attach",
+    "componentName": "FluentIconOutlinedAttach"
+  },
+  {
+    "name": "AttachArrowRight",
+    "componentName": "FluentIconOutlinedAttachArrowRight"
+  },
+  {
+    "name": "AttachText",
+    "componentName": "FluentIconOutlinedAttachText"
+  },
+  {
+    "name": "AutoFitHeight",
+    "componentName": "FluentIconOutlinedAutoFitHeight"
+  },
+  {
+    "name": "AutoFitWidth",
+    "componentName": "FluentIconOutlinedAutoFitWidth"
+  },
+  {
+    "name": "Autocorrect",
+    "componentName": "FluentIconOutlinedAutocorrect"
+  },
+  {
+    "name": "AutofitContent",
+    "componentName": "FluentIconOutlinedAutofitContent"
+  },
+  {
+    "name": "Autosum",
+    "componentName": "FluentIconOutlinedAutosum"
+  },
+  {
+    "name": "Backpack",
+    "componentName": "FluentIconOutlinedBackpack"
+  },
+  {
+    "name": "BackpackAdd",
+    "componentName": "FluentIconOutlinedBackpackAdd"
+  },
+  {
+    "name": "Backspace",
+    "componentName": "FluentIconOutlinedBackspace"
+  },
+  {
+    "name": "Badge",
+    "componentName": "FluentIconOutlinedBadge"
+  },
+  {
+    "name": "Balloon",
+    "componentName": "FluentIconOutlinedBalloon"
+  },
+  {
+    "name": "BarcodeScanner",
+    "componentName": "FluentIconOutlinedBarcodeScanner"
+  },
+  {
+    "name": "Battery0",
+    "componentName": "FluentIconOutlinedBattery0"
+  },
+  {
+    "name": "Battery1",
+    "componentName": "FluentIconOutlinedBattery1"
+  },
+  {
+    "name": "Battery2",
+    "componentName": "FluentIconOutlinedBattery2"
+  },
+  {
+    "name": "Battery3",
+    "componentName": "FluentIconOutlinedBattery3"
+  },
+  {
+    "name": "Battery4",
+    "componentName": "FluentIconOutlinedBattery4"
+  },
+  {
+    "name": "Battery5",
+    "componentName": "FluentIconOutlinedBattery5"
+  },
+  {
+    "name": "Battery6",
+    "componentName": "FluentIconOutlinedBattery6"
+  },
+  {
+    "name": "Battery7",
+    "componentName": "FluentIconOutlinedBattery7"
+  },
+  {
+    "name": "Battery8",
+    "componentName": "FluentIconOutlinedBattery8"
+  },
+  {
+    "name": "Battery9",
+    "componentName": "FluentIconOutlinedBattery9"
+  },
+  {
+    "name": "BatteryCharge",
+    "componentName": "FluentIconOutlinedBatteryCharge"
+  },
+  {
+    "name": "BatteryCheckmark",
+    "componentName": "FluentIconOutlinedBatteryCheckmark"
+  },
+  {
+    "name": "BatteryFull",
+    "componentName": "FluentIconOutlinedBatteryFull"
+  },
+  {
+    "name": "BatterySaver",
+    "componentName": "FluentIconOutlinedBatterySaver"
+  },
+  {
+    "name": "BatteryWarning",
+    "componentName": "FluentIconOutlinedBatteryWarning"
+  },
+  {
+    "name": "Beach",
+    "componentName": "FluentIconOutlinedBeach"
+  },
+  {
+    "name": "Beaker",
+    "componentName": "FluentIconOutlinedBeaker"
+  },
+  {
+    "name": "BeakerEdit",
+    "componentName": "FluentIconOutlinedBeakerEdit"
+  },
+  {
+    "name": "Bed",
+    "componentName": "FluentIconOutlinedBed"
+  },
+  {
+    "name": "BinFull",
+    "componentName": "FluentIconOutlinedBinFull"
+  },
+  {
+    "name": "Block",
+    "componentName": "FluentIconOutlinedBlock"
+  },
+  {
+    "name": "Bluetooth",
+    "componentName": "FluentIconOutlinedBluetooth"
+  },
+  {
+    "name": "BluetoothConnected",
+    "componentName": "FluentIconOutlinedBluetoothConnected"
+  },
+  {
+    "name": "BluetoothDisabled",
+    "componentName": "FluentIconOutlinedBluetoothDisabled"
+  },
+  {
+    "name": "BluetoothSearching",
+    "componentName": "FluentIconOutlinedBluetoothSearching"
+  },
+  {
+    "name": "Blur",
+    "componentName": "FluentIconOutlinedBlur"
+  },
+  {
+    "name": "Board",
+    "componentName": "FluentIconOutlinedBoard"
+  },
+  {
+    "name": "BoardSplit",
+    "componentName": "FluentIconOutlinedBoardSplit"
+  },
+  {
+    "name": "Book",
+    "componentName": "FluentIconOutlinedBook"
+  },
+  {
+    "name": "BookAdd",
+    "componentName": "FluentIconOutlinedBookAdd"
+  },
+  {
+    "name": "BookClock",
+    "componentName": "FluentIconOutlinedBookClock"
+  },
+  {
+    "name": "BookCoins",
+    "componentName": "FluentIconOutlinedBookCoins"
+  },
+  {
+    "name": "BookCompass",
+    "componentName": "FluentIconOutlinedBookCompass"
+  },
+  {
+    "name": "BookContacts",
+    "componentName": "FluentIconOutlinedBookContacts"
+  },
+  {
+    "name": "BookDatabase",
+    "componentName": "FluentIconOutlinedBookDatabase"
+  },
+  {
+    "name": "BookExclamationMark",
+    "componentName": "FluentIconOutlinedBookExclamationMark"
+  },
+  {
+    "name": "BookGlobe",
+    "componentName": "FluentIconOutlinedBookGlobe"
+  },
+  {
+    "name": "BookInformation",
+    "componentName": "FluentIconOutlinedBookInformation"
+  },
+  {
+    "name": "BookLetter",
+    "componentName": "FluentIconOutlinedBookLetter"
+  },
+  {
+    "name": "BookNumber",
+    "componentName": "FluentIconOutlinedBookNumber"
+  },
+  {
+    "name": "BookOpen",
+    "componentName": "FluentIconOutlinedBookOpen"
+  },
+  {
+    "name": "BookOpenGlobe",
+    "componentName": "FluentIconOutlinedBookOpenGlobe"
+  },
+  {
+    "name": "BookOpenMicrophone",
+    "componentName": "FluentIconOutlinedBookOpenMicrophone"
+  },
+  {
+    "name": "BookPulse",
+    "componentName": "FluentIconOutlinedBookPulse"
+  },
+  {
+    "name": "BookQuestionMark",
+    "componentName": "FluentIconOutlinedBookQuestionMark"
+  },
+  {
+    "name": "BookQuestionMarkRtl",
+    "componentName": "FluentIconOutlinedBookQuestionMarkRtl"
+  },
+  {
+    "name": "BookSearch",
+    "componentName": "FluentIconOutlinedBookSearch"
+  },
+  {
+    "name": "BookStar",
+    "componentName": "FluentIconOutlinedBookStar"
+  },
+  {
+    "name": "BookTheta",
+    "componentName": "FluentIconOutlinedBookTheta"
+  },
+  {
+    "name": "BookToolbox",
+    "componentName": "FluentIconOutlinedBookToolbox"
+  },
+  {
+    "name": "Bookmark",
+    "componentName": "FluentIconOutlinedBookmark"
+  },
+  {
+    "name": "BookmarkAdd",
+    "componentName": "FluentIconOutlinedBookmarkAdd"
+  },
+  {
+    "name": "BookmarkMultiple",
+    "componentName": "FluentIconOutlinedBookmarkMultiple"
+  },
+  {
+    "name": "BookmarkOff",
+    "componentName": "FluentIconOutlinedBookmarkOff"
+  },
+  {
+    "name": "Border",
+    "componentName": "FluentIconOutlinedBorder"
+  },
+  {
+    "name": "BorderAll",
+    "componentName": "FluentIconOutlinedBorderAll"
+  },
+  {
+    "name": "BorderBottom",
+    "componentName": "FluentIconOutlinedBorderBottom"
+  },
+  {
+    "name": "BorderBottomDouble",
+    "componentName": "FluentIconOutlinedBorderBottomDouble"
+  },
+  {
+    "name": "BorderBottomThick",
+    "componentName": "FluentIconOutlinedBorderBottomThick"
+  },
+  {
+    "name": "BorderLeft",
+    "componentName": "FluentIconOutlinedBorderLeft"
+  },
+  {
+    "name": "BorderOutside",
+    "componentName": "FluentIconOutlinedBorderOutside"
+  },
+  {
+    "name": "BorderOutsideThick",
+    "componentName": "FluentIconOutlinedBorderOutsideThick"
+  },
+  {
+    "name": "BorderRight",
+    "componentName": "FluentIconOutlinedBorderRight"
+  },
+  {
+    "name": "BorderTop",
+    "componentName": "FluentIconOutlinedBorderTop"
+  },
+  {
+    "name": "BorderTopBottom",
+    "componentName": "FluentIconOutlinedBorderTopBottom"
+  },
+  {
+    "name": "BorderTopBottomDouble",
+    "componentName": "FluentIconOutlinedBorderTopBottomDouble"
+  },
+  {
+    "name": "BorderTopBottomThick",
+    "componentName": "FluentIconOutlinedBorderTopBottomThick"
+  },
+  {
+    "name": "Bot",
+    "componentName": "FluentIconOutlinedBot"
+  },
+  {
+    "name": "BotAdd",
+    "componentName": "FluentIconOutlinedBotAdd"
+  },
+  {
+    "name": "BowlChopsticks",
+    "componentName": "FluentIconOutlinedBowlChopsticks"
+  },
+  {
+    "name": "BoxEdit",
+    "componentName": "FluentIconOutlinedBoxEdit"
+  },
+  {
+    "name": "BoxToolbox",
+    "componentName": "FluentIconOutlinedBoxToolbox"
+  },
+  {
+    "name": "BracesVariable",
+    "componentName": "FluentIconOutlinedBracesVariable"
+  },
+  {
+    "name": "BrainCircuit",
+    "componentName": "FluentIconOutlinedBrainCircuit"
+  },
+  {
+    "name": "Branch",
+    "componentName": "FluentIconOutlinedBranch"
+  },
+  {
+    "name": "BranchCompare",
+    "componentName": "FluentIconOutlinedBranchCompare"
+  },
+  {
+    "name": "BranchFork",
+    "componentName": "FluentIconOutlinedBranchFork"
+  },
+  {
+    "name": "Briefcase",
+    "componentName": "FluentIconOutlinedBriefcase"
+  },
+  {
+    "name": "BriefcaseMedical",
+    "componentName": "FluentIconOutlinedBriefcaseMedical"
+  },
+  {
+    "name": "BriefcaseOff",
+    "componentName": "FluentIconOutlinedBriefcaseOff"
+  },
+  {
+    "name": "BroadActivityFeed",
+    "componentName": "FluentIconOutlinedBroadActivityFeed"
+  },
+  {
+    "name": "Broom",
+    "componentName": "FluentIconOutlinedBroom"
+  },
+  {
+    "name": "Bug",
+    "componentName": "FluentIconOutlinedBug"
+  },
+  {
+    "name": "Building",
+    "componentName": "FluentIconOutlinedBuilding"
+  },
+  {
+    "name": "BuildingBank",
+    "componentName": "FluentIconOutlinedBuildingBank"
+  },
+  {
+    "name": "BuildingBankLink",
+    "componentName": "FluentIconOutlinedBuildingBankLink"
+  },
+  {
+    "name": "BuildingBankToolbox",
+    "componentName": "FluentIconOutlinedBuildingBankToolbox"
+  },
+  {
+    "name": "BuildingFactory",
+    "componentName": "FluentIconOutlinedBuildingFactory"
+  },
+  {
+    "name": "BuildingGovernment",
+    "componentName": "FluentIconOutlinedBuildingGovernment"
+  },
+  {
+    "name": "BuildingMultiple",
+    "componentName": "FluentIconOutlinedBuildingMultiple"
+  },
+  {
+    "name": "BuildingRetail",
+    "componentName": "FluentIconOutlinedBuildingRetail"
+  },
+  {
+    "name": "BuildingRetailMoney",
+    "componentName": "FluentIconOutlinedBuildingRetailMoney"
+  },
+  {
+    "name": "BuildingRetailShield",
+    "componentName": "FluentIconOutlinedBuildingRetailShield"
+  },
+  {
+    "name": "BuildingRetailToolbox",
+    "componentName": "FluentIconOutlinedBuildingRetailToolbox"
+  },
+  {
+    "name": "BuildingShop",
+    "componentName": "FluentIconOutlinedBuildingShop"
+  },
+  {
+    "name": "BuildingSkyscraper",
+    "componentName": "FluentIconOutlinedBuildingSkyscraper"
+  },
+  {
+    "name": "Calculator",
+    "componentName": "FluentIconOutlinedCalculator"
+  },
+  {
+    "name": "CalculatorMultiple",
+    "componentName": "FluentIconOutlinedCalculatorMultiple"
+  },
+  {
+    "name": "Calendar3Day",
+    "componentName": "FluentIconOutlinedCalendar3Day"
+  },
+  {
+    "name": "CalendarAdd",
+    "componentName": "FluentIconOutlinedCalendarAdd"
+  },
+  {
+    "name": "CalendarAgenda",
+    "componentName": "FluentIconOutlinedCalendarAgenda"
+  },
+  {
+    "name": "CalendarArrowDown",
+    "componentName": "FluentIconOutlinedCalendarArrowDown"
+  },
+  {
+    "name": "CalendarAssistant",
+    "componentName": "FluentIconOutlinedCalendarAssistant"
+  },
+  {
+    "name": "CalendarCancel",
+    "componentName": "FluentIconOutlinedCalendarCancel"
+  },
+  {
+    "name": "CalendarCheckmark",
+    "componentName": "FluentIconOutlinedCalendarCheckmark"
+  },
+  {
+    "name": "CalendarClock",
+    "componentName": "FluentIconOutlinedCalendarClock"
+  },
+  {
+    "name": "CalendarDay",
+    "componentName": "FluentIconOutlinedCalendarDay"
+  },
+  {
+    "name": "CalendarEdit",
+    "componentName": "FluentIconOutlinedCalendarEdit"
+  },
+  {
+    "name": "CalendarEmpty",
+    "componentName": "FluentIconOutlinedCalendarEmpty"
+  },
+  {
+    "name": "CalendarError",
+    "componentName": "FluentIconOutlinedCalendarError"
+  },
+  {
+    "name": "CalendarLtr",
+    "componentName": "FluentIconOutlinedCalendarLtr"
+  },
+  {
+    "name": "CalendarMonth",
+    "componentName": "FluentIconOutlinedCalendarMonth"
+  },
+  {
+    "name": "CalendarMultiple",
+    "componentName": "FluentIconOutlinedCalendarMultiple"
+  },
+  {
+    "name": "CalendarOverdue",
+    "componentName": "FluentIconOutlinedCalendarOverdue"
+  },
+  {
+    "name": "CalendarPerson",
+    "componentName": "FluentIconOutlinedCalendarPerson"
+  },
+  {
+    "name": "CalendarQuestionMark",
+    "componentName": "FluentIconOutlinedCalendarQuestionMark"
+  },
+  {
+    "name": "CalendarReply",
+    "componentName": "FluentIconOutlinedCalendarReply"
+  },
+  {
+    "name": "CalendarRtl",
+    "componentName": "FluentIconOutlinedCalendarRtl"
+  },
+  {
+    "name": "CalendarStar",
+    "componentName": "FluentIconOutlinedCalendarStar"
+  },
+  {
+    "name": "CalendarSync",
+    "componentName": "FluentIconOutlinedCalendarSync"
+  },
+  {
+    "name": "CalendarToday",
+    "componentName": "FluentIconOutlinedCalendarToday"
+  },
+  {
+    "name": "CalendarWeekNumbers",
+    "componentName": "FluentIconOutlinedCalendarWeekNumbers"
+  },
+  {
+    "name": "CalendarWeekStart",
+    "componentName": "FluentIconOutlinedCalendarWeekStart"
+  },
+  {
+    "name": "CalendarWorkWeek",
+    "componentName": "FluentIconOutlinedCalendarWorkWeek"
+  },
+  {
+    "name": "Call",
+    "componentName": "FluentIconOutlinedCall"
+  },
+  {
+    "name": "CallAdd",
+    "componentName": "FluentIconOutlinedCallAdd"
+  },
+  {
+    "name": "CallCheckmark",
+    "componentName": "FluentIconOutlinedCallCheckmark"
+  },
+  {
+    "name": "CallDismiss",
+    "componentName": "FluentIconOutlinedCallDismiss"
+  },
+  {
+    "name": "CallEnd",
+    "componentName": "FluentIconOutlinedCallEnd"
+  },
+  {
+    "name": "CallForward",
+    "componentName": "FluentIconOutlinedCallForward"
+  },
+  {
+    "name": "CallInbound",
+    "componentName": "FluentIconOutlinedCallInbound"
+  },
+  {
+    "name": "CallMissed",
+    "componentName": "FluentIconOutlinedCallMissed"
+  },
+  {
+    "name": "CallOutbound",
+    "componentName": "FluentIconOutlinedCallOutbound"
+  },
+  {
+    "name": "CallPark",
+    "componentName": "FluentIconOutlinedCallPark"
+  },
+  {
+    "name": "CallPause",
+    "componentName": "FluentIconOutlinedCallPause"
+  },
+  {
+    "name": "CallProhibited",
+    "componentName": "FluentIconOutlinedCallProhibited"
+  },
+  {
+    "name": "CalligraphyPen",
+    "componentName": "FluentIconOutlinedCalligraphyPen"
+  },
+  {
+    "name": "Camera",
+    "componentName": "FluentIconOutlinedCamera"
+  },
+  {
+    "name": "CameraAdd",
+    "componentName": "FluentIconOutlinedCameraAdd"
+  },
+  {
+    "name": "CameraDome",
+    "componentName": "FluentIconOutlinedCameraDome"
+  },
+  {
+    "name": "CameraOff",
+    "componentName": "FluentIconOutlinedCameraOff"
+  },
+  {
+    "name": "CameraSwitch",
+    "componentName": "FluentIconOutlinedCameraSwitch"
+  },
+  {
+    "name": "Caret",
+    "componentName": "FluentIconOutlinedCaret"
+  },
+  {
+    "name": "CaretDown",
+    "componentName": "FluentIconOutlinedCaretDown"
+  },
+  {
+    "name": "CaretDownLeft",
+    "componentName": "FluentIconOutlinedCaretDownLeft"
+  },
+  {
+    "name": "CaretLeft",
+    "componentName": "FluentIconOutlinedCaretLeft"
+  },
+  {
+    "name": "CaretRight",
+    "componentName": "FluentIconOutlinedCaretRight"
+  },
+  {
+    "name": "CaretUp",
+    "componentName": "FluentIconOutlinedCaretUp"
+  },
+  {
+    "name": "Cart",
+    "componentName": "FluentIconOutlinedCart"
+  },
+  {
+    "name": "Cast",
+    "componentName": "FluentIconOutlinedCast"
+  },
+  {
+    "name": "Cellular3g",
+    "componentName": "FluentIconOutlinedCellular3g"
+  },
+  {
+    "name": "Cellular4g",
+    "componentName": "FluentIconOutlinedCellular4g"
+  },
+  {
+    "name": "Cellular5g",
+    "componentName": "FluentIconOutlinedCellular5g"
+  },
+  {
+    "name": "CellularData1",
+    "componentName": "FluentIconOutlinedCellularData1"
+  },
+  {
+    "name": "CellularData2",
+    "componentName": "FluentIconOutlinedCellularData2"
+  },
+  {
+    "name": "CellularData3",
+    "componentName": "FluentIconOutlinedCellularData3"
+  },
+  {
+    "name": "CellularData4",
+    "componentName": "FluentIconOutlinedCellularData4"
+  },
+  {
+    "name": "CellularData5",
+    "componentName": "FluentIconOutlinedCellularData5"
+  },
+  {
+    "name": "CellularDataCellularOff",
+    "componentName": "FluentIconOutlinedCellularDataCellularOff"
+  },
+  {
+    "name": "CellularDataCellularUnavailable",
+    "componentName": "FluentIconOutlinedCellularDataCellularUnavailable"
+  },
+  {
+    "name": "CellularDataUnavailable",
+    "componentName": "FluentIconOutlinedCellularDataUnavailable"
+  },
+  {
+    "name": "CellularWarning",
+    "componentName": "FluentIconOutlinedCellularWarning"
+  },
+  {
+    "name": "CenterHorizontal",
+    "componentName": "FluentIconOutlinedCenterHorizontal"
+  },
+  {
+    "name": "CenterVertical",
+    "componentName": "FluentIconOutlinedCenterVertical"
+  },
+  {
+    "name": "Certificate",
+    "componentName": "FluentIconOutlinedCertificate"
+  },
+  {
+    "name": "Channel",
+    "componentName": "FluentIconOutlinedChannel"
+  },
+  {
+    "name": "ChannelAdd",
+    "componentName": "FluentIconOutlinedChannelAdd"
+  },
+  {
+    "name": "ChannelAlert",
+    "componentName": "FluentIconOutlinedChannelAlert"
+  },
+  {
+    "name": "ChannelArrowLeft",
+    "componentName": "FluentIconOutlinedChannelArrowLeft"
+  },
+  {
+    "name": "ChannelDismiss",
+    "componentName": "FluentIconOutlinedChannelDismiss"
+  },
+  {
+    "name": "ChannelShare",
+    "componentName": "FluentIconOutlinedChannelShare"
+  },
+  {
+    "name": "ChannelSubtract",
+    "componentName": "FluentIconOutlinedChannelSubtract"
+  },
+  {
+    "name": "ChartPerson",
+    "componentName": "FluentIconOutlinedChartPerson"
+  },
+  {
+    "name": "Chat",
+    "componentName": "FluentIconOutlinedChat"
+  },
+  {
+    "name": "ChatBubblesQuestion",
+    "componentName": "FluentIconOutlinedChatBubblesQuestion"
+  },
+  {
+    "name": "ChatHelp",
+    "componentName": "FluentIconOutlinedChatHelp"
+  },
+  {
+    "name": "ChatMultiple",
+    "componentName": "FluentIconOutlinedChatMultiple"
+  },
+  {
+    "name": "ChatOff",
+    "componentName": "FluentIconOutlinedChatOff"
+  },
+  {
+    "name": "ChatSettings",
+    "componentName": "FluentIconOutlinedChatSettings"
+  },
+  {
+    "name": "ChatVideo",
+    "componentName": "FluentIconOutlinedChatVideo"
+  },
+  {
+    "name": "ChatWarning",
+    "componentName": "FluentIconOutlinedChatWarning"
+  },
+  {
+    "name": "Check",
+    "componentName": "FluentIconOutlinedCheck"
+  },
+  {
+    "name": "Checkbox1",
+    "componentName": "FluentIconOutlinedCheckbox1"
+  },
+  {
+    "name": "Checkbox2",
+    "componentName": "FluentIconOutlinedCheckbox2"
+  },
+  {
+    "name": "CheckboxArrowRight",
+    "componentName": "FluentIconOutlinedCheckboxArrowRight"
+  },
+  {
+    "name": "CheckboxChecked",
+    "componentName": "FluentIconOutlinedCheckboxChecked"
+  },
+  {
+    "name": "CheckboxIndeterminate",
+    "componentName": "FluentIconOutlinedCheckboxIndeterminate"
+  },
+  {
+    "name": "CheckboxPerson",
+    "componentName": "FluentIconOutlinedCheckboxPerson"
+  },
+  {
+    "name": "CheckboxUnchecked",
+    "componentName": "FluentIconOutlinedCheckboxUnchecked"
+  },
+  {
+    "name": "CheckboxWarning",
+    "componentName": "FluentIconOutlinedCheckboxWarning"
+  },
+  {
+    "name": "Checkmark",
+    "componentName": "FluentIconOutlinedCheckmark"
+  },
+  {
+    "name": "CheckmarkCircle",
+    "componentName": "FluentIconOutlinedCheckmarkCircle"
+  },
+  {
+    "name": "CheckmarkLock",
+    "componentName": "FluentIconOutlinedCheckmarkLock"
+  },
+  {
+    "name": "CheckmarkSquare",
+    "componentName": "FluentIconOutlinedCheckmarkSquare"
+  },
+  {
+    "name": "ChevronCircleDown",
+    "componentName": "FluentIconOutlinedChevronCircleDown"
+  },
+  {
+    "name": "ChevronCircleRight",
+    "componentName": "FluentIconOutlinedChevronCircleRight"
+  },
+  {
+    "name": "ChevronDown",
+    "componentName": "FluentIconOutlinedChevronDown"
+  },
+  {
+    "name": "ChevronLeft",
+    "componentName": "FluentIconOutlinedChevronLeft"
+  },
+  {
+    "name": "ChevronRight",
+    "componentName": "FluentIconOutlinedChevronRight"
+  },
+  {
+    "name": "ChevronUp",
+    "componentName": "FluentIconOutlinedChevronUp"
+  },
+  {
+    "name": "ChevronUpDown",
+    "componentName": "FluentIconOutlinedChevronUpDown"
+  },
+  {
+    "name": "Circle",
+    "componentName": "FluentIconOutlinedCircle"
+  },
+  {
+    "name": "CircleEdit",
+    "componentName": "FluentIconOutlinedCircleEdit"
+  },
+  {
+    "name": "CircleHalfFill",
+    "componentName": "FluentIconOutlinedCircleHalfFill"
+  },
+  {
+    "name": "CircleLine",
+    "componentName": "FluentIconOutlinedCircleLine"
+  },
+  {
+    "name": "CircleSmall",
+    "componentName": "FluentIconOutlinedCircleSmall"
+  },
+  {
+    "name": "City",
+    "componentName": "FluentIconOutlinedCity"
+  },
+  {
+    "name": "Class",
+    "componentName": "FluentIconOutlinedClass"
+  },
+  {
+    "name": "Classification",
+    "componentName": "FluentIconOutlinedClassification"
+  },
+  {
+    "name": "ClearFormatting",
+    "componentName": "FluentIconOutlinedClearFormatting"
+  },
+  {
+    "name": "Clipboard",
+    "componentName": "FluentIconOutlinedClipboard"
+  },
+  {
+    "name": "ClipboardArrowRight",
+    "componentName": "FluentIconOutlinedClipboardArrowRight"
+  },
+  {
+    "name": "ClipboardCheckmark",
+    "componentName": "FluentIconOutlinedClipboardCheckmark"
+  },
+  {
+    "name": "ClipboardCode",
+    "componentName": "FluentIconOutlinedClipboardCode"
+  },
+  {
+    "name": "ClipboardError",
+    "componentName": "FluentIconOutlinedClipboardError"
+  },
+  {
+    "name": "ClipboardHeart",
+    "componentName": "FluentIconOutlinedClipboardHeart"
+  },
+  {
+    "name": "ClipboardImage",
+    "componentName": "FluentIconOutlinedClipboardImage"
+  },
+  {
+    "name": "ClipboardLetter",
+    "componentName": "FluentIconOutlinedClipboardLetter"
+  },
+  {
+    "name": "ClipboardLink",
+    "componentName": "FluentIconOutlinedClipboardLink"
+  },
+  {
+    "name": "ClipboardMore",
+    "componentName": "FluentIconOutlinedClipboardMore"
+  },
+  {
+    "name": "ClipboardPaste",
+    "componentName": "FluentIconOutlinedClipboardPaste"
+  },
+  {
+    "name": "ClipboardPulse",
+    "componentName": "FluentIconOutlinedClipboardPulse"
+  },
+  {
+    "name": "ClipboardSearch",
+    "componentName": "FluentIconOutlinedClipboardSearch"
+  },
+  {
+    "name": "ClipboardSettings",
+    "componentName": "FluentIconOutlinedClipboardSettings"
+  },
+  {
+    "name": "ClipboardTask",
+    "componentName": "FluentIconOutlinedClipboardTask"
+  },
+  {
+    "name": "ClipboardTaskAdd",
+    "componentName": "FluentIconOutlinedClipboardTaskAdd"
+  },
+  {
+    "name": "ClipboardTaskListLtr",
+    "componentName": "FluentIconOutlinedClipboardTaskListLtr"
+  },
+  {
+    "name": "ClipboardTaskListRtl",
+    "componentName": "FluentIconOutlinedClipboardTaskListRtl"
+  },
+  {
+    "name": "ClipboardTextLtr",
+    "componentName": "FluentIconOutlinedClipboardTextLtr"
+  },
+  {
+    "name": "ClipboardTextRtl",
+    "componentName": "FluentIconOutlinedClipboardTextRtl"
+  },
+  {
+    "name": "Clock",
+    "componentName": "FluentIconOutlinedClock"
+  },
+  {
+    "name": "ClockAlarm",
+    "componentName": "FluentIconOutlinedClockAlarm"
+  },
+  {
+    "name": "ClockArrowDownload",
+    "componentName": "FluentIconOutlinedClockArrowDownload"
+  },
+  {
+    "name": "ClockDismiss",
+    "componentName": "FluentIconOutlinedClockDismiss"
+  },
+  {
+    "name": "ClosedCaption",
+    "componentName": "FluentIconOutlinedClosedCaption"
+  },
+  {
+    "name": "ClosedCaptionOff",
+    "componentName": "FluentIconOutlinedClosedCaptionOff"
+  },
+  {
+    "name": "Cloud",
+    "componentName": "FluentIconOutlinedCloud"
+  },
+  {
+    "name": "CloudArrowDown",
+    "componentName": "FluentIconOutlinedCloudArrowDown"
+  },
+  {
+    "name": "CloudArrowUp",
+    "componentName": "FluentIconOutlinedCloudArrowUp"
+  },
+  {
+    "name": "CloudBackup",
+    "componentName": "FluentIconOutlinedCloudBackup"
+  },
+  {
+    "name": "CloudCheckmark",
+    "componentName": "FluentIconOutlinedCloudCheckmark"
+  },
+  {
+    "name": "CloudDismiss",
+    "componentName": "FluentIconOutlinedCloudDismiss"
+  },
+  {
+    "name": "CloudDownload",
+    "componentName": "FluentIconOutlinedCloudDownload"
+  },
+  {
+    "name": "CloudFlow",
+    "componentName": "FluentIconOutlinedCloudFlow"
+  },
+  {
+    "name": "CloudOff",
+    "componentName": "FluentIconOutlinedCloudOff"
+  },
+  {
+    "name": "CloudOffline",
+    "componentName": "FluentIconOutlinedCloudOffline"
+  },
+  {
+    "name": "CloudSwap",
+    "componentName": "FluentIconOutlinedCloudSwap"
+  },
+  {
+    "name": "CloudSync",
+    "componentName": "FluentIconOutlinedCloudSync"
+  },
+  {
+    "name": "CloudSyncComplete",
+    "componentName": "FluentIconOutlinedCloudSyncComplete"
+  },
+  {
+    "name": "CloudWords",
+    "componentName": "FluentIconOutlinedCloudWords"
+  },
+  {
+    "name": "Code",
+    "componentName": "FluentIconOutlinedCode"
+  },
+  {
+    "name": "Collections",
+    "componentName": "FluentIconOutlinedCollections"
+  },
+  {
+    "name": "CollectionsAdd",
+    "componentName": "FluentIconOutlinedCollectionsAdd"
+  },
+  {
+    "name": "Color",
+    "componentName": "FluentIconOutlinedColor"
+  },
+  {
+    "name": "ColorBackground",
+    "componentName": "FluentIconOutlinedColorBackground"
+  },
+  {
+    "name": "ColorBackgroundAccent",
+    "componentName": "FluentIconOutlinedColorBackgroundAccent"
+  },
+  {
+    "name": "ColorFill",
+    "componentName": "FluentIconOutlinedColorFill"
+  },
+  {
+    "name": "ColorFillAccent",
+    "componentName": "FluentIconOutlinedColorFillAccent"
+  },
+  {
+    "name": "ColorLine",
+    "componentName": "FluentIconOutlinedColorLine"
+  },
+  {
+    "name": "ColorLineAccent",
+    "componentName": "FluentIconOutlinedColorLineAccent"
+  },
+  {
+    "name": "ColumnEdit",
+    "componentName": "FluentIconOutlinedColumnEdit"
+  },
+  {
+    "name": "ColumnTriple",
+    "componentName": "FluentIconOutlinedColumnTriple"
+  },
+  {
+    "name": "ColumnTripleEdit",
+    "componentName": "FluentIconOutlinedColumnTripleEdit"
+  },
+  {
+    "name": "Comma",
+    "componentName": "FluentIconOutlinedComma"
+  },
+  {
+    "name": "Comment",
+    "componentName": "FluentIconOutlinedComment"
+  },
+  {
+    "name": "CommentAdd",
+    "componentName": "FluentIconOutlinedCommentAdd"
+  },
+  {
+    "name": "CommentArrowLeft",
+    "componentName": "FluentIconOutlinedCommentArrowLeft"
+  },
+  {
+    "name": "CommentArrowRight",
+    "componentName": "FluentIconOutlinedCommentArrowRight"
+  },
+  {
+    "name": "CommentCheckmark",
+    "componentName": "FluentIconOutlinedCommentCheckmark"
+  },
+  {
+    "name": "CommentDismiss",
+    "componentName": "FluentIconOutlinedCommentDismiss"
+  },
+  {
+    "name": "CommentEdit",
+    "componentName": "FluentIconOutlinedCommentEdit"
+  },
+  {
+    "name": "CommentLightning",
+    "componentName": "FluentIconOutlinedCommentLightning"
+  },
+  {
+    "name": "CommentMention",
+    "componentName": "FluentIconOutlinedCommentMention"
+  },
+  {
+    "name": "CommentMultiple",
+    "componentName": "FluentIconOutlinedCommentMultiple"
+  },
+  {
+    "name": "CommentMultipleCheckmark",
+    "componentName": "FluentIconOutlinedCommentMultipleCheckmark"
+  },
+  {
+    "name": "CommentNote",
+    "componentName": "FluentIconOutlinedCommentNote"
+  },
+  {
+    "name": "CommentOff",
+    "componentName": "FluentIconOutlinedCommentOff"
+  },
+  {
+    "name": "Communication",
+    "componentName": "FluentIconOutlinedCommunication"
+  },
+  {
+    "name": "CommunicationPerson",
+    "componentName": "FluentIconOutlinedCommunicationPerson"
+  },
+  {
+    "name": "CompassNorthwest",
+    "componentName": "FluentIconOutlinedCompassNorthwest"
+  },
+  {
+    "name": "Component2DoubleTapSwipeDown",
+    "componentName": "FluentIconOutlinedComponent2DoubleTapSwipeDown"
+  },
+  {
+    "name": "Component2DoubleTapSwipeUp",
+    "componentName": "FluentIconOutlinedComponent2DoubleTapSwipeUp"
+  },
+  {
+    "name": "Compose",
+    "componentName": "FluentIconOutlinedCompose"
+  },
+  {
+    "name": "ConferenceRoom",
+    "componentName": "FluentIconOutlinedConferenceRoom"
+  },
+  {
+    "name": "Connector",
+    "componentName": "FluentIconOutlinedConnector"
+  },
+  {
+    "name": "ContactCard",
+    "componentName": "FluentIconOutlinedContactCard"
+  },
+  {
+    "name": "ContactCardGroup",
+    "componentName": "FluentIconOutlinedContactCardGroup"
+  },
+  {
+    "name": "ContentSettings",
+    "componentName": "FluentIconOutlinedContentSettings"
+  },
+  {
+    "name": "ContractDownLeft",
+    "componentName": "FluentIconOutlinedContractDownLeft"
+  },
+  {
+    "name": "ControlButton",
+    "componentName": "FluentIconOutlinedControlButton"
+  },
+  {
+    "name": "ConvertRange",
+    "componentName": "FluentIconOutlinedConvertRange"
+  },
+  {
+    "name": "ConvertToTable",
+    "componentName": "FluentIconOutlinedConvertToTable"
+  },
+  {
+    "name": "ConvertToText",
+    "componentName": "FluentIconOutlinedConvertToText"
+  },
+  {
+    "name": "ConvertToType",
+    "componentName": "FluentIconOutlinedConvertToType"
+  },
+  {
+    "name": "Cookies",
+    "componentName": "FluentIconOutlinedCookies"
+  },
+  {
+    "name": "Copy",
+    "componentName": "FluentIconOutlinedCopy"
+  },
+  {
+    "name": "CopyAdd",
+    "componentName": "FluentIconOutlinedCopyAdd"
+  },
+  {
+    "name": "CopyArrowRight",
+    "componentName": "FluentIconOutlinedCopyArrowRight"
+  },
+  {
+    "name": "Couch",
+    "componentName": "FluentIconOutlinedCouch"
+  },
+  {
+    "name": "CreditCardPerson",
+    "componentName": "FluentIconOutlinedCreditCardPerson"
+  },
+  {
+    "name": "CreditCardToolbox",
+    "componentName": "FluentIconOutlinedCreditCardToolbox"
+  },
+  {
+    "name": "Crop",
+    "componentName": "FluentIconOutlinedCrop"
+  },
+  {
+    "name": "CropInterim",
+    "componentName": "FluentIconOutlinedCropInterim"
+  },
+  {
+    "name": "CropInterimOff",
+    "componentName": "FluentIconOutlinedCropInterimOff"
+  },
+  {
+    "name": "Cube",
+    "componentName": "FluentIconOutlinedCube"
+  },
+  {
+    "name": "CubeSync",
+    "componentName": "FluentIconOutlinedCubeSync"
+  },
+  {
+    "name": "CurrencyDollarEuro",
+    "componentName": "FluentIconOutlinedCurrencyDollarEuro"
+  },
+  {
+    "name": "CurrencyDollarRupee",
+    "componentName": "FluentIconOutlinedCurrencyDollarRupee"
+  },
+  {
+    "name": "Cursor",
+    "componentName": "FluentIconOutlinedCursor"
+  },
+  {
+    "name": "CursorClick",
+    "componentName": "FluentIconOutlinedCursorClick"
+  },
+  {
+    "name": "CursorHover",
+    "componentName": "FluentIconOutlinedCursorHover"
+  },
+  {
+    "name": "CursorHoverOff",
+    "componentName": "FluentIconOutlinedCursorHoverOff"
+  },
+  {
+    "name": "Cut",
+    "componentName": "FluentIconOutlinedCut"
+  },
+  {
+    "name": "DarkTheme",
+    "componentName": "FluentIconOutlinedDarkTheme"
+  },
+  {
+    "name": "DataArea",
+    "componentName": "FluentIconOutlinedDataArea"
+  },
+  {
+    "name": "DataBarHorizontal",
+    "componentName": "FluentIconOutlinedDataBarHorizontal"
+  },
+  {
+    "name": "DataBarVertical",
+    "componentName": "FluentIconOutlinedDataBarVertical"
+  },
+  {
+    "name": "DataBarVerticalAdd",
+    "componentName": "FluentIconOutlinedDataBarVerticalAdd"
+  },
+  {
+    "name": "DataFunnel",
+    "componentName": "FluentIconOutlinedDataFunnel"
+  },
+  {
+    "name": "DataHistogram",
+    "componentName": "FluentIconOutlinedDataHistogram"
+  },
+  {
+    "name": "DataLine",
+    "componentName": "FluentIconOutlinedDataLine"
+  },
+  {
+    "name": "DataPie",
+    "componentName": "FluentIconOutlinedDataPie"
+  },
+  {
+    "name": "DataScatter",
+    "componentName": "FluentIconOutlinedDataScatter"
+  },
+  {
+    "name": "DataSunburst",
+    "componentName": "FluentIconOutlinedDataSunburst"
+  },
+  {
+    "name": "DataTreemap",
+    "componentName": "FluentIconOutlinedDataTreemap"
+  },
+  {
+    "name": "DataTrending",
+    "componentName": "FluentIconOutlinedDataTrending"
+  },
+  {
+    "name": "DataUsage",
+    "componentName": "FluentIconOutlinedDataUsage"
+  },
+  {
+    "name": "DataUsageEdit",
+    "componentName": "FluentIconOutlinedDataUsageEdit"
+  },
+  {
+    "name": "DataWaterfall",
+    "componentName": "FluentIconOutlinedDataWaterfall"
+  },
+  {
+    "name": "DataWhisker",
+    "componentName": "FluentIconOutlinedDataWhisker"
+  },
+  {
+    "name": "Database",
+    "componentName": "FluentIconOutlinedDatabase"
+  },
+  {
+    "name": "DatabaseLink",
+    "componentName": "FluentIconOutlinedDatabaseLink"
+  },
+  {
+    "name": "DatabaseSearch",
+    "componentName": "FluentIconOutlinedDatabaseSearch"
+  },
+  {
+    "name": "DecimalArrowLeft",
+    "componentName": "FluentIconOutlinedDecimalArrowLeft"
+  },
+  {
+    "name": "DecimalArrowRight",
+    "componentName": "FluentIconOutlinedDecimalArrowRight"
+  },
+  {
+    "name": "Delete",
+    "componentName": "FluentIconOutlinedDelete"
+  },
+  {
+    "name": "DeleteDismiss",
+    "componentName": "FluentIconOutlinedDeleteDismiss"
+  },
+  {
+    "name": "DeleteOff",
+    "componentName": "FluentIconOutlinedDeleteOff"
+  },
+  {
+    "name": "Dentist",
+    "componentName": "FluentIconOutlinedDentist"
+  },
+  {
+    "name": "DesignIdeas",
+    "componentName": "FluentIconOutlinedDesignIdeas"
+  },
+  {
+    "name": "Desktop",
+    "componentName": "FluentIconOutlinedDesktop"
+  },
+  {
+    "name": "DesktopArrowRight",
+    "componentName": "FluentIconOutlinedDesktopArrowRight"
+  },
+  {
+    "name": "DesktopKeyboard",
+    "componentName": "FluentIconOutlinedDesktopKeyboard"
+  },
+  {
+    "name": "DesktopPulse",
+    "componentName": "FluentIconOutlinedDesktopPulse"
+  },
+  {
+    "name": "DesktopSpeaker",
+    "componentName": "FluentIconOutlinedDesktopSpeaker"
+  },
+  {
+    "name": "DesktopSpeakerOff",
+    "componentName": "FluentIconOutlinedDesktopSpeakerOff"
+  },
+  {
+    "name": "DeveloperBoard",
+    "componentName": "FluentIconOutlinedDeveloperBoard"
+  },
+  {
+    "name": "DeviceEq",
+    "componentName": "FluentIconOutlinedDeviceEq"
+  },
+  {
+    "name": "DeviceMeetingRoom",
+    "componentName": "FluentIconOutlinedDeviceMeetingRoom"
+  },
+  {
+    "name": "DeviceMeetingRoomRemote",
+    "componentName": "FluentIconOutlinedDeviceMeetingRoomRemote"
+  },
+  {
+    "name": "Diagram",
+    "componentName": "FluentIconOutlinedDiagram"
+  },
+  {
+    "name": "Dialpad",
+    "componentName": "FluentIconOutlinedDialpad"
+  },
+  {
+    "name": "DialpadOff",
+    "componentName": "FluentIconOutlinedDialpadOff"
+  },
+  {
+    "name": "Directions",
+    "componentName": "FluentIconOutlinedDirections"
+  },
+  {
+    "name": "Dismiss",
+    "componentName": "FluentIconOutlinedDismiss"
+  },
+  {
+    "name": "DismissCircle",
+    "componentName": "FluentIconOutlinedDismissCircle"
+  },
+  {
+    "name": "DismissSquare",
+    "componentName": "FluentIconOutlinedDismissSquare"
+  },
+  {
+    "name": "Diversity",
+    "componentName": "FluentIconOutlinedDiversity"
+  },
+  {
+    "name": "DividerShort",
+    "componentName": "FluentIconOutlinedDividerShort"
+  },
+  {
+    "name": "DividerTall",
+    "componentName": "FluentIconOutlinedDividerTall"
+  },
+  {
+    "name": "Dock",
+    "componentName": "FluentIconOutlinedDock"
+  },
+  {
+    "name": "DockPanelLeft",
+    "componentName": "FluentIconOutlinedDockPanelLeft"
+  },
+  {
+    "name": "DockPanelRight",
+    "componentName": "FluentIconOutlinedDockPanelRight"
+  },
+  {
+    "name": "DockRow",
+    "componentName": "FluentIconOutlinedDockRow"
+  },
+  {
+    "name": "Doctor",
+    "componentName": "FluentIconOutlinedDoctor"
+  },
+  {
+    "name": "Document",
+    "componentName": "FluentIconOutlinedDocument"
+  },
+  {
+    "name": "DocumentAdd",
+    "componentName": "FluentIconOutlinedDocumentAdd"
+  },
+  {
+    "name": "DocumentArrowLeft",
+    "componentName": "FluentIconOutlinedDocumentArrowLeft"
+  },
+  {
+    "name": "DocumentArrowRight",
+    "componentName": "FluentIconOutlinedDocumentArrowRight"
+  },
+  {
+    "name": "DocumentBriefcase",
+    "componentName": "FluentIconOutlinedDocumentBriefcase"
+  },
+  {
+    "name": "DocumentBulletList",
+    "componentName": "FluentIconOutlinedDocumentBulletList"
+  },
+  {
+    "name": "DocumentBulletListClock",
+    "componentName": "FluentIconOutlinedDocumentBulletListClock"
+  },
+  {
+    "name": "DocumentBulletListOff",
+    "componentName": "FluentIconOutlinedDocumentBulletListOff"
+  },
+  {
+    "name": "DocumentCatchUp",
+    "componentName": "FluentIconOutlinedDocumentCatchUp"
+  },
+  {
+    "name": "DocumentCheckmark",
+    "componentName": "FluentIconOutlinedDocumentCheckmark"
+  },
+  {
+    "name": "DocumentChevronDouble",
+    "componentName": "FluentIconOutlinedDocumentChevronDouble"
+  },
+  {
+    "name": "DocumentCopy",
+    "componentName": "FluentIconOutlinedDocumentCopy"
+  },
+  {
+    "name": "DocumentCss",
+    "componentName": "FluentIconOutlinedDocumentCss"
+  },
+  {
+    "name": "DocumentDismiss",
+    "componentName": "FluentIconOutlinedDocumentDismiss"
+  },
+  {
+    "name": "DocumentEdit",
+    "componentName": "FluentIconOutlinedDocumentEdit"
+  },
+  {
+    "name": "DocumentEndnote",
+    "componentName": "FluentIconOutlinedDocumentEndnote"
+  },
+  {
+    "name": "DocumentError",
+    "componentName": "FluentIconOutlinedDocumentError"
+  },
+  {
+    "name": "DocumentFooter",
+    "componentName": "FluentIconOutlinedDocumentFooter"
+  },
+  {
+    "name": "DocumentFooterDismiss",
+    "componentName": "FluentIconOutlinedDocumentFooterDismiss"
+  },
+  {
+    "name": "DocumentFooterRemove",
+    "componentName": "FluentIconOutlinedDocumentFooterRemove"
+  },
+  {
+    "name": "DocumentHeader",
+    "componentName": "FluentIconOutlinedDocumentHeader"
+  },
+  {
+    "name": "DocumentHeaderDismiss",
+    "componentName": "FluentIconOutlinedDocumentHeaderDismiss"
+  },
+  {
+    "name": "DocumentHeaderFooter",
+    "componentName": "FluentIconOutlinedDocumentHeaderFooter"
+  },
+  {
+    "name": "DocumentHeaderRemove",
+    "componentName": "FluentIconOutlinedDocumentHeaderRemove"
+  },
+  {
+    "name": "DocumentHeart",
+    "componentName": "FluentIconOutlinedDocumentHeart"
+  },
+  {
+    "name": "DocumentHeartPulse",
+    "componentName": "FluentIconOutlinedDocumentHeartPulse"
+  },
+  {
+    "name": "DocumentJavascript",
+    "componentName": "FluentIconOutlinedDocumentJavascript"
+  },
+  {
+    "name": "DocumentLandscape",
+    "componentName": "FluentIconOutlinedDocumentLandscape"
+  },
+  {
+    "name": "DocumentLandscapeData",
+    "componentName": "FluentIconOutlinedDocumentLandscapeData"
+  },
+  {
+    "name": "DocumentLink",
+    "componentName": "FluentIconOutlinedDocumentLink"
+  },
+  {
+    "name": "DocumentMargins",
+    "componentName": "FluentIconOutlinedDocumentMargins"
+  },
+  {
+    "name": "DocumentMultiple",
+    "componentName": "FluentIconOutlinedDocumentMultiple"
+  },
+  {
+    "name": "DocumentMultiplePercent",
+    "componentName": "FluentIconOutlinedDocumentMultiplePercent"
+  },
+  {
+    "name": "DocumentMultipleProhibited",
+    "componentName": "FluentIconOutlinedDocumentMultipleProhibited"
+  },
+  {
+    "name": "DocumentOnePage",
+    "componentName": "FluentIconOutlinedDocumentOnePage"
+  },
+  {
+    "name": "DocumentPageBottomCenter",
+    "componentName": "FluentIconOutlinedDocumentPageBottomCenter"
+  },
+  {
+    "name": "DocumentPageBottomLeft",
+    "componentName": "FluentIconOutlinedDocumentPageBottomLeft"
+  },
+  {
+    "name": "DocumentPageBottomRight",
+    "componentName": "FluentIconOutlinedDocumentPageBottomRight"
+  },
+  {
+    "name": "DocumentPageBreak",
+    "componentName": "FluentIconOutlinedDocumentPageBreak"
+  },
+  {
+    "name": "DocumentPageNumber",
+    "componentName": "FluentIconOutlinedDocumentPageNumber"
+  },
+  {
+    "name": "DocumentPageTopCenter",
+    "componentName": "FluentIconOutlinedDocumentPageTopCenter"
+  },
+  {
+    "name": "DocumentPageTopLeft",
+    "componentName": "FluentIconOutlinedDocumentPageTopLeft"
+  },
+  {
+    "name": "DocumentPageTopRight",
+    "componentName": "FluentIconOutlinedDocumentPageTopRight"
+  },
+  {
+    "name": "DocumentPdf",
+    "componentName": "FluentIconOutlinedDocumentPdf"
+  },
+  {
+    "name": "DocumentPercent",
+    "componentName": "FluentIconOutlinedDocumentPercent"
+  },
+  {
+    "name": "DocumentPill",
+    "componentName": "FluentIconOutlinedDocumentPill"
+  },
+  {
+    "name": "DocumentProhibited",
+    "componentName": "FluentIconOutlinedDocumentProhibited"
+  },
+  {
+    "name": "DocumentQuestionMark",
+    "componentName": "FluentIconOutlinedDocumentQuestionMark"
+  },
+  {
+    "name": "DocumentRibbon",
+    "componentName": "FluentIconOutlinedDocumentRibbon"
+  },
+  {
+    "name": "DocumentSave",
+    "componentName": "FluentIconOutlinedDocumentSave"
+  },
+  {
+    "name": "DocumentSearch",
+    "componentName": "FluentIconOutlinedDocumentSearch"
+  },
+  {
+    "name": "DocumentSplitHint",
+    "componentName": "FluentIconOutlinedDocumentSplitHint"
+  },
+  {
+    "name": "DocumentSplitHintOff",
+    "componentName": "FluentIconOutlinedDocumentSplitHintOff"
+  },
+  {
+    "name": "DocumentSync",
+    "componentName": "FluentIconOutlinedDocumentSync"
+  },
+  {
+    "name": "DocumentTable",
+    "componentName": "FluentIconOutlinedDocumentTable"
+  },
+  {
+    "name": "DocumentText",
+    "componentName": "FluentIconOutlinedDocumentText"
+  },
+  {
+    "name": "DocumentTextLink",
+    "componentName": "FluentIconOutlinedDocumentTextLink"
+  },
+  {
+    "name": "DocumentToolbox",
+    "componentName": "FluentIconOutlinedDocumentToolbox"
+  },
+  {
+    "name": "DocumentWidth",
+    "componentName": "FluentIconOutlinedDocumentWidth"
+  },
+  {
+    "name": "DoorArrowLeft",
+    "componentName": "FluentIconOutlinedDoorArrowLeft"
+  },
+  {
+    "name": "DoorTag",
+    "componentName": "FluentIconOutlinedDoorTag"
+  },
+  {
+    "name": "DoubleSwipeDown",
+    "componentName": "FluentIconOutlinedDoubleSwipeDown"
+  },
+  {
+    "name": "DoubleSwipeUp",
+    "componentName": "FluentIconOutlinedDoubleSwipeUp"
+  },
+  {
+    "name": "Drafts",
+    "componentName": "FluentIconOutlinedDrafts"
+  },
+  {
+    "name": "Drag",
+    "componentName": "FluentIconOutlinedDrag"
+  },
+  {
+    "name": "DrawShape",
+    "componentName": "FluentIconOutlinedDrawShape"
+  },
+  {
+    "name": "DrawText",
+    "componentName": "FluentIconOutlinedDrawText"
+  },
+  {
+    "name": "DrinkBeer",
+    "componentName": "FluentIconOutlinedDrinkBeer"
+  },
+  {
+    "name": "DrinkCoffee",
+    "componentName": "FluentIconOutlinedDrinkCoffee"
+  },
+  {
+    "name": "DrinkMargarita",
+    "componentName": "FluentIconOutlinedDrinkMargarita"
+  },
+  {
+    "name": "DrinkToGo",
+    "componentName": "FluentIconOutlinedDrinkToGo"
+  },
+  {
+    "name": "DrinkWine",
+    "componentName": "FluentIconOutlinedDrinkWine"
+  },
+  {
+    "name": "DriveTrain",
+    "componentName": "FluentIconOutlinedDriveTrain"
+  },
+  {
+    "name": "Drop",
+    "componentName": "FluentIconOutlinedDrop"
+  },
+  {
+    "name": "DualScreen",
+    "componentName": "FluentIconOutlinedDualScreen"
+  },
+  {
+    "name": "DualScreenAdd",
+    "componentName": "FluentIconOutlinedDualScreenAdd"
+  },
+  {
+    "name": "DualScreenArrowRight",
+    "componentName": "FluentIconOutlinedDualScreenArrowRight"
+  },
+  {
+    "name": "DualScreenArrowUp",
+    "componentName": "FluentIconOutlinedDualScreenArrowUp"
+  },
+  {
+    "name": "DualScreenClock",
+    "componentName": "FluentIconOutlinedDualScreenClock"
+  },
+  {
+    "name": "DualScreenClosedAlert",
+    "componentName": "FluentIconOutlinedDualScreenClosedAlert"
+  },
+  {
+    "name": "DualScreenDesktop",
+    "componentName": "FluentIconOutlinedDualScreenDesktop"
+  },
+  {
+    "name": "DualScreenDismiss",
+    "componentName": "FluentIconOutlinedDualScreenDismiss"
+  },
+  {
+    "name": "DualScreenGroup",
+    "componentName": "FluentIconOutlinedDualScreenGroup"
+  },
+  {
+    "name": "DualScreenHeader",
+    "componentName": "FluentIconOutlinedDualScreenHeader"
+  },
+  {
+    "name": "DualScreenLock",
+    "componentName": "FluentIconOutlinedDualScreenLock"
+  },
+  {
+    "name": "DualScreenMirror",
+    "componentName": "FluentIconOutlinedDualScreenMirror"
+  },
+  {
+    "name": "DualScreenPagination",
+    "componentName": "FluentIconOutlinedDualScreenPagination"
+  },
+  {
+    "name": "DualScreenSettings",
+    "componentName": "FluentIconOutlinedDualScreenSettings"
+  },
+  {
+    "name": "DualScreenSpan",
+    "componentName": "FluentIconOutlinedDualScreenSpan"
+  },
+  {
+    "name": "DualScreenSpeaker",
+    "componentName": "FluentIconOutlinedDualScreenSpeaker"
+  },
+  {
+    "name": "DualScreenStatusBar",
+    "componentName": "FluentIconOutlinedDualScreenStatusBar"
+  },
+  {
+    "name": "DualScreenTablet",
+    "componentName": "FluentIconOutlinedDualScreenTablet"
+  },
+  {
+    "name": "DualScreenUpdate",
+    "componentName": "FluentIconOutlinedDualScreenUpdate"
+  },
+  {
+    "name": "DualScreenVerticalScroll",
+    "componentName": "FluentIconOutlinedDualScreenVerticalScroll"
+  },
+  {
+    "name": "DualScreenVibrate",
+    "componentName": "FluentIconOutlinedDualScreenVibrate"
+  },
+  {
+    "name": "Dumbbell",
+    "componentName": "FluentIconOutlinedDumbbell"
+  },
+  {
+    "name": "Earth",
+    "componentName": "FluentIconOutlinedEarth"
+  },
+  {
+    "name": "Edit",
+    "componentName": "FluentIconOutlinedEdit"
+  },
+  {
+    "name": "EditOff",
+    "componentName": "FluentIconOutlinedEditOff"
+  },
+  {
+    "name": "EditSettings",
+    "componentName": "FluentIconOutlinedEditSettings"
+  },
+  {
+    "name": "Emoji",
+    "componentName": "FluentIconOutlinedEmoji"
+  },
+  {
+    "name": "EmojiAdd",
+    "componentName": "FluentIconOutlinedEmojiAdd"
+  },
+  {
+    "name": "EmojiAngry",
+    "componentName": "FluentIconOutlinedEmojiAngry"
+  },
+  {
+    "name": "EmojiHand",
+    "componentName": "FluentIconOutlinedEmojiHand"
+  },
+  {
+    "name": "EmojiLaugh",
+    "componentName": "FluentIconOutlinedEmojiLaugh"
+  },
+  {
+    "name": "EmojiMeh",
+    "componentName": "FluentIconOutlinedEmojiMeh"
+  },
+  {
+    "name": "EmojiMultiple",
+    "componentName": "FluentIconOutlinedEmojiMultiple"
+  },
+  {
+    "name": "EmojiSad",
+    "componentName": "FluentIconOutlinedEmojiSad"
+  },
+  {
+    "name": "EmojiSurprise",
+    "componentName": "FluentIconOutlinedEmojiSurprise"
+  },
+  {
+    "name": "Engine",
+    "componentName": "FluentIconOutlinedEngine"
+  },
+  {
+    "name": "EqualOff",
+    "componentName": "FluentIconOutlinedEqualOff"
+  },
+  {
+    "name": "Eraser",
+    "componentName": "FluentIconOutlinedEraser"
+  },
+  {
+    "name": "EraserMedium",
+    "componentName": "FluentIconOutlinedEraserMedium"
+  },
+  {
+    "name": "EraserSegment",
+    "componentName": "FluentIconOutlinedEraserSegment"
+  },
+  {
+    "name": "EraserSmall",
+    "componentName": "FluentIconOutlinedEraserSmall"
+  },
+  {
+    "name": "EraserTool",
+    "componentName": "FluentIconOutlinedEraserTool"
+  },
+  {
+    "name": "ErrorCircle",
+    "componentName": "FluentIconOutlinedErrorCircle"
+  },
+  {
+    "name": "ExpandUpLeft",
+    "componentName": "FluentIconOutlinedExpandUpLeft"
+  },
+  {
+    "name": "ExpandUpRight",
+    "componentName": "FluentIconOutlinedExpandUpRight"
+  },
+  {
+    "name": "ExtendedDock",
+    "componentName": "FluentIconOutlinedExtendedDock"
+  },
+  {
+    "name": "Extension",
+    "componentName": "FluentIconOutlinedExtension"
+  },
+  {
+    "name": "EyeHide",
+    "componentName": "FluentIconOutlinedEyeHide"
+  },
+  {
+    "name": "EyeShow",
+    "componentName": "FluentIconOutlinedEyeShow"
+  },
+  {
+    "name": "EyeTrackingOff",
+    "componentName": "FluentIconOutlinedEyeTrackingOff"
+  },
+  {
+    "name": "EyeTrackingOn",
+    "componentName": "FluentIconOutlinedEyeTrackingOn"
+  },
+  {
+    "name": "Eyedropper",
+    "componentName": "FluentIconOutlinedEyedropper"
+  },
+  {
+    "name": "FStop",
+    "componentName": "FluentIconOutlinedFStop"
+  },
+  {
+    "name": "FastAcceleration",
+    "componentName": "FluentIconOutlinedFastAcceleration"
+  },
+  {
+    "name": "FastForward",
+    "componentName": "FluentIconOutlinedFastForward"
+  },
+  {
+    "name": "Filter",
+    "componentName": "FluentIconOutlinedFilter"
+  },
+  {
+    "name": "FilterDismiss",
+    "componentName": "FluentIconOutlinedFilterDismiss"
+  },
+  {
+    "name": "FilterSync",
+    "componentName": "FluentIconOutlinedFilterSync"
+  },
+  {
+    "name": "Fingerprint",
+    "componentName": "FluentIconOutlinedFingerprint"
+  },
+  {
+    "name": "FixedWidth",
+    "componentName": "FluentIconOutlinedFixedWidth"
+  },
+  {
+    "name": "Flag",
+    "componentName": "FluentIconOutlinedFlag"
+  },
+  {
+    "name": "FlagOff",
+    "componentName": "FluentIconOutlinedFlagOff"
+  },
+  {
+    "name": "FlashAuto",
+    "componentName": "FluentIconOutlinedFlashAuto"
+  },
+  {
+    "name": "FlashCheckmark",
+    "componentName": "FluentIconOutlinedFlashCheckmark"
+  },
+  {
+    "name": "FlashOff",
+    "componentName": "FluentIconOutlinedFlashOff"
+  },
+  {
+    "name": "FlashOn",
+    "componentName": "FluentIconOutlinedFlashOn"
+  },
+  {
+    "name": "Flashlight",
+    "componentName": "FluentIconOutlinedFlashlight"
+  },
+  {
+    "name": "FlashlightOff",
+    "componentName": "FluentIconOutlinedFlashlightOff"
+  },
+  {
+    "name": "FlipHorizontal",
+    "componentName": "FluentIconOutlinedFlipHorizontal"
+  },
+  {
+    "name": "FlipVertical",
+    "componentName": "FluentIconOutlinedFlipVertical"
+  },
+  {
+    "name": "Fluent",
+    "componentName": "FluentIconOutlinedFluent"
+  },
+  {
+    "name": "Fluid",
+    "componentName": "FluentIconOutlinedFluid"
+  },
+  {
+    "name": "Folder",
+    "componentName": "FluentIconOutlinedFolder"
+  },
+  {
+    "name": "FolderAdd",
+    "componentName": "FluentIconOutlinedFolderAdd"
+  },
+  {
+    "name": "FolderArrowRight",
+    "componentName": "FluentIconOutlinedFolderArrowRight"
+  },
+  {
+    "name": "FolderArrowUp",
+    "componentName": "FluentIconOutlinedFolderArrowUp"
+  },
+  {
+    "name": "FolderLink",
+    "componentName": "FluentIconOutlinedFolderLink"
+  },
+  {
+    "name": "FolderOpen",
+    "componentName": "FluentIconOutlinedFolderOpen"
+  },
+  {
+    "name": "FolderProhibited",
+    "componentName": "FluentIconOutlinedFolderProhibited"
+  },
+  {
+    "name": "FolderSwap",
+    "componentName": "FluentIconOutlinedFolderSwap"
+  },
+  {
+    "name": "FolderZip",
+    "componentName": "FluentIconOutlinedFolderZip"
+  },
+  {
+    "name": "FontDecrease",
+    "componentName": "FluentIconOutlinedFontDecrease"
+  },
+  {
+    "name": "FontIncrease",
+    "componentName": "FluentIconOutlinedFontIncrease"
+  },
+  {
+    "name": "FontSpaceTrackingIn",
+    "componentName": "FluentIconOutlinedFontSpaceTrackingIn"
+  },
+  {
+    "name": "FontSpaceTrackingOut",
+    "componentName": "FluentIconOutlinedFontSpaceTrackingOut"
+  },
+  {
+    "name": "Food",
+    "componentName": "FluentIconOutlinedFood"
+  },
+  {
+    "name": "FoodCake",
+    "componentName": "FluentIconOutlinedFoodCake"
+  },
+  {
+    "name": "FoodEgg",
+    "componentName": "FluentIconOutlinedFoodEgg"
+  },
+  {
+    "name": "FoodPizza",
+    "componentName": "FluentIconOutlinedFoodPizza"
+  },
+  {
+    "name": "FoodToast",
+    "componentName": "FluentIconOutlinedFoodToast"
+  },
+  {
+    "name": "FormNew",
+    "componentName": "FluentIconOutlinedFormNew"
+  },
+  {
+    "name": "Fps120",
+    "componentName": "FluentIconOutlinedFps120"
+  },
+  {
+    "name": "Fps",
+    "componentName": "FluentIconOutlinedFps"
+  },
+  {
+    "name": "Fps",
+    "componentName": "FluentIconOutlinedFps"
+  },
+  {
+    "name": "Fps30",
+    "componentName": "FluentIconOutlinedFps30"
+  },
+  {
+    "name": "Fps60",
+    "componentName": "FluentIconOutlinedFps60"
+  },
+  {
+    "name": "Fps960",
+    "componentName": "FluentIconOutlinedFps960"
+  },
+  {
+    "name": "FullScreenMaximize",
+    "componentName": "FluentIconOutlinedFullScreenMaximize"
+  },
+  {
+    "name": "FullScreenMinimize",
+    "componentName": "FluentIconOutlinedFullScreenMinimize"
+  },
+  {
+    "name": "Games",
+    "componentName": "FluentIconOutlinedGames"
+  },
+  {
+    "name": "GanttChart",
+    "componentName": "FluentIconOutlinedGanttChart"
+  },
+  {
+    "name": "Gas",
+    "componentName": "FluentIconOutlinedGas"
+  },
+  {
+    "name": "GasPump",
+    "componentName": "FluentIconOutlinedGasPump"
+  },
+  {
+    "name": "Gauge",
+    "componentName": "FluentIconOutlinedGauge"
+  },
+  {
+    "name": "Gavel",
+    "componentName": "FluentIconOutlinedGavel"
+  },
+  {
+    "name": "Gesture",
+    "componentName": "FluentIconOutlinedGesture"
+  },
+  {
+    "name": "Gif",
+    "componentName": "FluentIconOutlinedGif"
+  },
+  {
+    "name": "Gift",
+    "componentName": "FluentIconOutlinedGift"
+  },
+  {
+    "name": "GiftCardAdd",
+    "componentName": "FluentIconOutlinedGiftCardAdd"
+  },
+  {
+    "name": "Glance",
+    "componentName": "FluentIconOutlinedGlance"
+  },
+  {
+    "name": "Glasses",
+    "componentName": "FluentIconOutlinedGlasses"
+  },
+  {
+    "name": "GlassesOff",
+    "componentName": "FluentIconOutlinedGlassesOff"
+  },
+  {
+    "name": "Globe",
+    "componentName": "FluentIconOutlinedGlobe"
+  },
+  {
+    "name": "GlobeAdd",
+    "componentName": "FluentIconOutlinedGlobeAdd"
+  },
+  {
+    "name": "GlobeClock",
+    "componentName": "FluentIconOutlinedGlobeClock"
+  },
+  {
+    "name": "GlobeDesktop",
+    "componentName": "FluentIconOutlinedGlobeDesktop"
+  },
+  {
+    "name": "GlobeLocation",
+    "componentName": "FluentIconOutlinedGlobeLocation"
+  },
+  {
+    "name": "GlobePerson",
+    "componentName": "FluentIconOutlinedGlobePerson"
+  },
+  {
+    "name": "GlobeSearch",
+    "componentName": "FluentIconOutlinedGlobeSearch"
+  },
+  {
+    "name": "GlobeShield",
+    "componentName": "FluentIconOutlinedGlobeShield"
+  },
+  {
+    "name": "GlobeSurface",
+    "componentName": "FluentIconOutlinedGlobeSurface"
+  },
+  {
+    "name": "GlobeVideo",
+    "componentName": "FluentIconOutlinedGlobeVideo"
+  },
+  {
+    "name": "Grid",
+    "componentName": "FluentIconOutlinedGrid"
+  },
+  {
+    "name": "GridDots",
+    "componentName": "FluentIconOutlinedGridDots"
+  },
+  {
+    "name": "Group",
+    "componentName": "FluentIconOutlinedGroup"
+  },
+  {
+    "name": "GroupDismiss",
+    "componentName": "FluentIconOutlinedGroupDismiss"
+  },
+  {
+    "name": "GroupList",
+    "componentName": "FluentIconOutlinedGroupList"
+  },
+  {
+    "name": "GroupReturn",
+    "componentName": "FluentIconOutlinedGroupReturn"
+  },
+  {
+    "name": "Guardian",
+    "componentName": "FluentIconOutlinedGuardian"
+  },
+  {
+    "name": "Guest",
+    "componentName": "FluentIconOutlinedGuest"
+  },
+  {
+    "name": "GuestAdd",
+    "componentName": "FluentIconOutlinedGuestAdd"
+  },
+  {
+    "name": "Guitar",
+    "componentName": "FluentIconOutlinedGuitar"
+  },
+  {
+    "name": "HandDraw",
+    "componentName": "FluentIconOutlinedHandDraw"
+  },
+  {
+    "name": "HandLeft",
+    "componentName": "FluentIconOutlinedHandLeft"
+  },
+  {
+    "name": "HandRight",
+    "componentName": "FluentIconOutlinedHandRight"
+  },
+  {
+    "name": "Handshake",
+    "componentName": "FluentIconOutlinedHandshake"
+  },
+  {
+    "name": "HatGraduation",
+    "componentName": "FluentIconOutlinedHatGraduation"
+  },
+  {
+    "name": "Hd",
+    "componentName": "FluentIconOutlinedHd"
+  },
+  {
+    "name": "Hdr",
+    "componentName": "FluentIconOutlinedHdr"
+  },
+  {
+    "name": "Headphones",
+    "componentName": "FluentIconOutlinedHeadphones"
+  },
+  {
+    "name": "HeadphonesSoundWave",
+    "componentName": "FluentIconOutlinedHeadphonesSoundWave"
+  },
+  {
+    "name": "Headset",
+    "componentName": "FluentIconOutlinedHeadset"
+  },
+  {
+    "name": "HeadsetAdd",
+    "componentName": "FluentIconOutlinedHeadsetAdd"
+  },
+  {
+    "name": "HeadsetVr",
+    "componentName": "FluentIconOutlinedHeadsetVr"
+  },
+  {
+    "name": "Heart",
+    "componentName": "FluentIconOutlinedHeart"
+  },
+  {
+    "name": "HeartPulse",
+    "componentName": "FluentIconOutlinedHeartPulse"
+  },
+  {
+    "name": "Highlight",
+    "componentName": "FluentIconOutlinedHighlight"
+  },
+  {
+    "name": "History",
+    "componentName": "FluentIconOutlinedHistory"
+  },
+  {
+    "name": "Home",
+    "componentName": "FluentIconOutlinedHome"
+  },
+  {
+    "name": "HomeAdd",
+    "componentName": "FluentIconOutlinedHomeAdd"
+  },
+  {
+    "name": "HomeCheckmark",
+    "componentName": "FluentIconOutlinedHomeCheckmark"
+  },
+  {
+    "name": "HomePerson",
+    "componentName": "FluentIconOutlinedHomePerson"
+  },
+  {
+    "name": "Icons",
+    "componentName": "FluentIconOutlinedIcons"
+  },
+  {
+    "name": "Image",
+    "componentName": "FluentIconOutlinedImage"
+  },
+  {
+    "name": "ImageAdd",
+    "componentName": "FluentIconOutlinedImageAdd"
+  },
+  {
+    "name": "ImageAltText",
+    "componentName": "FluentIconOutlinedImageAltText"
+  },
+  {
+    "name": "ImageArrowBack",
+    "componentName": "FluentIconOutlinedImageArrowBack"
+  },
+  {
+    "name": "ImageArrowCounterclockwise",
+    "componentName": "FluentIconOutlinedImageArrowCounterclockwise"
+  },
+  {
+    "name": "ImageArrowForward",
+    "componentName": "FluentIconOutlinedImageArrowForward"
+  },
+  {
+    "name": "ImageCopy",
+    "componentName": "FluentIconOutlinedImageCopy"
+  },
+  {
+    "name": "ImageEdit",
+    "componentName": "FluentIconOutlinedImageEdit"
+  },
+  {
+    "name": "ImageGlobe",
+    "componentName": "FluentIconOutlinedImageGlobe"
+  },
+  {
+    "name": "ImageMultiple",
+    "componentName": "FluentIconOutlinedImageMultiple"
+  },
+  {
+    "name": "ImageOff",
+    "componentName": "FluentIconOutlinedImageOff"
+  },
+  {
+    "name": "ImageProhibited",
+    "componentName": "FluentIconOutlinedImageProhibited"
+  },
+  {
+    "name": "ImageReflection",
+    "componentName": "FluentIconOutlinedImageReflection"
+  },
+  {
+    "name": "ImageSearch",
+    "componentName": "FluentIconOutlinedImageSearch"
+  },
+  {
+    "name": "ImageShadow",
+    "componentName": "FluentIconOutlinedImageShadow"
+  },
+  {
+    "name": "ImmersiveReader",
+    "componentName": "FluentIconOutlinedImmersiveReader"
+  },
+  {
+    "name": "Important",
+    "componentName": "FluentIconOutlinedImportant"
+  },
+  {
+    "name": "Incognito",
+    "componentName": "FluentIconOutlinedIncognito"
+  },
+  {
+    "name": "Info",
+    "componentName": "FluentIconOutlinedInfo"
+  },
+  {
+    "name": "InkStroke",
+    "componentName": "FluentIconOutlinedInkStroke"
+  },
+  {
+    "name": "InkingTool",
+    "componentName": "FluentIconOutlinedInkingTool"
+  },
+  {
+    "name": "InprivateAccount",
+    "componentName": "FluentIconOutlinedInprivateAccount"
+  },
+  {
+    "name": "IosArrowLeft",
+    "componentName": "FluentIconOutlinedIosArrowLeft"
+  },
+  {
+    "name": "IosArrowLtr",
+    "componentName": "FluentIconOutlinedIosArrowLtr"
+  },
+  {
+    "name": "IosArrowRight",
+    "componentName": "FluentIconOutlinedIosArrowRight"
+  },
+  {
+    "name": "IosArrowRtl",
+    "componentName": "FluentIconOutlinedIosArrowRtl"
+  },
+  {
+    "name": "Iot",
+    "componentName": "FluentIconOutlinedIot"
+  },
+  {
+    "name": "Javascript",
+    "componentName": "FluentIconOutlinedJavascript"
+  },
+  {
+    "name": "Key",
+    "componentName": "FluentIconOutlinedKey"
+  },
+  {
+    "name": "Keyboard123",
+    "componentName": "FluentIconOutlinedKeyboard123"
+  },
+  {
+    "name": "Keyboard",
+    "componentName": "FluentIconOutlinedKeyboard"
+  },
+  {
+    "name": "KeyboardDock",
+    "componentName": "FluentIconOutlinedKeyboardDock"
+  },
+  {
+    "name": "KeyboardLayoutFloat",
+    "componentName": "FluentIconOutlinedKeyboardLayoutFloat"
+  },
+  {
+    "name": "KeyboardLayoutOneHandedLeft",
+    "componentName": "FluentIconOutlinedKeyboardLayoutOneHandedLeft"
+  },
+  {
+    "name": "KeyboardLayoutResize",
+    "componentName": "FluentIconOutlinedKeyboardLayoutResize"
+  },
+  {
+    "name": "KeyboardLayoutSplit",
+    "componentName": "FluentIconOutlinedKeyboardLayoutSplit"
+  },
+  {
+    "name": "KeyboardShift",
+    "componentName": "FluentIconOutlinedKeyboardShift"
+  },
+  {
+    "name": "KeyboardShiftUppercase",
+    "componentName": "FluentIconOutlinedKeyboardShiftUppercase"
+  },
+  {
+    "name": "KeyboardTab",
+    "componentName": "FluentIconOutlinedKeyboardTab"
+  },
+  {
+    "name": "Laptop",
+    "componentName": "FluentIconOutlinedLaptop"
+  },
+  {
+    "name": "Lasso",
+    "componentName": "FluentIconOutlinedLasso"
+  },
+  {
+    "name": "LauncherSettings",
+    "componentName": "FluentIconOutlinedLauncherSettings"
+  },
+  {
+    "name": "Layer",
+    "componentName": "FluentIconOutlinedLayer"
+  },
+  {
+    "name": "LeafOne",
+    "componentName": "FluentIconOutlinedLeafOne"
+  },
+  {
+    "name": "LeafThree",
+    "componentName": "FluentIconOutlinedLeafThree"
+  },
+  {
+    "name": "LeafTwo",
+    "componentName": "FluentIconOutlinedLeafTwo"
+  },
+  {
+    "name": "LearningApp",
+    "componentName": "FluentIconOutlinedLearningApp"
+  },
+  {
+    "name": "Library",
+    "componentName": "FluentIconOutlinedLibrary"
+  },
+  {
+    "name": "Lightbulb",
+    "componentName": "FluentIconOutlinedLightbulb"
+  },
+  {
+    "name": "LightbulbCircle",
+    "componentName": "FluentIconOutlinedLightbulbCircle"
+  },
+  {
+    "name": "LightbulbFilament",
+    "componentName": "FluentIconOutlinedLightbulbFilament"
+  },
+  {
+    "name": "Likert",
+    "componentName": "FluentIconOutlinedLikert"
+  },
+  {
+    "name": "LineStyle",
+    "componentName": "FluentIconOutlinedLineStyle"
+  },
+  {
+    "name": "Link",
+    "componentName": "FluentIconOutlinedLink"
+  },
+  {
+    "name": "LinkDismiss",
+    "componentName": "FluentIconOutlinedLinkDismiss"
+  },
+  {
+    "name": "LinkEdit",
+    "componentName": "FluentIconOutlinedLinkEdit"
+  },
+  {
+    "name": "LinkSquare",
+    "componentName": "FluentIconOutlinedLinkSquare"
+  },
+  {
+    "name": "List",
+    "componentName": "FluentIconOutlinedList"
+  },
+  {
+    "name": "Live",
+    "componentName": "FluentIconOutlinedLive"
+  },
+  {
+    "name": "LiveOff",
+    "componentName": "FluentIconOutlinedLiveOff"
+  },
+  {
+    "name": "LocalLanguage",
+    "componentName": "FluentIconOutlinedLocalLanguage"
+  },
+  {
+    "name": "LocalLanguageZi",
+    "componentName": "FluentIconOutlinedLocalLanguageZi"
+  },
+  {
+    "name": "Location",
+    "componentName": "FluentIconOutlinedLocation"
+  },
+  {
+    "name": "LocationDismiss",
+    "componentName": "FluentIconOutlinedLocationDismiss"
+  },
+  {
+    "name": "LocationLive",
+    "componentName": "FluentIconOutlinedLocationLive"
+  },
+  {
+    "name": "LocationOff",
+    "componentName": "FluentIconOutlinedLocationOff"
+  },
+  {
+    "name": "LockClosed",
+    "componentName": "FluentIconOutlinedLockClosed"
+  },
+  {
+    "name": "LockMultiple",
+    "componentName": "FluentIconOutlinedLockMultiple"
+  },
+  {
+    "name": "LockOpen",
+    "componentName": "FluentIconOutlinedLockOpen"
+  },
+  {
+    "name": "LockShield",
+    "componentName": "FluentIconOutlinedLockShield"
+  },
+  {
+    "name": "Lottery",
+    "componentName": "FluentIconOutlinedLottery"
+  },
+  {
+    "name": "Luggage",
+    "componentName": "FluentIconOutlinedLuggage"
+  },
+  {
+    "name": "Mail",
+    "componentName": "FluentIconOutlinedMail"
+  },
+  {
+    "name": "MailAdd",
+    "componentName": "FluentIconOutlinedMailAdd"
+  },
+  {
+    "name": "MailAlert",
+    "componentName": "FluentIconOutlinedMailAlert"
+  },
+  {
+    "name": "MailAll",
+    "componentName": "FluentIconOutlinedMailAll"
+  },
+  {
+    "name": "MailArrowUp",
+    "componentName": "FluentIconOutlinedMailArrowUp"
+  },
+  {
+    "name": "MailClock",
+    "componentName": "FluentIconOutlinedMailClock"
+  },
+  {
+    "name": "MailCopy",
+    "componentName": "FluentIconOutlinedMailCopy"
+  },
+  {
+    "name": "MailDismiss",
+    "componentName": "FluentIconOutlinedMailDismiss"
+  },
+  {
+    "name": "MailError",
+    "componentName": "FluentIconOutlinedMailError"
+  },
+  {
+    "name": "MailInbox",
+    "componentName": "FluentIconOutlinedMailInbox"
+  },
+  {
+    "name": "MailInboxAdd",
+    "componentName": "FluentIconOutlinedMailInboxAdd"
+  },
+  {
+    "name": "MailInboxAll",
+    "componentName": "FluentIconOutlinedMailInboxAll"
+  },
+  {
+    "name": "MailInboxArrowRight",
+    "componentName": "FluentIconOutlinedMailInboxArrowRight"
+  },
+  {
+    "name": "MailInboxArrowUp",
+    "componentName": "FluentIconOutlinedMailInboxArrowUp"
+  },
+  {
+    "name": "MailInboxCheckmark",
+    "componentName": "FluentIconOutlinedMailInboxCheckmark"
+  },
+  {
+    "name": "MailInboxDismiss",
+    "componentName": "FluentIconOutlinedMailInboxDismiss"
+  },
+  {
+    "name": "MailLink",
+    "componentName": "FluentIconOutlinedMailLink"
+  },
+  {
+    "name": "MailMultiple",
+    "componentName": "FluentIconOutlinedMailMultiple"
+  },
+  {
+    "name": "MailOff",
+    "componentName": "FluentIconOutlinedMailOff"
+  },
+  {
+    "name": "MailProhibited",
+    "componentName": "FluentIconOutlinedMailProhibited"
+  },
+  {
+    "name": "MailRead",
+    "componentName": "FluentIconOutlinedMailRead"
+  },
+  {
+    "name": "MailTemplate",
+    "componentName": "FluentIconOutlinedMailTemplate"
+  },
+  {
+    "name": "MailUnread",
+    "componentName": "FluentIconOutlinedMailUnread"
+  },
+  {
+    "name": "Map",
+    "componentName": "FluentIconOutlinedMap"
+  },
+  {
+    "name": "MapDrive",
+    "componentName": "FluentIconOutlinedMapDrive"
+  },
+  {
+    "name": "MatchAppLayout",
+    "componentName": "FluentIconOutlinedMatchAppLayout"
+  },
+  {
+    "name": "MathFormatLinear",
+    "componentName": "FluentIconOutlinedMathFormatLinear"
+  },
+  {
+    "name": "MathFormatProfessional",
+    "componentName": "FluentIconOutlinedMathFormatProfessional"
+  },
+  {
+    "name": "MathFormula",
+    "componentName": "FluentIconOutlinedMathFormula"
+  },
+  {
+    "name": "Maximize",
+    "componentName": "FluentIconOutlinedMaximize"
+  },
+  {
+    "name": "MeetNow",
+    "componentName": "FluentIconOutlinedMeetNow"
+  },
+  {
+    "name": "Megaphone",
+    "componentName": "FluentIconOutlinedMegaphone"
+  },
+  {
+    "name": "MegaphoneOff",
+    "componentName": "FluentIconOutlinedMegaphoneOff"
+  },
+  {
+    "name": "Mention",
+    "componentName": "FluentIconOutlinedMention"
+  },
+  {
+    "name": "Merge",
+    "componentName": "FluentIconOutlinedMerge"
+  },
+  {
+    "name": "MicOff",
+    "componentName": "FluentIconOutlinedMicOff"
+  },
+  {
+    "name": "MicOn",
+    "componentName": "FluentIconOutlinedMicOn"
+  },
+  {
+    "name": "MicProhibited",
+    "componentName": "FluentIconOutlinedMicProhibited"
+  },
+  {
+    "name": "MicSettings",
+    "componentName": "FluentIconOutlinedMicSettings"
+  },
+  {
+    "name": "MicSparkle",
+    "componentName": "FluentIconOutlinedMicSparkle"
+  },
+  {
+    "name": "Microscope",
+    "componentName": "FluentIconOutlinedMicroscope"
+  },
+  {
+    "name": "Midi",
+    "componentName": "FluentIconOutlinedMidi"
+  },
+  {
+    "name": "MobileOptimized",
+    "componentName": "FluentIconOutlinedMobileOptimized"
+  },
+  {
+    "name": "Molecule",
+    "componentName": "FluentIconOutlinedMolecule"
+  },
+  {
+    "name": "Money",
+    "componentName": "FluentIconOutlinedMoney"
+  },
+  {
+    "name": "MoneyCalculator",
+    "componentName": "FluentIconOutlinedMoneyCalculator"
+  },
+  {
+    "name": "MoreHorizontal",
+    "componentName": "FluentIconOutlinedMoreHorizontal"
+  },
+  {
+    "name": "MoreVertical",
+    "componentName": "FluentIconOutlinedMoreVertical"
+  },
+  {
+    "name": "MoviesAndTv",
+    "componentName": "FluentIconOutlinedMoviesAndTv"
+  },
+  {
+    "name": "Multiplier12x",
+    "componentName": "FluentIconOutlinedMultiplier12x"
+  },
+  {
+    "name": "Multiplier15x",
+    "componentName": "FluentIconOutlinedMultiplier15x"
+  },
+  {
+    "name": "Multiplier18x",
+    "componentName": "FluentIconOutlinedMultiplier18x"
+  },
+  {
+    "name": "Multiplier1x",
+    "componentName": "FluentIconOutlinedMultiplier1x"
+  },
+  {
+    "name": "Multiplier2x",
+    "componentName": "FluentIconOutlinedMultiplier2x"
+  },
+  {
+    "name": "Multiplier5x",
+    "componentName": "FluentIconOutlinedMultiplier5x"
+  },
+  {
+    "name": "Multiselect",
+    "componentName": "FluentIconOutlinedMultiselect"
+  },
+  {
+    "name": "MusicNote1",
+    "componentName": "FluentIconOutlinedMusicNote1"
+  },
+  {
+    "name": "MusicNote2",
+    "componentName": "FluentIconOutlinedMusicNote2"
+  },
+  {
+    "name": "MyLocation",
+    "componentName": "FluentIconOutlinedMyLocation"
+  },
+  {
+    "name": "Navigation",
+    "componentName": "FluentIconOutlinedNavigation"
+  },
+  {
+    "name": "NavigationUnread",
+    "componentName": "FluentIconOutlinedNavigationUnread"
+  },
+  {
+    "name": "NetworkCheck",
+    "componentName": "FluentIconOutlinedNetworkCheck"
+  },
+  {
+    "name": "New",
+    "componentName": "FluentIconOutlinedNew"
+  },
+  {
+    "name": "News",
+    "componentName": "FluentIconOutlinedNews"
+  },
+  {
+    "name": "Next",
+    "componentName": "FluentIconOutlinedNext"
+  },
+  {
+    "name": "Note",
+    "componentName": "FluentIconOutlinedNote"
+  },
+  {
+    "name": "NoteAdd",
+    "componentName": "FluentIconOutlinedNoteAdd"
+  },
+  {
+    "name": "NoteEdit",
+    "componentName": "FluentIconOutlinedNoteEdit"
+  },
+  {
+    "name": "Notebook",
+    "componentName": "FluentIconOutlinedNotebook"
+  },
+  {
+    "name": "NotebookAdd",
+    "componentName": "FluentIconOutlinedNotebookAdd"
+  },
+  {
+    "name": "NotebookError",
+    "componentName": "FluentIconOutlinedNotebookError"
+  },
+  {
+    "name": "NotebookLightning",
+    "componentName": "FluentIconOutlinedNotebookLightning"
+  },
+  {
+    "name": "NotebookQuestionMark",
+    "componentName": "FluentIconOutlinedNotebookQuestionMark"
+  },
+  {
+    "name": "NotebookSection",
+    "componentName": "FluentIconOutlinedNotebookSection"
+  },
+  {
+    "name": "NotebookSectionArrowRight",
+    "componentName": "FluentIconOutlinedNotebookSectionArrowRight"
+  },
+  {
+    "name": "NotebookSubsection",
+    "componentName": "FluentIconOutlinedNotebookSubsection"
+  },
+  {
+    "name": "NotebookSync",
+    "componentName": "FluentIconOutlinedNotebookSync"
+  },
+  {
+    "name": "Notepad",
+    "componentName": "FluentIconOutlinedNotepad"
+  },
+  {
+    "name": "NotepadPerson",
+    "componentName": "FluentIconOutlinedNotepadPerson"
+  },
+  {
+    "name": "NumberRow",
+    "componentName": "FluentIconOutlinedNumberRow"
+  },
+  {
+    "name": "NumberSymbol",
+    "componentName": "FluentIconOutlinedNumberSymbol"
+  },
+  {
+    "name": "NumberSymbolDismiss",
+    "componentName": "FluentIconOutlinedNumberSymbolDismiss"
+  },
+  {
+    "name": "NumberSymbolSquare",
+    "componentName": "FluentIconOutlinedNumberSymbolSquare"
+  },
+  {
+    "name": "OfficeApps",
+    "componentName": "FluentIconOutlinedOfficeApps"
+  },
+  {
+    "name": "Open",
+    "componentName": "FluentIconOutlinedOpen"
+  },
+  {
+    "name": "OpenFolder",
+    "componentName": "FluentIconOutlinedOpenFolder"
+  },
+  {
+    "name": "OpenOff",
+    "componentName": "FluentIconOutlinedOpenOff"
+  },
+  {
+    "name": "Options",
+    "componentName": "FluentIconOutlinedOptions"
+  },
+  {
+    "name": "Organization",
+    "componentName": "FluentIconOutlinedOrganization"
+  },
+  {
+    "name": "Orientation",
+    "componentName": "FluentIconOutlinedOrientation"
+  },
+  {
+    "name": "PaddingDown",
+    "componentName": "FluentIconOutlinedPaddingDown"
+  },
+  {
+    "name": "PaddingLeft",
+    "componentName": "FluentIconOutlinedPaddingLeft"
+  },
+  {
+    "name": "PaddingRight",
+    "componentName": "FluentIconOutlinedPaddingRight"
+  },
+  {
+    "name": "PaddingTop",
+    "componentName": "FluentIconOutlinedPaddingTop"
+  },
+  {
+    "name": "PageFit",
+    "componentName": "FluentIconOutlinedPageFit"
+  },
+  {
+    "name": "PaintBrush",
+    "componentName": "FluentIconOutlinedPaintBrush"
+  },
+  {
+    "name": "PaintBrushArrowDown",
+    "componentName": "FluentIconOutlinedPaintBrushArrowDown"
+  },
+  {
+    "name": "PaintBrushArrowUp",
+    "componentName": "FluentIconOutlinedPaintBrushArrowUp"
+  },
+  {
+    "name": "PaintBucket",
+    "componentName": "FluentIconOutlinedPaintBucket"
+  },
+  {
+    "name": "Pair",
+    "componentName": "FluentIconOutlinedPair"
+  },
+  {
+    "name": "PaneClose",
+    "componentName": "FluentIconOutlinedPaneClose"
+  },
+  {
+    "name": "PaneOpen",
+    "componentName": "FluentIconOutlinedPaneOpen"
+  },
+  {
+    "name": "PanelLeft",
+    "componentName": "FluentIconOutlinedPanelLeft"
+  },
+  {
+    "name": "PanelRight",
+    "componentName": "FluentIconOutlinedPanelRight"
+  },
+  {
+    "name": "PanelRightContract",
+    "componentName": "FluentIconOutlinedPanelRightContract"
+  },
+  {
+    "name": "PanelRightExpand",
+    "componentName": "FluentIconOutlinedPanelRightExpand"
+  },
+  {
+    "name": "Password",
+    "componentName": "FluentIconOutlinedPassword"
+  },
+  {
+    "name": "Patch",
+    "componentName": "FluentIconOutlinedPatch"
+  },
+  {
+    "name": "Patient",
+    "componentName": "FluentIconOutlinedPatient"
+  },
+  {
+    "name": "Pause",
+    "componentName": "FluentIconOutlinedPause"
+  },
+  {
+    "name": "PauseCircle",
+    "componentName": "FluentIconOutlinedPauseCircle"
+  },
+  {
+    "name": "Payment",
+    "componentName": "FluentIconOutlinedPayment"
+  },
+  {
+    "name": "People",
+    "componentName": "FluentIconOutlinedPeople"
+  },
+  {
+    "name": "PeopleAdd",
+    "componentName": "FluentIconOutlinedPeopleAdd"
+  },
+  {
+    "name": "PeopleAudience",
+    "componentName": "FluentIconOutlinedPeopleAudience"
+  },
+  {
+    "name": "PeopleCheckmark",
+    "componentName": "FluentIconOutlinedPeopleCheckmark"
+  },
+  {
+    "name": "PeopleCommunity",
+    "componentName": "FluentIconOutlinedPeopleCommunity"
+  },
+  {
+    "name": "PeopleCommunityAdd",
+    "componentName": "FluentIconOutlinedPeopleCommunityAdd"
+  },
+  {
+    "name": "PeopleError",
+    "componentName": "FluentIconOutlinedPeopleError"
+  },
+  {
+    "name": "PeopleMoney",
+    "componentName": "FluentIconOutlinedPeopleMoney"
+  },
+  {
+    "name": "PeopleSearch",
+    "componentName": "FluentIconOutlinedPeopleSearch"
+  },
+  {
+    "name": "PeopleSettings",
+    "componentName": "FluentIconOutlinedPeopleSettings"
+  },
+  {
+    "name": "PeopleSwap",
+    "componentName": "FluentIconOutlinedPeopleSwap"
+  },
+  {
+    "name": "PeopleTeam",
+    "componentName": "FluentIconOutlinedPeopleTeam"
+  },
+  {
+    "name": "PeopleTeamAdd",
+    "componentName": "FluentIconOutlinedPeopleTeamAdd"
+  },
+  {
+    "name": "PeopleTeamDelete",
+    "componentName": "FluentIconOutlinedPeopleTeamDelete"
+  },
+  {
+    "name": "PeopleTeamToolbox",
+    "componentName": "FluentIconOutlinedPeopleTeamToolbox"
+  },
+  {
+    "name": "Person",
+    "componentName": "FluentIconOutlinedPerson"
+  },
+  {
+    "name": "PersonAccounts",
+    "componentName": "FluentIconOutlinedPersonAccounts"
+  },
+  {
+    "name": "PersonAdd",
+    "componentName": "FluentIconOutlinedPersonAdd"
+  },
+  {
+    "name": "PersonArrowLeft",
+    "componentName": "FluentIconOutlinedPersonArrowLeft"
+  },
+  {
+    "name": "PersonArrowRight",
+    "componentName": "FluentIconOutlinedPersonArrowRight"
+  },
+  {
+    "name": "PersonAvailable",
+    "componentName": "FluentIconOutlinedPersonAvailable"
+  },
+  {
+    "name": "PersonBoard",
+    "componentName": "FluentIconOutlinedPersonBoard"
+  },
+  {
+    "name": "PersonCall",
+    "componentName": "FluentIconOutlinedPersonCall"
+  },
+  {
+    "name": "PersonChat",
+    "componentName": "FluentIconOutlinedPersonChat"
+  },
+  {
+    "name": "PersonClock",
+    "componentName": "FluentIconOutlinedPersonClock"
+  },
+  {
+    "name": "PersonDelete",
+    "componentName": "FluentIconOutlinedPersonDelete"
+  },
+  {
+    "name": "PersonFeedback",
+    "componentName": "FluentIconOutlinedPersonFeedback"
+  },
+  {
+    "name": "PersonLock",
+    "componentName": "FluentIconOutlinedPersonLock"
+  },
+  {
+    "name": "PersonMail",
+    "componentName": "FluentIconOutlinedPersonMail"
+  },
+  {
+    "name": "PersonMoney",
+    "componentName": "FluentIconOutlinedPersonMoney"
+  },
+  {
+    "name": "PersonNote",
+    "componentName": "FluentIconOutlinedPersonNote"
+  },
+  {
+    "name": "PersonPill",
+    "componentName": "FluentIconOutlinedPersonPill"
+  },
+  {
+    "name": "PersonProhibited",
+    "componentName": "FluentIconOutlinedPersonProhibited"
+  },
+  {
+    "name": "PersonQuestionMark",
+    "componentName": "FluentIconOutlinedPersonQuestionMark"
+  },
+  {
+    "name": "PersonSupport",
+    "componentName": "FluentIconOutlinedPersonSupport"
+  },
+  {
+    "name": "PersonSwap",
+    "componentName": "FluentIconOutlinedPersonSwap"
+  },
+  {
+    "name": "PersonTag",
+    "componentName": "FluentIconOutlinedPersonTag"
+  },
+  {
+    "name": "PersonVoice",
+    "componentName": "FluentIconOutlinedPersonVoice"
+  },
+  {
+    "name": "Phone",
+    "componentName": "FluentIconOutlinedPhone"
+  },
+  {
+    "name": "PhoneAdd",
+    "componentName": "FluentIconOutlinedPhoneAdd"
+  },
+  {
+    "name": "PhoneArrowRight",
+    "componentName": "FluentIconOutlinedPhoneArrowRight"
+  },
+  {
+    "name": "PhoneDesktop",
+    "componentName": "FluentIconOutlinedPhoneDesktop"
+  },
+  {
+    "name": "PhoneDismiss",
+    "componentName": "FluentIconOutlinedPhoneDismiss"
+  },
+  {
+    "name": "PhoneLaptop",
+    "componentName": "FluentIconOutlinedPhoneLaptop"
+  },
+  {
+    "name": "PhoneLinkSetup",
+    "componentName": "FluentIconOutlinedPhoneLinkSetup"
+  },
+  {
+    "name": "PhoneLock",
+    "componentName": "FluentIconOutlinedPhoneLock"
+  },
+  {
+    "name": "PhonePageHeader",
+    "componentName": "FluentIconOutlinedPhonePageHeader"
+  },
+  {
+    "name": "PhonePagination",
+    "componentName": "FluentIconOutlinedPhonePagination"
+  },
+  {
+    "name": "PhoneScreenTime",
+    "componentName": "FluentIconOutlinedPhoneScreenTime"
+  },
+  {
+    "name": "PhoneShake",
+    "componentName": "FluentIconOutlinedPhoneShake"
+  },
+  {
+    "name": "PhoneSpanIn",
+    "componentName": "FluentIconOutlinedPhoneSpanIn"
+  },
+  {
+    "name": "PhoneSpanOut",
+    "componentName": "FluentIconOutlinedPhoneSpanOut"
+  },
+  {
+    "name": "PhoneSpeaker",
+    "componentName": "FluentIconOutlinedPhoneSpeaker"
+  },
+  {
+    "name": "PhoneStatusBar",
+    "componentName": "FluentIconOutlinedPhoneStatusBar"
+  },
+  {
+    "name": "PhoneTablet",
+    "componentName": "FluentIconOutlinedPhoneTablet"
+  },
+  {
+    "name": "PhoneUpdate",
+    "componentName": "FluentIconOutlinedPhoneUpdate"
+  },
+  {
+    "name": "PhoneVerticalScroll",
+    "componentName": "FluentIconOutlinedPhoneVerticalScroll"
+  },
+  {
+    "name": "PhoneVibrate",
+    "componentName": "FluentIconOutlinedPhoneVibrate"
+  },
+  {
+    "name": "PhotoFilter",
+    "componentName": "FluentIconOutlinedPhotoFilter"
+  },
+  {
+    "name": "Pi",
+    "componentName": "FluentIconOutlinedPi"
+  },
+  {
+    "name": "PictureInPicture",
+    "componentName": "FluentIconOutlinedPictureInPicture"
+  },
+  {
+    "name": "Pill",
+    "componentName": "FluentIconOutlinedPill"
+  },
+  {
+    "name": "Pin",
+    "componentName": "FluentIconOutlinedPin"
+  },
+  {
+    "name": "PinOff",
+    "componentName": "FluentIconOutlinedPinOff"
+  },
+  {
+    "name": "Pivot",
+    "componentName": "FluentIconOutlinedPivot"
+  },
+  {
+    "name": "Play",
+    "componentName": "FluentIconOutlinedPlay"
+  },
+  {
+    "name": "PlayCircle",
+    "componentName": "FluentIconOutlinedPlayCircle"
+  },
+  {
+    "name": "PlugDisconnected",
+    "componentName": "FluentIconOutlinedPlugDisconnected"
+  },
+  {
+    "name": "PointScan",
+    "componentName": "FluentIconOutlinedPointScan"
+  },
+  {
+    "name": "Poll",
+    "componentName": "FluentIconOutlinedPoll"
+  },
+  {
+    "name": "PortHdmi",
+    "componentName": "FluentIconOutlinedPortHdmi"
+  },
+  {
+    "name": "PortMicroUsb",
+    "componentName": "FluentIconOutlinedPortMicroUsb"
+  },
+  {
+    "name": "PortUsbA",
+    "componentName": "FluentIconOutlinedPortUsbA"
+  },
+  {
+    "name": "PortUsbC",
+    "componentName": "FluentIconOutlinedPortUsbC"
+  },
+  {
+    "name": "PositionBackward",
+    "componentName": "FluentIconOutlinedPositionBackward"
+  },
+  {
+    "name": "PositionForward",
+    "componentName": "FluentIconOutlinedPositionForward"
+  },
+  {
+    "name": "PositionToBack",
+    "componentName": "FluentIconOutlinedPositionToBack"
+  },
+  {
+    "name": "PositionToFront",
+    "componentName": "FluentIconOutlinedPositionToFront"
+  },
+  {
+    "name": "Power",
+    "componentName": "FluentIconOutlinedPower"
+  },
+  {
+    "name": "Predictions",
+    "componentName": "FluentIconOutlinedPredictions"
+  },
+  {
+    "name": "Premium",
+    "componentName": "FluentIconOutlinedPremium"
+  },
+  {
+    "name": "PremiumPerson",
+    "componentName": "FluentIconOutlinedPremiumPerson"
+  },
+  {
+    "name": "Presenter",
+    "componentName": "FluentIconOutlinedPresenter"
+  },
+  {
+    "name": "PresenterOff",
+    "componentName": "FluentIconOutlinedPresenterOff"
+  },
+  {
+    "name": "PreviewLink",
+    "componentName": "FluentIconOutlinedPreviewLink"
+  },
+  {
+    "name": "Previous",
+    "componentName": "FluentIconOutlinedPrevious"
+  },
+  {
+    "name": "Print",
+    "componentName": "FluentIconOutlinedPrint"
+  },
+  {
+    "name": "PrintAdd",
+    "componentName": "FluentIconOutlinedPrintAdd"
+  },
+  {
+    "name": "Production",
+    "componentName": "FluentIconOutlinedProduction"
+  },
+  {
+    "name": "ProductionCheckmark",
+    "componentName": "FluentIconOutlinedProductionCheckmark"
+  },
+  {
+    "name": "Prohibited",
+    "componentName": "FluentIconOutlinedProhibited"
+  },
+  {
+    "name": "ProhibitedMultiple",
+    "componentName": "FluentIconOutlinedProhibitedMultiple"
+  },
+  {
+    "name": "ProjectionScreen",
+    "componentName": "FluentIconOutlinedProjectionScreen"
+  },
+  {
+    "name": "ProjectionScreenDismiss",
+    "componentName": "FluentIconOutlinedProjectionScreenDismiss"
+  },
+  {
+    "name": "ProtocolHandler",
+    "componentName": "FluentIconOutlinedProtocolHandler"
+  },
+  {
+    "name": "Pulse",
+    "componentName": "FluentIconOutlinedPulse"
+  },
+  {
+    "name": "PulseSquare",
+    "componentName": "FluentIconOutlinedPulseSquare"
+  },
+  {
+    "name": "PuzzleCube",
+    "componentName": "FluentIconOutlinedPuzzleCube"
+  },
+  {
+    "name": "PuzzlePiece",
+    "componentName": "FluentIconOutlinedPuzzlePiece"
+  },
+  {
+    "name": "QrCode",
+    "componentName": "FluentIconOutlinedQrCode"
+  },
+  {
+    "name": "Question",
+    "componentName": "FluentIconOutlinedQuestion"
+  },
+  {
+    "name": "QuestionCircle",
+    "componentName": "FluentIconOutlinedQuestionCircle"
+  },
+  {
+    "name": "QuizNew",
+    "componentName": "FluentIconOutlinedQuizNew"
+  },
+  {
+    "name": "RadioButton",
+    "componentName": "FluentIconOutlinedRadioButton"
+  },
+  {
+    "name": "RatingMature",
+    "componentName": "FluentIconOutlinedRatingMature"
+  },
+  {
+    "name": "RatioOneToOne",
+    "componentName": "FluentIconOutlinedRatioOneToOne"
+  },
+  {
+    "name": "ReOrder",
+    "componentName": "FluentIconOutlinedReOrder"
+  },
+  {
+    "name": "ReOrderDotsHorizontal",
+    "componentName": "FluentIconOutlinedReOrderDotsHorizontal"
+  },
+  {
+    "name": "ReOrderDotsVertical",
+    "componentName": "FluentIconOutlinedReOrderDotsVertical"
+  },
+  {
+    "name": "ReadAloud",
+    "componentName": "FluentIconOutlinedReadAloud"
+  },
+  {
+    "name": "ReadingList",
+    "componentName": "FluentIconOutlinedReadingList"
+  },
+  {
+    "name": "ReadingListAdd",
+    "componentName": "FluentIconOutlinedReadingListAdd"
+  },
+  {
+    "name": "ReadingModeMobile",
+    "componentName": "FluentIconOutlinedReadingModeMobile"
+  },
+  {
+    "name": "RealEstate",
+    "componentName": "FluentIconOutlinedRealEstate"
+  },
+  {
+    "name": "Receipt",
+    "componentName": "FluentIconOutlinedReceipt"
+  },
+  {
+    "name": "ReceiptAdd",
+    "componentName": "FluentIconOutlinedReceiptAdd"
+  },
+  {
+    "name": "ReceiptBag",
+    "componentName": "FluentIconOutlinedReceiptBag"
+  },
+  {
+    "name": "ReceiptCube",
+    "componentName": "FluentIconOutlinedReceiptCube"
+  },
+  {
+    "name": "ReceiptMoney",
+    "componentName": "FluentIconOutlinedReceiptMoney"
+  },
+  {
+    "name": "ReceiptPlay",
+    "componentName": "FluentIconOutlinedReceiptPlay"
+  },
+  {
+    "name": "Record",
+    "componentName": "FluentIconOutlinedRecord"
+  },
+  {
+    "name": "RecordStop",
+    "componentName": "FluentIconOutlinedRecordStop"
+  },
+  {
+    "name": "RectangleLandscape",
+    "componentName": "FluentIconOutlinedRectangleLandscape"
+  },
+  {
+    "name": "Rename",
+    "componentName": "FluentIconOutlinedRename"
+  },
+  {
+    "name": "ResizeImage",
+    "componentName": "FluentIconOutlinedResizeImage"
+  },
+  {
+    "name": "ResizeLarge",
+    "componentName": "FluentIconOutlinedResizeLarge"
+  },
+  {
+    "name": "ResizeSmall",
+    "componentName": "FluentIconOutlinedResizeSmall"
+  },
+  {
+    "name": "ResizeTable",
+    "componentName": "FluentIconOutlinedResizeTable"
+  },
+  {
+    "name": "ResizeVideo",
+    "componentName": "FluentIconOutlinedResizeVideo"
+  },
+  {
+    "name": "Reward",
+    "componentName": "FluentIconOutlinedReward"
+  },
+  {
+    "name": "Rewind",
+    "componentName": "FluentIconOutlinedRewind"
+  },
+  {
+    "name": "Ribbon",
+    "componentName": "FluentIconOutlinedRibbon"
+  },
+  {
+    "name": "RibbonAdd",
+    "componentName": "FluentIconOutlinedRibbonAdd"
+  },
+  {
+    "name": "RibbonStar",
+    "componentName": "FluentIconOutlinedRibbonStar"
+  },
+  {
+    "name": "RoadCone",
+    "componentName": "FluentIconOutlinedRoadCone"
+  },
+  {
+    "name": "Rocket",
+    "componentName": "FluentIconOutlinedRocket"
+  },
+  {
+    "name": "RotateLeft",
+    "componentName": "FluentIconOutlinedRotateLeft"
+  },
+  {
+    "name": "RotateRight",
+    "componentName": "FluentIconOutlinedRotateRight"
+  },
+  {
+    "name": "Router",
+    "componentName": "FluentIconOutlinedRouter"
+  },
+  {
+    "name": "RowTriple",
+    "componentName": "FluentIconOutlinedRowTriple"
+  },
+  {
+    "name": "Rss",
+    "componentName": "FluentIconOutlinedRss"
+  },
+  {
+    "name": "Ruler",
+    "componentName": "FluentIconOutlinedRuler"
+  },
+  {
+    "name": "Run",
+    "componentName": "FluentIconOutlinedRun"
+  },
+  {
+    "name": "Save",
+    "componentName": "FluentIconOutlinedSave"
+  },
+  {
+    "name": "SaveArrowRight",
+    "componentName": "FluentIconOutlinedSaveArrowRight"
+  },
+  {
+    "name": "SaveCopy",
+    "componentName": "FluentIconOutlinedSaveCopy"
+  },
+  {
+    "name": "SaveEdit",
+    "componentName": "FluentIconOutlinedSaveEdit"
+  },
+  {
+    "name": "Savings",
+    "componentName": "FluentIconOutlinedSavings"
+  },
+  {
+    "name": "ScaleFill",
+    "componentName": "FluentIconOutlinedScaleFill"
+  },
+  {
+    "name": "ScaleFit",
+    "componentName": "FluentIconOutlinedScaleFit"
+  },
+  {
+    "name": "Scales",
+    "componentName": "FluentIconOutlinedScales"
+  },
+  {
+    "name": "Scan",
+    "componentName": "FluentIconOutlinedScan"
+  },
+  {
+    "name": "ScanObject",
+    "componentName": "FluentIconOutlinedScanObject"
+  },
+  {
+    "name": "ScanTable",
+    "componentName": "FluentIconOutlinedScanTable"
+  },
+  {
+    "name": "ScanText",
+    "componentName": "FluentIconOutlinedScanText"
+  },
+  {
+    "name": "ScanThumbUp",
+    "componentName": "FluentIconOutlinedScanThumbUp"
+  },
+  {
+    "name": "ScanThumbUpOff",
+    "componentName": "FluentIconOutlinedScanThumbUpOff"
+  },
+  {
+    "name": "ScanType",
+    "componentName": "FluentIconOutlinedScanType"
+  },
+  {
+    "name": "Scratchpad",
+    "componentName": "FluentIconOutlinedScratchpad"
+  },
+  {
+    "name": "Screenshot",
+    "componentName": "FluentIconOutlinedScreenshot"
+  },
+  {
+    "name": "Search",
+    "componentName": "FluentIconOutlinedSearch"
+  },
+  {
+    "name": "SearchInfo",
+    "componentName": "FluentIconOutlinedSearchInfo"
+  },
+  {
+    "name": "SearchSquare",
+    "componentName": "FluentIconOutlinedSearchSquare"
+  },
+  {
+    "name": "SearchVisual",
+    "componentName": "FluentIconOutlinedSearchVisual"
+  },
+  {
+    "name": "SelectAllOff",
+    "componentName": "FluentIconOutlinedSelectAllOff"
+  },
+  {
+    "name": "SelectAllOn",
+    "componentName": "FluentIconOutlinedSelectAllOn"
+  },
+  {
+    "name": "SelectObject",
+    "componentName": "FluentIconOutlinedSelectObject"
+  },
+  {
+    "name": "Send",
+    "componentName": "FluentIconOutlinedSend"
+  },
+  {
+    "name": "SendClock",
+    "componentName": "FluentIconOutlinedSendClock"
+  },
+  {
+    "name": "SendCopy",
+    "componentName": "FluentIconOutlinedSendCopy"
+  },
+  {
+    "name": "SerialPort",
+    "componentName": "FluentIconOutlinedSerialPort"
+  },
+  {
+    "name": "Server",
+    "componentName": "FluentIconOutlinedServer"
+  },
+  {
+    "name": "ServiceBell",
+    "componentName": "FluentIconOutlinedServiceBell"
+  },
+  {
+    "name": "SetTopStack",
+    "componentName": "FluentIconOutlinedSetTopStack"
+  },
+  {
+    "name": "Settings",
+    "componentName": "FluentIconOutlinedSettings"
+  },
+  {
+    "name": "ShapeExclude",
+    "componentName": "FluentIconOutlinedShapeExclude"
+  },
+  {
+    "name": "ShapeIntersect",
+    "componentName": "FluentIconOutlinedShapeIntersect"
+  },
+  {
+    "name": "ShapeSubtract",
+    "componentName": "FluentIconOutlinedShapeSubtract"
+  },
+  {
+    "name": "ShapeUnion",
+    "componentName": "FluentIconOutlinedShapeUnion"
+  },
+  {
+    "name": "Shapes",
+    "componentName": "FluentIconOutlinedShapes"
+  },
+  {
+    "name": "Share",
+    "componentName": "FluentIconOutlinedShare"
+  },
+  {
+    "name": "ShareAndroid",
+    "componentName": "FluentIconOutlinedShareAndroid"
+  },
+  {
+    "name": "ShareCloseTray",
+    "componentName": "FluentIconOutlinedShareCloseTray"
+  },
+  {
+    "name": "ShareIos",
+    "componentName": "FluentIconOutlinedShareIos"
+  },
+  {
+    "name": "ShareScreenPerson",
+    "componentName": "FluentIconOutlinedShareScreenPerson"
+  },
+  {
+    "name": "ShareScreenPersonOverlay",
+    "componentName": "FluentIconOutlinedShareScreenPersonOverlay"
+  },
+  {
+    "name": "ShareScreenPersonOverlayInside",
+    "componentName": "FluentIconOutlinedShareScreenPersonOverlayInside"
+  },
+  {
+    "name": "ShareScreenStart",
+    "componentName": "FluentIconOutlinedShareScreenStart"
+  },
+  {
+    "name": "ShareScreenStop",
+    "componentName": "FluentIconOutlinedShareScreenStop"
+  },
+  {
+    "name": "Shield",
+    "componentName": "FluentIconOutlinedShield"
+  },
+  {
+    "name": "ShieldBadge",
+    "componentName": "FluentIconOutlinedShieldBadge"
+  },
+  {
+    "name": "ShieldCheckmark",
+    "componentName": "FluentIconOutlinedShieldCheckmark"
+  },
+  {
+    "name": "ShieldDismiss",
+    "componentName": "FluentIconOutlinedShieldDismiss"
+  },
+  {
+    "name": "ShieldError",
+    "componentName": "FluentIconOutlinedShieldError"
+  },
+  {
+    "name": "ShieldKeyhole",
+    "componentName": "FluentIconOutlinedShieldKeyhole"
+  },
+  {
+    "name": "ShieldProhibited",
+    "componentName": "FluentIconOutlinedShieldProhibited"
+  },
+  {
+    "name": "ShieldTask",
+    "componentName": "FluentIconOutlinedShieldTask"
+  },
+  {
+    "name": "ShieldVideo",
+    "componentName": "FluentIconOutlinedShieldVideo"
+  },
+  {
+    "name": "Shifts",
+    "componentName": "FluentIconOutlinedShifts"
+  },
+  {
+    "name": "Shifts30Minutes",
+    "componentName": "FluentIconOutlinedShifts30Minutes"
+  },
+  {
+    "name": "ShiftsActivity",
+    "componentName": "FluentIconOutlinedShiftsActivity"
+  },
+  {
+    "name": "ShiftsAdd",
+    "componentName": "FluentIconOutlinedShiftsAdd"
+  },
+  {
+    "name": "ShiftsAvailability",
+    "componentName": "FluentIconOutlinedShiftsAvailability"
+  },
+  {
+    "name": "ShiftsCheckmark",
+    "componentName": "FluentIconOutlinedShiftsCheckmark"
+  },
+  {
+    "name": "ShiftsDay",
+    "componentName": "FluentIconOutlinedShiftsDay"
+  },
+  {
+    "name": "ShiftsOpen",
+    "componentName": "FluentIconOutlinedShiftsOpen"
+  },
+  {
+    "name": "ShiftsProhibited",
+    "componentName": "FluentIconOutlinedShiftsProhibited"
+  },
+  {
+    "name": "ShiftsQuestionMark",
+    "componentName": "FluentIconOutlinedShiftsQuestionMark"
+  },
+  {
+    "name": "ShiftsTeam",
+    "componentName": "FluentIconOutlinedShiftsTeam"
+  },
+  {
+    "name": "ShoppingBag",
+    "componentName": "FluentIconOutlinedShoppingBag"
+  },
+  {
+    "name": "Shortpick",
+    "componentName": "FluentIconOutlinedShortpick"
+  },
+  {
+    "name": "SignOut",
+    "componentName": "FluentIconOutlinedSignOut"
+  },
+  {
+    "name": "Signature",
+    "componentName": "FluentIconOutlinedSignature"
+  },
+  {
+    "name": "Signed",
+    "componentName": "FluentIconOutlinedSigned"
+  },
+  {
+    "name": "Sim",
+    "componentName": "FluentIconOutlinedSim"
+  },
+  {
+    "name": "SkipBackward10",
+    "componentName": "FluentIconOutlinedSkipBackward10"
+  },
+  {
+    "name": "SkipForward10",
+    "componentName": "FluentIconOutlinedSkipForward10"
+  },
+  {
+    "name": "SkipForward30",
+    "componentName": "FluentIconOutlinedSkipForward30"
+  },
+  {
+    "name": "SkipForwardTab",
+    "componentName": "FluentIconOutlinedSkipForwardTab"
+  },
+  {
+    "name": "Sleep",
+    "componentName": "FluentIconOutlinedSleep"
+  },
+  {
+    "name": "SlideAdd",
+    "componentName": "FluentIconOutlinedSlideAdd"
+  },
+  {
+    "name": "SlideDesign",
+    "componentName": "FluentIconOutlinedSlideDesign"
+  },
+  {
+    "name": "SlideEraser",
+    "componentName": "FluentIconOutlinedSlideEraser"
+  },
+  {
+    "name": "SlideGrid",
+    "componentName": "FluentIconOutlinedSlideGrid"
+  },
+  {
+    "name": "SlideHide",
+    "componentName": "FluentIconOutlinedSlideHide"
+  },
+  {
+    "name": "SlideLayout",
+    "componentName": "FluentIconOutlinedSlideLayout"
+  },
+  {
+    "name": "SlideMicrophone",
+    "componentName": "FluentIconOutlinedSlideMicrophone"
+  },
+  {
+    "name": "SlideMultiple",
+    "componentName": "FluentIconOutlinedSlideMultiple"
+  },
+  {
+    "name": "SlideMultipleArrowRight",
+    "componentName": "FluentIconOutlinedSlideMultipleArrowRight"
+  },
+  {
+    "name": "SlideMultipleSearch",
+    "componentName": "FluentIconOutlinedSlideMultipleSearch"
+  },
+  {
+    "name": "SlideSearch",
+    "componentName": "FluentIconOutlinedSlideSearch"
+  },
+  {
+    "name": "SlideSettings",
+    "componentName": "FluentIconOutlinedSlideSettings"
+  },
+  {
+    "name": "SlideSize",
+    "componentName": "FluentIconOutlinedSlideSize"
+  },
+  {
+    "name": "SlideText",
+    "componentName": "FluentIconOutlinedSlideText"
+  },
+  {
+    "name": "SlideTransition",
+    "componentName": "FluentIconOutlinedSlideTransition"
+  },
+  {
+    "name": "Smartwatch",
+    "componentName": "FluentIconOutlinedSmartwatch"
+  },
+  {
+    "name": "SmartwatchDot",
+    "componentName": "FluentIconOutlinedSmartwatchDot"
+  },
+  {
+    "name": "Snooze",
+    "componentName": "FluentIconOutlinedSnooze"
+  },
+  {
+    "name": "SoundSource",
+    "componentName": "FluentIconOutlinedSoundSource"
+  },
+  {
+    "name": "Spacebar",
+    "componentName": "FluentIconOutlinedSpacebar"
+  },
+  {
+    "name": "Sparkle",
+    "componentName": "FluentIconOutlinedSparkle"
+  },
+  {
+    "name": "Speaker0",
+    "componentName": "FluentIconOutlinedSpeaker0"
+  },
+  {
+    "name": "Speaker1",
+    "componentName": "FluentIconOutlinedSpeaker1"
+  },
+  {
+    "name": "Speaker2",
+    "componentName": "FluentIconOutlinedSpeaker2"
+  },
+  {
+    "name": "SpeakerBluetooth",
+    "componentName": "FluentIconOutlinedSpeakerBluetooth"
+  },
+  {
+    "name": "SpeakerEdit",
+    "componentName": "FluentIconOutlinedSpeakerEdit"
+  },
+  {
+    "name": "SpeakerMute",
+    "componentName": "FluentIconOutlinedSpeakerMute"
+  },
+  {
+    "name": "SpeakerOff",
+    "componentName": "FluentIconOutlinedSpeakerOff"
+  },
+  {
+    "name": "SpeakerSettings",
+    "componentName": "FluentIconOutlinedSpeakerSettings"
+  },
+  {
+    "name": "SpeakerUsb",
+    "componentName": "FluentIconOutlinedSpeakerUsb"
+  },
+  {
+    "name": "SplitHorizontal",
+    "componentName": "FluentIconOutlinedSplitHorizontal"
+  },
+  {
+    "name": "SplitVertical",
+    "componentName": "FluentIconOutlinedSplitVertical"
+  },
+  {
+    "name": "Sport",
+    "componentName": "FluentIconOutlinedSport"
+  },
+  {
+    "name": "SportAmericanFootball",
+    "componentName": "FluentIconOutlinedSportAmericanFootball"
+  },
+  {
+    "name": "SportBaseball",
+    "componentName": "FluentIconOutlinedSportBaseball"
+  },
+  {
+    "name": "SportBasketball",
+    "componentName": "FluentIconOutlinedSportBasketball"
+  },
+  {
+    "name": "SportHockey",
+    "componentName": "FluentIconOutlinedSportHockey"
+  },
+  {
+    "name": "SportSoccer",
+    "componentName": "FluentIconOutlinedSportSoccer"
+  },
+  {
+    "name": "SquareArrowForward",
+    "componentName": "FluentIconOutlinedSquareArrowForward"
+  },
+  {
+    "name": "SquareMultiple",
+    "componentName": "FluentIconOutlinedSquareMultiple"
+  },
+  {
+    "name": "Stack",
+    "componentName": "FluentIconOutlinedStack"
+  },
+  {
+    "name": "StackStar",
+    "componentName": "FluentIconOutlinedStackStar"
+  },
+  {
+    "name": "Star",
+    "componentName": "FluentIconOutlinedStar"
+  },
+  {
+    "name": "StarAdd",
+    "componentName": "FluentIconOutlinedStarAdd"
+  },
+  {
+    "name": "StarArrowRightEnd",
+    "componentName": "FluentIconOutlinedStarArrowRightEnd"
+  },
+  {
+    "name": "StarArrowRightStart",
+    "componentName": "FluentIconOutlinedStarArrowRightStart"
+  },
+  {
+    "name": "StarEdit",
+    "componentName": "FluentIconOutlinedStarEdit"
+  },
+  {
+    "name": "StarEmphasis",
+    "componentName": "FluentIconOutlinedStarEmphasis"
+  },
+  {
+    "name": "StarLineHorizontal3",
+    "componentName": "FluentIconOutlinedStarLineHorizontal3"
+  },
+  {
+    "name": "StarOff",
+    "componentName": "FluentIconOutlinedStarOff"
+  },
+  {
+    "name": "StarProhibited",
+    "componentName": "FluentIconOutlinedStarProhibited"
+  },
+  {
+    "name": "StarSettings",
+    "componentName": "FluentIconOutlinedStarSettings"
+  },
+  {
+    "name": "Status",
+    "componentName": "FluentIconOutlinedStatus"
+  },
+  {
+    "name": "Steps",
+    "componentName": "FluentIconOutlinedSteps"
+  },
+  {
+    "name": "Stethoscope",
+    "componentName": "FluentIconOutlinedStethoscope"
+  },
+  {
+    "name": "Sticker",
+    "componentName": "FluentIconOutlinedSticker"
+  },
+  {
+    "name": "StickerAdd",
+    "componentName": "FluentIconOutlinedStickerAdd"
+  },
+  {
+    "name": "Stop",
+    "componentName": "FluentIconOutlinedStop"
+  },
+  {
+    "name": "Storage",
+    "componentName": "FluentIconOutlinedStorage"
+  },
+  {
+    "name": "StoreMicrosoft",
+    "componentName": "FluentIconOutlinedStoreMicrosoft"
+  },
+  {
+    "name": "Stream",
+    "componentName": "FluentIconOutlinedStream"
+  },
+  {
+    "name": "StrikethroughGaNa",
+    "componentName": "FluentIconOutlinedStrikethroughGaNa"
+  },
+  {
+    "name": "StyleGuide",
+    "componentName": "FluentIconOutlinedStyleGuide"
+  },
+  {
+    "name": "SubGrid",
+    "componentName": "FluentIconOutlinedSubGrid"
+  },
+  {
+    "name": "Subtract",
+    "componentName": "FluentIconOutlinedSubtract"
+  },
+  {
+    "name": "SubtractCircle",
+    "componentName": "FluentIconOutlinedSubtractCircle"
+  },
+  {
+    "name": "SubtractSquare",
+    "componentName": "FluentIconOutlinedSubtractSquare"
+  },
+  {
+    "name": "SurfaceEarbuds",
+    "componentName": "FluentIconOutlinedSurfaceEarbuds"
+  },
+  {
+    "name": "SurfaceHub",
+    "componentName": "FluentIconOutlinedSurfaceHub"
+  },
+  {
+    "name": "SwipeDown",
+    "componentName": "FluentIconOutlinedSwipeDown"
+  },
+  {
+    "name": "SwipeRight",
+    "componentName": "FluentIconOutlinedSwipeRight"
+  },
+  {
+    "name": "SwipeUp",
+    "componentName": "FluentIconOutlinedSwipeUp"
+  },
+  {
+    "name": "Symbols",
+    "componentName": "FluentIconOutlinedSymbols"
+  },
+  {
+    "name": "Syringe",
+    "componentName": "FluentIconOutlinedSyringe"
+  },
+  {
+    "name": "System",
+    "componentName": "FluentIconOutlinedSystem"
+  },
+  {
+    "name": "Tab",
+    "componentName": "FluentIconOutlinedTab"
+  },
+  {
+    "name": "TabAdd",
+    "componentName": "FluentIconOutlinedTabAdd"
+  },
+  {
+    "name": "TabArrowLeft",
+    "componentName": "FluentIconOutlinedTabArrowLeft"
+  },
+  {
+    "name": "TabDesktopArrowClockwise",
+    "componentName": "FluentIconOutlinedTabDesktopArrowClockwise"
+  },
+  {
+    "name": "TabDesktopBottom",
+    "componentName": "FluentIconOutlinedTabDesktopBottom"
+  },
+  {
+    "name": "TabDesktopImage",
+    "componentName": "FluentIconOutlinedTabDesktopImage"
+  },
+  {
+    "name": "TabDesktopMultipleBottom",
+    "componentName": "FluentIconOutlinedTabDesktopMultipleBottom"
+  },
+  {
+    "name": "TabInPrivate",
+    "componentName": "FluentIconOutlinedTabInPrivate"
+  },
+  {
+    "name": "TabInprivateAccount",
+    "componentName": "FluentIconOutlinedTabInprivateAccount"
+  },
+  {
+    "name": "TabProhibited",
+    "componentName": "FluentIconOutlinedTabProhibited"
+  },
+  {
+    "name": "TabShieldDismiss",
+    "componentName": "FluentIconOutlinedTabShieldDismiss"
+  },
+  {
+    "name": "Table",
+    "componentName": "FluentIconOutlinedTable"
+  },
+  {
+    "name": "TableAdd",
+    "componentName": "FluentIconOutlinedTableAdd"
+  },
+  {
+    "name": "TableCellEdit",
+    "componentName": "FluentIconOutlinedTableCellEdit"
+  },
+  {
+    "name": "TableCellsMerge",
+    "componentName": "FluentIconOutlinedTableCellsMerge"
+  },
+  {
+    "name": "TableCellsSplit",
+    "componentName": "FluentIconOutlinedTableCellsSplit"
+  },
+  {
+    "name": "TableDeleteColumn",
+    "componentName": "FluentIconOutlinedTableDeleteColumn"
+  },
+  {
+    "name": "TableDeleteRow",
+    "componentName": "FluentIconOutlinedTableDeleteRow"
+  },
+  {
+    "name": "TableDismiss",
+    "componentName": "FluentIconOutlinedTableDismiss"
+  },
+  {
+    "name": "TableEdit",
+    "componentName": "FluentIconOutlinedTableEdit"
+  },
+  {
+    "name": "TableFreezeColumn",
+    "componentName": "FluentIconOutlinedTableFreezeColumn"
+  },
+  {
+    "name": "TableFreezeColumnAndRow",
+    "componentName": "FluentIconOutlinedTableFreezeColumnAndRow"
+  },
+  {
+    "name": "TableFreezeRow",
+    "componentName": "FluentIconOutlinedTableFreezeRow"
+  },
+  {
+    "name": "TableInsertColumn",
+    "componentName": "FluentIconOutlinedTableInsertColumn"
+  },
+  {
+    "name": "TableInsertRow",
+    "componentName": "FluentIconOutlinedTableInsertRow"
+  },
+  {
+    "name": "TableMoveAbove",
+    "componentName": "FluentIconOutlinedTableMoveAbove"
+  },
+  {
+    "name": "TableMoveBelow",
+    "componentName": "FluentIconOutlinedTableMoveBelow"
+  },
+  {
+    "name": "TableMoveLeft",
+    "componentName": "FluentIconOutlinedTableMoveLeft"
+  },
+  {
+    "name": "TableMoveRight",
+    "componentName": "FluentIconOutlinedTableMoveRight"
+  },
+  {
+    "name": "TableResizeColumn",
+    "componentName": "FluentIconOutlinedTableResizeColumn"
+  },
+  {
+    "name": "TableResizeRow",
+    "componentName": "FluentIconOutlinedTableResizeRow"
+  },
+  {
+    "name": "TableSettings",
+    "componentName": "FluentIconOutlinedTableSettings"
+  },
+  {
+    "name": "TableSimple",
+    "componentName": "FluentIconOutlinedTableSimple"
+  },
+  {
+    "name": "TableStackAbove",
+    "componentName": "FluentIconOutlinedTableStackAbove"
+  },
+  {
+    "name": "TableStackBelow",
+    "componentName": "FluentIconOutlinedTableStackBelow"
+  },
+  {
+    "name": "TableStackLeft",
+    "componentName": "FluentIconOutlinedTableStackLeft"
+  },
+  {
+    "name": "TableStackRight",
+    "componentName": "FluentIconOutlinedTableStackRight"
+  },
+  {
+    "name": "TableSwitch",
+    "componentName": "FluentIconOutlinedTableSwitch"
+  },
+  {
+    "name": "Tablet",
+    "componentName": "FluentIconOutlinedTablet"
+  },
+  {
+    "name": "TabletSpeaker",
+    "componentName": "FluentIconOutlinedTabletSpeaker"
+  },
+  {
+    "name": "Tabs",
+    "componentName": "FluentIconOutlinedTabs"
+  },
+  {
+    "name": "Tag",
+    "componentName": "FluentIconOutlinedTag"
+  },
+  {
+    "name": "TagDismiss",
+    "componentName": "FluentIconOutlinedTagDismiss"
+  },
+  {
+    "name": "TagLock",
+    "componentName": "FluentIconOutlinedTagLock"
+  },
+  {
+    "name": "TagQuestionMark",
+    "componentName": "FluentIconOutlinedTagQuestionMark"
+  },
+  {
+    "name": "TapDouble",
+    "componentName": "FluentIconOutlinedTapDouble"
+  },
+  {
+    "name": "TapSingle",
+    "componentName": "FluentIconOutlinedTapSingle"
+  },
+  {
+    "name": "Target",
+    "componentName": "FluentIconOutlinedTarget"
+  },
+  {
+    "name": "TargetArrow",
+    "componentName": "FluentIconOutlinedTargetArrow"
+  },
+  {
+    "name": "TargetEdit",
+    "componentName": "FluentIconOutlinedTargetEdit"
+  },
+  {
+    "name": "TaskListAdd",
+    "componentName": "FluentIconOutlinedTaskListAdd"
+  },
+  {
+    "name": "TaskListLtr",
+    "componentName": "FluentIconOutlinedTaskListLtr"
+  },
+  {
+    "name": "TaskListRtl",
+    "componentName": "FluentIconOutlinedTaskListRtl"
+  },
+  {
+    "name": "TaskListSquareAdd",
+    "componentName": "FluentIconOutlinedTaskListSquareAdd"
+  },
+  {
+    "name": "TaskListSquareLtr",
+    "componentName": "FluentIconOutlinedTaskListSquareLtr"
+  },
+  {
+    "name": "TaskListSquareRtl",
+    "componentName": "FluentIconOutlinedTaskListSquareRtl"
+  },
+  {
+    "name": "TasksApp",
+    "componentName": "FluentIconOutlinedTasksApp"
+  },
+  {
+    "name": "Teddy",
+    "componentName": "FluentIconOutlinedTeddy"
+  },
+  {
+    "name": "Temperature",
+    "componentName": "FluentIconOutlinedTemperature"
+  },
+  {
+    "name": "Tent",
+    "componentName": "FluentIconOutlinedTent"
+  },
+  {
+    "name": "TetrisApp",
+    "componentName": "FluentIconOutlinedTetrisApp"
+  },
+  {
+    "name": "Text",
+    "componentName": "FluentIconOutlinedText"
+  },
+  {
+    "name": "TextAdd",
+    "componentName": "FluentIconOutlinedTextAdd"
+  },
+  {
+    "name": "TextAddSpaceAfter",
+    "componentName": "FluentIconOutlinedTextAddSpaceAfter"
+  },
+  {
+    "name": "TextAddSpaceBefore",
+    "componentName": "FluentIconOutlinedTextAddSpaceBefore"
+  },
+  {
+    "name": "TextAddT",
+    "componentName": "FluentIconOutlinedTextAddT"
+  },
+  {
+    "name": "TextAlignCenter",
+    "componentName": "FluentIconOutlinedTextAlignCenter"
+  },
+  {
+    "name": "TextAlignCenterRotate270",
+    "componentName": "FluentIconOutlinedTextAlignCenterRotate270"
+  },
+  {
+    "name": "TextAlignDistributed",
+    "componentName": "FluentIconOutlinedTextAlignDistributed"
+  },
+  {
+    "name": "TextAlignDistributedEvenly",
+    "componentName": "FluentIconOutlinedTextAlignDistributedEvenly"
+  },
+  {
+    "name": "TextAlignDistributedVertical",
+    "componentName": "FluentIconOutlinedTextAlignDistributedVertical"
+  },
+  {
+    "name": "TextAlignJustify",
+    "componentName": "FluentIconOutlinedTextAlignJustify"
+  },
+  {
+    "name": "TextAlignJustifyLow",
+    "componentName": "FluentIconOutlinedTextAlignJustifyLow"
+  },
+  {
+    "name": "TextAlignJustifyLowRotate90",
+    "componentName": "FluentIconOutlinedTextAlignJustifyLowRotate90"
+  },
+  {
+    "name": "TextAlignJustifyRotate90",
+    "componentName": "FluentIconOutlinedTextAlignJustifyRotate90"
+  },
+  {
+    "name": "TextAlignLeft",
+    "componentName": "FluentIconOutlinedTextAlignLeft"
+  },
+  {
+    "name": "TextAlignLeftRotate270",
+    "componentName": "FluentIconOutlinedTextAlignLeftRotate270"
+  },
+  {
+    "name": "TextAlignRight",
+    "componentName": "FluentIconOutlinedTextAlignRight"
+  },
+  {
+    "name": "TextAlignRightRotate270",
+    "componentName": "FluentIconOutlinedTextAlignRightRotate270"
+  },
+  {
+    "name": "TextBold",
+    "componentName": "FluentIconOutlinedTextBold"
+  },
+  {
+    "name": "TextBulletListAdd",
+    "componentName": "FluentIconOutlinedTextBulletListAdd"
+  },
+  {
+    "name": "TextBulletListLtr",
+    "componentName": "FluentIconOutlinedTextBulletListLtr"
+  },
+  {
+    "name": "TextBulletListRtl",
+    "componentName": "FluentIconOutlinedTextBulletListRtl"
+  },
+  {
+    "name": "TextBulletListSquare",
+    "componentName": "FluentIconOutlinedTextBulletListSquare"
+  },
+  {
+    "name": "TextBulletListSquareEdit",
+    "componentName": "FluentIconOutlinedTextBulletListSquareEdit"
+  },
+  {
+    "name": "TextBulletListSquareWarning",
+    "componentName": "FluentIconOutlinedTextBulletListSquareWarning"
+  },
+  {
+    "name": "TextBulletListTree",
+    "componentName": "FluentIconOutlinedTextBulletListTree"
+  },
+  {
+    "name": "TextCaseLowercase",
+    "componentName": "FluentIconOutlinedTextCaseLowercase"
+  },
+  {
+    "name": "TextCaseTitle",
+    "componentName": "FluentIconOutlinedTextCaseTitle"
+  },
+  {
+    "name": "TextCaseUppercase",
+    "componentName": "FluentIconOutlinedTextCaseUppercase"
+  },
+  {
+    "name": "TextChangeCase",
+    "componentName": "FluentIconOutlinedTextChangeCase"
+  },
+  {
+    "name": "TextClearFormatting",
+    "componentName": "FluentIconOutlinedTextClearFormatting"
+  },
+  {
+    "name": "TextClearFormattingGa",
+    "componentName": "FluentIconOutlinedTextClearFormattingGa"
+  },
+  {
+    "name": "TextCollapse",
+    "componentName": "FluentIconOutlinedTextCollapse"
+  },
+  {
+    "name": "TextColor",
+    "componentName": "FluentIconOutlinedTextColor"
+  },
+  {
+    "name": "TextColorAccent",
+    "componentName": "FluentIconOutlinedTextColorAccent"
+  },
+  {
+    "name": "TextColorGa",
+    "componentName": "FluentIconOutlinedTextColorGa"
+  },
+  {
+    "name": "TextColumnOne",
+    "componentName": "FluentIconOutlinedTextColumnOne"
+  },
+  {
+    "name": "TextColumnOneNarrow",
+    "componentName": "FluentIconOutlinedTextColumnOneNarrow"
+  },
+  {
+    "name": "TextColumnOneWide",
+    "componentName": "FluentIconOutlinedTextColumnOneWide"
+  },
+  {
+    "name": "TextColumnThree",
+    "componentName": "FluentIconOutlinedTextColumnThree"
+  },
+  {
+    "name": "TextColumnTwo",
+    "componentName": "FluentIconOutlinedTextColumnTwo"
+  },
+  {
+    "name": "TextColumnTwoLeft",
+    "componentName": "FluentIconOutlinedTextColumnTwoLeft"
+  },
+  {
+    "name": "TextColumnTwoRight",
+    "componentName": "FluentIconOutlinedTextColumnTwoRight"
+  },
+  {
+    "name": "TextContinuous",
+    "componentName": "FluentIconOutlinedTextContinuous"
+  },
+  {
+    "name": "TextDescription",
+    "componentName": "FluentIconOutlinedTextDescription"
+  },
+  {
+    "name": "TextDirectionHorizontalLeft",
+    "componentName": "FluentIconOutlinedTextDirectionHorizontalLeft"
+  },
+  {
+    "name": "TextDirectionHorizontalLtr",
+    "componentName": "FluentIconOutlinedTextDirectionHorizontalLtr"
+  },
+  {
+    "name": "TextDirectionHorizontalRight",
+    "componentName": "FluentIconOutlinedTextDirectionHorizontalRight"
+  },
+  {
+    "name": "TextDirectionHorizontalRtl",
+    "componentName": "FluentIconOutlinedTextDirectionHorizontalRtl"
+  },
+  {
+    "name": "TextDirectionRotate270Ltr",
+    "componentName": "FluentIconOutlinedTextDirectionRotate270Ltr"
+  },
+  {
+    "name": "TextDirectionRotate270Right",
+    "componentName": "FluentIconOutlinedTextDirectionRotate270Right"
+  },
+  {
+    "name": "TextDirectionRotate90Left",
+    "componentName": "FluentIconOutlinedTextDirectionRotate90Left"
+  },
+  {
+    "name": "TextDirectionRotate90Ltr",
+    "componentName": "FluentIconOutlinedTextDirectionRotate90Ltr"
+  },
+  {
+    "name": "TextDirectionRotate90Right",
+    "componentName": "FluentIconOutlinedTextDirectionRotate90Right"
+  },
+  {
+    "name": "TextDirectionRotate90Rtl",
+    "componentName": "FluentIconOutlinedTextDirectionRotate90Rtl"
+  },
+  {
+    "name": "TextDirectionVertical",
+    "componentName": "FluentIconOutlinedTextDirectionVertical"
+  },
+  {
+    "name": "TextEditStyle",
+    "componentName": "FluentIconOutlinedTextEditStyle"
+  },
+  {
+    "name": "TextEditStyleGa",
+    "componentName": "FluentIconOutlinedTextEditStyleGa"
+  },
+  {
+    "name": "TextEffects",
+    "componentName": "FluentIconOutlinedTextEffects"
+  },
+  {
+    "name": "TextEffectsGa",
+    "componentName": "FluentIconOutlinedTextEffectsGa"
+  },
+  {
+    "name": "TextExpand",
+    "componentName": "FluentIconOutlinedTextExpand"
+  },
+  {
+    "name": "TextField",
+    "componentName": "FluentIconOutlinedTextField"
+  },
+  {
+    "name": "TextFirstLine",
+    "componentName": "FluentIconOutlinedTextFirstLine"
+  },
+  {
+    "name": "TextFont",
+    "componentName": "FluentIconOutlinedTextFont"
+  },
+  {
+    "name": "TextFontSize",
+    "componentName": "FluentIconOutlinedTextFontSize"
+  },
+  {
+    "name": "TextFootnote",
+    "componentName": "FluentIconOutlinedTextFootnote"
+  },
+  {
+    "name": "TextFootnoteGaNa",
+    "componentName": "FluentIconOutlinedTextFootnoteGaNa"
+  },
+  {
+    "name": "TextGrammarArrowLeft",
+    "componentName": "FluentIconOutlinedTextGrammarArrowLeft"
+  },
+  {
+    "name": "TextGrammarArrowRight",
+    "componentName": "FluentIconOutlinedTextGrammarArrowRight"
+  },
+  {
+    "name": "TextGrammarCheckmark",
+    "componentName": "FluentIconOutlinedTextGrammarCheckmark"
+  },
+  {
+    "name": "TextGrammarDismiss",
+    "componentName": "FluentIconOutlinedTextGrammarDismiss"
+  },
+  {
+    "name": "TextGrammarSettings",
+    "componentName": "FluentIconOutlinedTextGrammarSettings"
+  },
+  {
+    "name": "TextGrammarWand",
+    "componentName": "FluentIconOutlinedTextGrammarWand"
+  },
+  {
+    "name": "TextHanging",
+    "componentName": "FluentIconOutlinedTextHanging"
+  },
+  {
+    "name": "TextHeader1",
+    "componentName": "FluentIconOutlinedTextHeader1"
+  },
+  {
+    "name": "TextHeader2",
+    "componentName": "FluentIconOutlinedTextHeader2"
+  },
+  {
+    "name": "TextHeader3",
+    "componentName": "FluentIconOutlinedTextHeader3"
+  },
+  {
+    "name": "TextIndentDecrease",
+    "componentName": "FluentIconOutlinedTextIndentDecrease"
+  },
+  {
+    "name": "TextIndentDecreaseLtr",
+    "componentName": "FluentIconOutlinedTextIndentDecreaseLtr"
+  },
+  {
+    "name": "TextIndentDecreaseRtl",
+    "componentName": "FluentIconOutlinedTextIndentDecreaseRtl"
+  },
+  {
+    "name": "TextIndentIncrease",
+    "componentName": "FluentIconOutlinedTextIndentIncrease"
+  },
+  {
+    "name": "TextIndentIncreaseLtr",
+    "componentName": "FluentIconOutlinedTextIndentIncreaseLtr"
+  },
+  {
+    "name": "TextIndentIncreaseRtl",
+    "componentName": "FluentIconOutlinedTextIndentIncreaseRtl"
+  },
+  {
+    "name": "TextItalic",
+    "componentName": "FluentIconOutlinedTextItalic"
+  },
+  {
+    "name": "TextLineSpacing",
+    "componentName": "FluentIconOutlinedTextLineSpacing"
+  },
+  {
+    "name": "TextMore",
+    "componentName": "FluentIconOutlinedTextMore"
+  },
+  {
+    "name": "TextNumberFormat",
+    "componentName": "FluentIconOutlinedTextNumberFormat"
+  },
+  {
+    "name": "TextNumberFormatGaNaDa",
+    "componentName": "FluentIconOutlinedTextNumberFormatGaNaDa"
+  },
+  {
+    "name": "TextNumberListLtr",
+    "componentName": "FluentIconOutlinedTextNumberListLtr"
+  },
+  {
+    "name": "TextNumberListRtl",
+    "componentName": "FluentIconOutlinedTextNumberListRtl"
+  },
+  {
+    "name": "TextParagraph",
+    "componentName": "FluentIconOutlinedTextParagraph"
+  },
+  {
+    "name": "TextParagraphDirection",
+    "componentName": "FluentIconOutlinedTextParagraphDirection"
+  },
+  {
+    "name": "TextPositionBehind",
+    "componentName": "FluentIconOutlinedTextPositionBehind"
+  },
+  {
+    "name": "TextPositionFront",
+    "componentName": "FluentIconOutlinedTextPositionFront"
+  },
+  {
+    "name": "TextPositionLine",
+    "componentName": "FluentIconOutlinedTextPositionLine"
+  },
+  {
+    "name": "TextPositionSquare",
+    "componentName": "FluentIconOutlinedTextPositionSquare"
+  },
+  {
+    "name": "TextPositionThrough",
+    "componentName": "FluentIconOutlinedTextPositionThrough"
+  },
+  {
+    "name": "TextPositionTight",
+    "componentName": "FluentIconOutlinedTextPositionTight"
+  },
+  {
+    "name": "TextPositionTopBottom",
+    "componentName": "FluentIconOutlinedTextPositionTopBottom"
+  },
+  {
+    "name": "TextProofingTools",
+    "componentName": "FluentIconOutlinedTextProofingTools"
+  },
+  {
+    "name": "TextProofingToolsGaNaDa",
+    "componentName": "FluentIconOutlinedTextProofingToolsGaNaDa"
+  },
+  {
+    "name": "TextProofingToolsZi",
+    "componentName": "FluentIconOutlinedTextProofingToolsZi"
+  },
+  {
+    "name": "TextQuote",
+    "componentName": "FluentIconOutlinedTextQuote"
+  },
+  {
+    "name": "TextSortAscending",
+    "componentName": "FluentIconOutlinedTextSortAscending"
+  },
+  {
+    "name": "TextSortDescending",
+    "componentName": "FluentIconOutlinedTextSortDescending"
+  },
+  {
+    "name": "TextStrikethrough",
+    "componentName": "FluentIconOutlinedTextStrikethrough"
+  },
+  {
+    "name": "TextStrikethroughS",
+    "componentName": "FluentIconOutlinedTextStrikethroughS"
+  },
+  {
+    "name": "TextSubscript",
+    "componentName": "FluentIconOutlinedTextSubscript"
+  },
+  {
+    "name": "TextSuperscript",
+    "componentName": "FluentIconOutlinedTextSuperscript"
+  },
+  {
+    "name": "TextT",
+    "componentName": "FluentIconOutlinedTextT"
+  },
+  {
+    "name": "TextUnderline",
+    "componentName": "FluentIconOutlinedTextUnderline"
+  },
+  {
+    "name": "TextWordCount",
+    "componentName": "FluentIconOutlinedTextWordCount"
+  },
+  {
+    "name": "TextWrap",
+    "componentName": "FluentIconOutlinedTextWrap"
+  },
+  {
+    "name": "Textbox",
+    "componentName": "FluentIconOutlinedTextbox"
+  },
+  {
+    "name": "TextboxAlignBottom",
+    "componentName": "FluentIconOutlinedTextboxAlignBottom"
+  },
+  {
+    "name": "TextboxAlignBottomRotate90",
+    "componentName": "FluentIconOutlinedTextboxAlignBottomRotate90"
+  },
+  {
+    "name": "TextboxAlignCenter",
+    "componentName": "FluentIconOutlinedTextboxAlignCenter"
+  },
+  {
+    "name": "TextboxAlignMiddle",
+    "componentName": "FluentIconOutlinedTextboxAlignMiddle"
+  },
+  {
+    "name": "TextboxAlignMiddleRotate90",
+    "componentName": "FluentIconOutlinedTextboxAlignMiddleRotate90"
+  },
+  {
+    "name": "TextboxAlignTop",
+    "componentName": "FluentIconOutlinedTextboxAlignTop"
+  },
+  {
+    "name": "TextboxAlignTopRotate90",
+    "componentName": "FluentIconOutlinedTextboxAlignTopRotate90"
+  },
+  {
+    "name": "TextboxMore",
+    "componentName": "FluentIconOutlinedTextboxMore"
+  },
+  {
+    "name": "TextboxVertical",
+    "componentName": "FluentIconOutlinedTextboxVertical"
+  },
+  {
+    "name": "Thinking",
+    "componentName": "FluentIconOutlinedThinking"
+  },
+  {
+    "name": "ThumbDislike",
+    "componentName": "FluentIconOutlinedThumbDislike"
+  },
+  {
+    "name": "ThumbLike",
+    "componentName": "FluentIconOutlinedThumbLike"
+  },
+  {
+    "name": "TicketDiagonal",
+    "componentName": "FluentIconOutlinedTicketDiagonal"
+  },
+  {
+    "name": "TicketHorizontal",
+    "componentName": "FluentIconOutlinedTicketHorizontal"
+  },
+  {
+    "name": "TimeAndWeather",
+    "componentName": "FluentIconOutlinedTimeAndWeather"
+  },
+  {
+    "name": "TimePicker",
+    "componentName": "FluentIconOutlinedTimePicker"
+  },
+  {
+    "name": "Timeline",
+    "componentName": "FluentIconOutlinedTimeline"
+  },
+  {
+    "name": "Timer10",
+    "componentName": "FluentIconOutlinedTimer10"
+  },
+  {
+    "name": "Timer",
+    "componentName": "FluentIconOutlinedTimer"
+  },
+  {
+    "name": "Timer2",
+    "componentName": "FluentIconOutlinedTimer2"
+  },
+  {
+    "name": "Timer3",
+    "componentName": "FluentIconOutlinedTimer3"
+  },
+  {
+    "name": "TimerOff",
+    "componentName": "FluentIconOutlinedTimerOff"
+  },
+  {
+    "name": "ToggleLeft",
+    "componentName": "FluentIconOutlinedToggleLeft"
+  },
+  {
+    "name": "ToggleRight",
+    "componentName": "FluentIconOutlinedToggleRight"
+  },
+  {
+    "name": "Toolbox",
+    "componentName": "FluentIconOutlinedToolbox"
+  },
+  {
+    "name": "TooltipQuote",
+    "componentName": "FluentIconOutlinedTooltipQuote"
+  },
+  {
+    "name": "TopSpeed",
+    "componentName": "FluentIconOutlinedTopSpeed"
+  },
+  {
+    "name": "Translate",
+    "componentName": "FluentIconOutlinedTranslate"
+  },
+  {
+    "name": "Transmission",
+    "componentName": "FluentIconOutlinedTransmission"
+  },
+  {
+    "name": "Trophy",
+    "componentName": "FluentIconOutlinedTrophy"
+  },
+  {
+    "name": "Tv",
+    "componentName": "FluentIconOutlinedTv"
+  },
+  {
+    "name": "TvUsb",
+    "componentName": "FluentIconOutlinedTvUsb"
+  },
+  {
+    "name": "Umbrella",
+    "componentName": "FluentIconOutlinedUmbrella"
+  },
+  {
+    "name": "UninstallApp",
+    "componentName": "FluentIconOutlinedUninstallApp"
+  },
+  {
+    "name": "UsbPlug",
+    "componentName": "FluentIconOutlinedUsbPlug"
+  },
+  {
+    "name": "UsbPort",
+    "componentName": "FluentIconOutlinedUsbPort"
+  },
+  {
+    "name": "UsbStick",
+    "componentName": "FluentIconOutlinedUsbStick"
+  },
+  {
+    "name": "Vault",
+    "componentName": "FluentIconOutlinedVault"
+  },
+  {
+    "name": "VehicleBicycle",
+    "componentName": "FluentIconOutlinedVehicleBicycle"
+  },
+  {
+    "name": "VehicleBus",
+    "componentName": "FluentIconOutlinedVehicleBus"
+  },
+  {
+    "name": "VehicleCab",
+    "componentName": "FluentIconOutlinedVehicleCab"
+  },
+  {
+    "name": "VehicleCar",
+    "componentName": "FluentIconOutlinedVehicleCar"
+  },
+  {
+    "name": "VehicleCarCollision",
+    "componentName": "FluentIconOutlinedVehicleCarCollision"
+  },
+  {
+    "name": "VehicleShip",
+    "componentName": "FluentIconOutlinedVehicleShip"
+  },
+  {
+    "name": "VehicleSubway",
+    "componentName": "FluentIconOutlinedVehicleSubway"
+  },
+  {
+    "name": "VehicleTruck",
+    "componentName": "FluentIconOutlinedVehicleTruck"
+  },
+  {
+    "name": "VehicleTruckProfile",
+    "componentName": "FluentIconOutlinedVehicleTruckProfile"
+  },
+  {
+    "name": "Video",
+    "componentName": "FluentIconOutlinedVideo"
+  },
+  {
+    "name": "Video360",
+    "componentName": "FluentIconOutlinedVideo360"
+  },
+  {
+    "name": "VideoAdd",
+    "componentName": "FluentIconOutlinedVideoAdd"
+  },
+  {
+    "name": "VideoBackgroundEffect",
+    "componentName": "FluentIconOutlinedVideoBackgroundEffect"
+  },
+  {
+    "name": "VideoClip",
+    "componentName": "FluentIconOutlinedVideoClip"
+  },
+  {
+    "name": "VideoOff",
+    "componentName": "FluentIconOutlinedVideoOff"
+  },
+  {
+    "name": "VideoPerson",
+    "componentName": "FluentIconOutlinedVideoPerson"
+  },
+  {
+    "name": "VideoPersonCall",
+    "componentName": "FluentIconOutlinedVideoPersonCall"
+  },
+  {
+    "name": "VideoPersonOff",
+    "componentName": "FluentIconOutlinedVideoPersonOff"
+  },
+  {
+    "name": "VideoPersonSparkle",
+    "componentName": "FluentIconOutlinedVideoPersonSparkle"
+  },
+  {
+    "name": "VideoPersonStar",
+    "componentName": "FluentIconOutlinedVideoPersonStar"
+  },
+  {
+    "name": "VideoPersonStarOff",
+    "componentName": "FluentIconOutlinedVideoPersonStarOff"
+  },
+  {
+    "name": "VideoPlayPause",
+    "componentName": "FluentIconOutlinedVideoPlayPause"
+  },
+  {
+    "name": "VideoProhibited",
+    "componentName": "FluentIconOutlinedVideoProhibited"
+  },
+  {
+    "name": "VideoSecurity",
+    "componentName": "FluentIconOutlinedVideoSecurity"
+  },
+  {
+    "name": "VideoSwitch",
+    "componentName": "FluentIconOutlinedVideoSwitch"
+  },
+  {
+    "name": "ViewDesktop",
+    "componentName": "FluentIconOutlinedViewDesktop"
+  },
+  {
+    "name": "ViewDesktopMobile",
+    "componentName": "FluentIconOutlinedViewDesktopMobile"
+  },
+  {
+    "name": "Voicemail",
+    "componentName": "FluentIconOutlinedVoicemail"
+  },
+  {
+    "name": "Vote",
+    "componentName": "FluentIconOutlinedVote"
+  },
+  {
+    "name": "WalkieTalkie",
+    "componentName": "FluentIconOutlinedWalkieTalkie"
+  },
+  {
+    "name": "Wallet",
+    "componentName": "FluentIconOutlinedWallet"
+  },
+  {
+    "name": "Wallpaper",
+    "componentName": "FluentIconOutlinedWallpaper"
+  },
+  {
+    "name": "Wand",
+    "componentName": "FluentIconOutlinedWand"
+  },
+  {
+    "name": "Warning",
+    "componentName": "FluentIconOutlinedWarning"
+  },
+  {
+    "name": "WeatherBlowingSnow",
+    "componentName": "FluentIconOutlinedWeatherBlowingSnow"
+  },
+  {
+    "name": "WeatherCloudy",
+    "componentName": "FluentIconOutlinedWeatherCloudy"
+  },
+  {
+    "name": "WeatherDrizzle",
+    "componentName": "FluentIconOutlinedWeatherDrizzle"
+  },
+  {
+    "name": "WeatherDuststorm",
+    "componentName": "FluentIconOutlinedWeatherDuststorm"
+  },
+  {
+    "name": "WeatherFog",
+    "componentName": "FluentIconOutlinedWeatherFog"
+  },
+  {
+    "name": "WeatherHailDay",
+    "componentName": "FluentIconOutlinedWeatherHailDay"
+  },
+  {
+    "name": "WeatherHailNight",
+    "componentName": "FluentIconOutlinedWeatherHailNight"
+  },
+  {
+    "name": "WeatherHaze",
+    "componentName": "FluentIconOutlinedWeatherHaze"
+  },
+  {
+    "name": "WeatherMoon",
+    "componentName": "FluentIconOutlinedWeatherMoon"
+  },
+  {
+    "name": "WeatherMoonOff",
+    "componentName": "FluentIconOutlinedWeatherMoonOff"
+  },
+  {
+    "name": "WeatherPartlyCloudyDay",
+    "componentName": "FluentIconOutlinedWeatherPartlyCloudyDay"
+  },
+  {
+    "name": "WeatherPartlyCloudyNight",
+    "componentName": "FluentIconOutlinedWeatherPartlyCloudyNight"
+  },
+  {
+    "name": "WeatherRain",
+    "componentName": "FluentIconOutlinedWeatherRain"
+  },
+  {
+    "name": "WeatherRainShowersDay",
+    "componentName": "FluentIconOutlinedWeatherRainShowersDay"
+  },
+  {
+    "name": "WeatherRainShowersNight",
+    "componentName": "FluentIconOutlinedWeatherRainShowersNight"
+  },
+  {
+    "name": "WeatherRainSnow",
+    "componentName": "FluentIconOutlinedWeatherRainSnow"
+  },
+  {
+    "name": "WeatherSnow",
+    "componentName": "FluentIconOutlinedWeatherSnow"
+  },
+  {
+    "name": "WeatherSnowShowerDay",
+    "componentName": "FluentIconOutlinedWeatherSnowShowerDay"
+  },
+  {
+    "name": "WeatherSnowShowerNight",
+    "componentName": "FluentIconOutlinedWeatherSnowShowerNight"
+  },
+  {
+    "name": "WeatherSnowflake",
+    "componentName": "FluentIconOutlinedWeatherSnowflake"
+  },
+  {
+    "name": "WeatherSqualls",
+    "componentName": "FluentIconOutlinedWeatherSqualls"
+  },
+  {
+    "name": "WeatherSunny",
+    "componentName": "FluentIconOutlinedWeatherSunny"
+  },
+  {
+    "name": "WeatherSunnyHigh",
+    "componentName": "FluentIconOutlinedWeatherSunnyHigh"
+  },
+  {
+    "name": "WeatherSunnyLow",
+    "componentName": "FluentIconOutlinedWeatherSunnyLow"
+  },
+  {
+    "name": "WeatherThunderstorm",
+    "componentName": "FluentIconOutlinedWeatherThunderstorm"
+  },
+  {
+    "name": "WebAsset",
+    "componentName": "FluentIconOutlinedWebAsset"
+  },
+  {
+    "name": "Whiteboard",
+    "componentName": "FluentIconOutlinedWhiteboard"
+  },
+  {
+    "name": "Wifi1",
+    "componentName": "FluentIconOutlinedWifi1"
+  },
+  {
+    "name": "Wifi2",
+    "componentName": "FluentIconOutlinedWifi2"
+  },
+  {
+    "name": "Wifi3",
+    "componentName": "FluentIconOutlinedWifi3"
+  },
+  {
+    "name": "Wifi4",
+    "componentName": "FluentIconOutlinedWifi4"
+  },
+  {
+    "name": "WifiLock",
+    "componentName": "FluentIconOutlinedWifiLock"
+  },
+  {
+    "name": "WifiOff",
+    "componentName": "FluentIconOutlinedWifiOff"
+  },
+  {
+    "name": "WifiProtected",
+    "componentName": "FluentIconOutlinedWifiProtected"
+  },
+  {
+    "name": "WifiWarning",
+    "componentName": "FluentIconOutlinedWifiWarning"
+  },
+  {
+    "name": "Window",
+    "componentName": "FluentIconOutlinedWindow"
+  },
+  {
+    "name": "WindowArrowUp",
+    "componentName": "FluentIconOutlinedWindowArrowUp"
+  },
+  {
+    "name": "WindowDevTools",
+    "componentName": "FluentIconOutlinedWindowDevTools"
+  },
+  {
+    "name": "WindowNew",
+    "componentName": "FluentIconOutlinedWindowNew"
+  },
+  {
+    "name": "WindowShield",
+    "componentName": "FluentIconOutlinedWindowShield"
+  },
+  {
+    "name": "Wrench",
+    "componentName": "FluentIconOutlinedWrench"
+  },
+  {
+    "name": "XboxConsole",
+    "componentName": "FluentIconOutlinedXboxConsole"
+  },
+  {
+    "name": "Xray",
+    "componentName": "FluentIconOutlinedXray"
+  },
+  {
+    "name": "ZoomIn",
+    "componentName": "FluentIconOutlinedZoomIn"
+  },
+  {
+    "name": "ZoomOut",
+    "componentName": "FluentIconOutlinedZoomOut"
+  }
+]
