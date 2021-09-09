@@ -3175,11 +3175,6 @@
     "svgFileName": "ic_fluent_flip_vertical_24_filled.svg"
   },
   {
-    "name": "Fluent",
-    "componentName": "FluentIconFilledFluent",
-    "svgFileName": "ic_fluent_fluent_24_filled.svg"
-  },
-  {
     "name": "Fluid",
     "componentName": "FluentIconFilledFluid",
     "svgFileName": "ic_fluent_fluid_24_filled.svg"

@@ -1,14 +1,33 @@
 <template>
-  <article class="pb-[100%] relative border rounded-lg">
+  <article
+    class="
+      pb-[100%]
+      relative
+      border
+      dark:border-gray-700
+      rounded-lg
+      overflow-hidden
+    "
+  >
     <div class="absolute inset-0">
       <button
         @click="selectIcon"
-        class="block w-full h-full focus:outline-none group relative"
+        class="
+          block
+          w-full
+          h-full
+          focus:outline-none
+          group
+          relative
+          hover:bg-gray-100
+          dark:hover:bg-gray-700
+        "
+        :class="{ 'bg-gray-100 dark:bg-gray-700': selected }"
         :aria-label="icon.name"
       >
         <div class="absolute inset-0">
           <div class="flex flex-row justify-center items-center h-full">
-            <component :is="icon.componentName" />
+            <component :is="icon.componentName" class="h-10 w-10" />
           </div>
         </div>
         <div class="p-4 absolute inset-x-0 bottom-0">
@@ -43,6 +62,10 @@ export default {
     icon: {
       type: Object,
       required: true,
+    },
+    selected: {
+      type: Boolean,
+      default: false,
     },
   },
   methods: {

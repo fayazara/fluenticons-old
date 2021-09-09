@@ -1,6 +1,17 @@
 <template>
-  <aside class="h-screen sticky top-0 border-l w-72 bg-gray-50">
-    <div class="h-16 border-b flex items-center">
+  <aside
+    class="
+      h-screen
+      sticky
+      top-0
+      border-l
+      w-72
+      bg-gray-50
+      dark:bg-gray-800
+      dark:border-gray-700
+    "
+  >
+    <div class="h-16 border-b dark:border-gray-700 flex items-center">
       <div class="px-4 text-sm font-medium">
         {{ icon ? icon.name.replace(/([A-Z])/g, " $1") : "Preview" }}
       </div>
@@ -12,7 +23,9 @@
           h-full
           rounded-lg
           border
+          dark:border-gray-700
           bg-white
+          dark:bg-gray-800
           flex
           items-center
           justify-center
@@ -27,7 +40,7 @@
         />
       </div>
     </div>
-    <ul class="divide-y">
+    <ul class="divide-y divide-gray-300 dark:divide-gray-700">
       <li>
         <div class="px-4 py-3 flex-between">
           <p class="text-sm font-semibold">Color</p>
@@ -46,19 +59,46 @@
           <div class="inline-flex rounded overflow-hidden">
             <button
               @click="getVueSnippet()"
-              class="bg-gray-300 hover:bg-gray-400 text-gray-800 py-1 px-2"
+              class="
+                bg-gray-300
+                hover:bg-gray-400
+                dark:bg-gray-500
+                dark:hover:bg-gray-600
+                text-gray-800
+                dark:text-gray-300
+                py-1
+                px-2
+              "
             >
               Vue
             </button>
             <button
               @click="getReactSnippet()"
-              class="bg-gray-300 hover:bg-gray-400 text-gray-800 py-1 px-2"
+              class="
+                bg-gray-300
+                hover:bg-gray-400
+                dark:bg-gray-500
+                dark:hover:bg-gray-600
+                text-gray-800
+                dark:text-gray-300
+                py-1
+                px-2
+              "
             >
               React
             </button>
             <button
               @click="getSvgSnippet"
-              class="bg-gray-300 hover:bg-gray-400 text-gray-800 py-1 px-2"
+              class="
+                bg-gray-300
+                hover:bg-gray-400
+                dark:bg-gray-500
+                dark:hover:bg-gray-600
+                text-gray-800
+                dark:text-gray-300
+                py-1
+                px-2
+              "
             >
               Svg
             </button>
@@ -73,7 +113,10 @@
               class="
                 bg-gray-300
                 hover:bg-gray-400
+                dark:bg-gray-500
+                dark:hover:bg-gray-600
                 text-gray-800
+                dark:text-gray-300
                 py-1
                 px-2
                 rounded-l
@@ -85,7 +128,10 @@
               class="
                 bg-gray-300
                 hover:bg-gray-400
+                dark:bg-gray-500
+                dark:hover:bg-gray-600
                 text-gray-800
+                dark:text-gray-300
                 py-1
                 px-2
                 rounded-r

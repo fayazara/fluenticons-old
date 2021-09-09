@@ -4,6 +4,7 @@ module.exports = {
   theme: {
     fontFamily: {
       sans: [
+        "Inter",
         "Avenir",
         "Roboto",
         "-apple-system",

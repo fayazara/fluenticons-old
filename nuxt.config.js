@@ -11,9 +11,9 @@ export default {
     link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }]
   },
   css: ["~/assets/styles/index.css"],
-  plugins: [],
+  plugins: ["~/plugins/tooltip"],
   components: true,
-  buildModules: ["@nuxtjs/tailwindcss"],
+  buildModules: ["@nuxtjs/tailwindcss", "@nuxtjs/color-mode"],
   modules: [
     "@nuxtjs/axios",
     "@nuxtjs/pwa",
@@ -22,6 +22,9 @@ export default {
     "nuxt-clipboard2",
     "@nuxtjs/toast"
   ],
+  colorMode: {
+    classSuffix: ""
+  },
   toast: {
     position: "bottom-center",
     duration: 7000
