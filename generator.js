@@ -1,8 +1,8 @@
-const iconsFolder = "./cleaned-svg/";
+const iconsFolder = "./static/icons/";
 const fs = require("fs");
 const axios = require("axios");
 let filledIcons = [];
-let regularIcons = [];
+let outlinedIcons = [];
 
 fs.readdirSync(iconsFolder).forEach(file => {
   let type = file.includes("filled") === true ? "filled" : "outlined";
@@ -14,37 +14,37 @@ fs.readdirSync(iconsFolder).forEach(file => {
       svgFileName: file
     });
   } else {
-    regularIcons.push({
+    outlinedIcons.push({
       name: IconName,
       componentName: `FluentIcon${capitalizeString(type)}${IconName}`,
       svgFileName: file
     });
   }
-  let ComponentName = `${pascalize(
-    file.replace("ic_fluent_", "").split("_24")[0]
-  )}.vue`;
-  let content = `<template>
-    ${readFile(`./cleaned-svg/${file}`, "utf8")}
-  </template>
+  // let ComponentName = `${pascalize(
+  //   file.replace("ic_fluent_", "").split("_24")[0]
+  // )}.vue`;
+  // let content = `<template>
+  //   ${readFile(`./static/icons/${file}`, "utf8")}
+  // </template>
 
-  <script>
-    export default {
-      name: 'FluentIcon${capitalizeString(type)}${IconName}',
-  };
-  </script>`;
-  if (type === "filled") {
-    createFile(
-      `../components/FluentIcon/Filled/${ComponentName}`,
-      IconName,
-      content
-    );
-  } else {
-    createFile(
-      `../components/FluentIcon/Outlined/${ComponentName}`,
-      IconName,
-      content
-    );
-  }
+  // <script>
+  //   export default {
+  //     name: 'FluentIcon${capitalizeString(type)}${IconName}',
+  // };
+  // </script>`;
+  // if (type === "filled") {
+  //   createFile(
+  //     `../components/FluentIcon/Filled/${ComponentName}`,
+  //     IconName,
+  //     content
+  //   );
+  // } else {
+  //   createFile(
+  //     `../components/FluentIcon/Outlined/${ComponentName}`,
+  //     IconName,
+  //     content
+  //   );
+  // }
 });
 
 createFile(
@@ -53,9 +53,9 @@ createFile(
   JSON.stringify(filledIcons, null, 2)
 );
 createFile(
-  "./regular.json",
-  "regular.json",
-  JSON.stringify(regularIcons, null, 2)
+  "./outlined.json",
+  "outlined.json",
+  JSON.stringify(outlinedIcons, null, 2)
 );
 
 // function to capitalize a string

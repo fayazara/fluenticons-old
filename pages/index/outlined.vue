@@ -59,7 +59,7 @@
 </template>
 
 <script>
-import icons from "~/assets/outlined.json";
+import icons from "~/assets/icons/outlined.json";
 export default {
   props: {
     selectedIcon: {

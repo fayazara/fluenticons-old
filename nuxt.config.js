@@ -10,7 +10,7 @@ export default {
     ],
     link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }]
   },
-  css: ["~/assets/styles/index.css"],
+  css: ["~/assets/css/styles.css"],
   plugins: ["~/plugins/tooltip"],
   components: true,
   buildModules: ["@nuxtjs/tailwindcss", "@nuxtjs/color-mode"],

@@ -58,7 +58,7 @@
           <p class="font-semibold">Copy Snippet</p>
           <div class="inline-flex rounded overflow-hidden">
             <button
-              @click="getVueSnippet()"
+              @click="copy('vue')"
               class="
                 bg-gray-300
                 hover:bg-gray-400
@@ -73,7 +73,7 @@
               Vue
             </button>
             <button
-              @click="getReactSnippet()"
+              @click="copy('react')"
               class="
                 bg-gray-300
                 hover:bg-gray-400
@@ -88,7 +88,7 @@
               React
             </button>
             <button
-              @click="getSvgSnippet"
+              @click="copy('svg')"
               class="
                 bg-gray-300
                 hover:bg-gray-400
@@ -110,6 +110,7 @@
           <p class="font-semibold">Download</p>
           <div class="inline-flex">
             <button
+              @click="copy('vue')"
               class="
                 bg-gray-300
                 hover:bg-gray-400
@@ -147,17 +148,13 @@
 </template>
 
 <script>
-import {
-  getVueSnippet,
-  getSvgSnippet,
-  getReactSnippet,
-} from "../../utils/icon";
+import { getIconSnippet } from "../../utils/icon";
 export default {
   props: {
     icon: {
       type: Object,
       default: function () {
-        return { name: "hello" };
+        return {};
       },
     },
   },
@@ -167,31 +164,17 @@ export default {
     };
   },
   methods: {
-    async getVueSnippet() {
-      const snippet = await getVueSnippet(this.icon.svgFileName);
+    async copy(type) {
       try {
+        let snippet = await getIconSnippet(
+          type,
+          this.icon.svgFileName,
+          this.color
+        );
         await this.$copyText(snippet);
-        this.$toast.show("Copied to clipboard");
-      } catch (e) {
-        console.error(e);
-      }
-    },
-    async getReactSnippet() {
-      const snippet = await getReactSnippet(this.icon.svgFileName);
-      try {
-        await this.$copyText(snippet);
-        this.$toast.show("Copied to clipboard");
-      } catch (e) {
-        console.error(e);
-      }
-    },
-    async getSvgSnippet() {
-      const snippet = await getSvgSnippet(this.icon.svgFileName);
-      try {
-        await this.$copyText(snippet);
-        this.$toast.show("Copied to clipboard");
-      } catch (e) {
-        console.error(e);
+        this.$toast.success(`Copied to clipboard`);
+      } catch (err) {
+        this.$toast.error(err.message);
       }
     },
   },

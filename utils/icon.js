@@ -1,30 +1,42 @@
 import axios from "axios";
 
-export async function getVueSnippet(icon) {
-  console.log(icon);
+export async function getSvg(icon, color) {
   const { data } = await axios.get(`/icons/${icon}`);
+  if (color) {
+    return data.replace(/#212121/g, color);
+  }
+  return data;
+}
+
+export async function svgToVue(svgString, iconName) {
   return `
   <template>
-    ${data}
+    ${svgString}
   </template>
   <script>
   export default {
-    name: '${icon.replace(".svg", "")}'
+    name: '${iconName.replace(".svg", "")}'
   }
   </script>`;
 }
 
-export async function getSvgSnippet(icon) {
-  const { data } = await axios.get(`/icons/${icon}`);
-  return data;
+export async function svgToReact(svgString, iconName) {
+  return `
+  export function ${iconName.replace(".svg", "")}(props) {
+    return (
+      ${svgString}
+    )
+  }`;
 }
 
-export async function getReactSnippet(icon) {
-  const { data } = await axios.get(`/icons/${icon}`);
-  return `
-    export function ${icon.replace(".svg", "")}(props) {
-      return (
-        ${data}
-      )
-    }`;
+export async function getIconSnippet(type, icon, color) {
+  if (!icon) return;
+  switch (type) {
+    case "svg":
+      return await getSvg(icon, color);
+    case "vue":
+      return svgToVue(await getSvg(icon, color), icon);
+    case "react":
+      return svgToReact(await getSvg(icon, color), icon);
+  }
 }

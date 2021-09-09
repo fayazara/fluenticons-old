@@ -15,8 +15,8 @@
     "
   >
     <p>
-      <span class="text-lg font-medium">Filled Icons</span>
-      <span class="text-gray-600">(Solid Filled Style)</span>
+      <span class="text-lg font-medium">{{ iconType.style }} Icons</span>
+      <span class="text-gray-600">({{ iconType.subtitle }})</span>
     </p>
     <div class="flex-space-x-4">
       <div
@@ -164,6 +164,11 @@ export default {
           path: "/outlined",
         };
       }
+    },
+    iconType() {
+      if (this.$route.path === "/outlined")
+        return { style: "Outlined", subtitle: "2 px stroked" };
+      else return { style: "Filled", subtitle: "Solid filled style" };
     },
   },
   methods: {
