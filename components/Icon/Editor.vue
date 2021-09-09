@@ -1,42 +1,17 @@
 <template>
-  <aside
-    class="
-      h-screen
-      sticky
-      top-0
-      border-l
-      w-72
-      bg-gray-50
-      dark:bg-gray-800
-      dark:border-gray-700
-    "
-  >
+  <aside class="editor-sidebar">
     <div class="h-16 border-b dark:border-gray-700 flex items-center">
       <div class="px-4 text-sm font-medium">
         {{ icon ? icon.name.replace(/([A-Z])/g, " $1") : "Preview" }}
       </div>
     </div>
     <div class="h-64">
-      <div
-        class="
-          m-4
-          h-full
-          rounded-lg
-          border
-          dark:border-gray-700
-          bg-white
-          dark:bg-gray-800
-          flex
-          items-center
-          justify-center
-          flex-col
-          dots-pattern-background
-        "
-      >
+      <div class="icon-editor-panel dots-pattern-background">
         <component
           :is="icon.componentName"
           class="h-32 w-32"
           :style="{ color }"
+          ref="icon"
         />
       </div>
     </div>
@@ -57,89 +32,18 @@
         <div class="px-4 py-3 flex-between text-sm">
           <p class="font-semibold">Copy Snippet</p>
           <div class="inline-flex rounded overflow-hidden">
-            <button
-              @click="copy('vue')"
-              class="
-                bg-gray-300
-                hover:bg-gray-400
-                dark:bg-gray-500
-                dark:hover:bg-gray-600
-                text-gray-800
-                dark:text-gray-300
-                py-1
-                px-2
-              "
-            >
-              Vue
-            </button>
-            <button
-              @click="copy('react')"
-              class="
-                bg-gray-300
-                hover:bg-gray-400
-                dark:bg-gray-500
-                dark:hover:bg-gray-600
-                text-gray-800
-                dark:text-gray-300
-                py-1
-                px-2
-              "
-            >
-              React
-            </button>
-            <button
-              @click="copy('svg')"
-              class="
-                bg-gray-300
-                hover:bg-gray-400
-                dark:bg-gray-500
-                dark:hover:bg-gray-600
-                text-gray-800
-                dark:text-gray-300
-                py-1
-                px-2
-              "
-            >
-              Svg
-            </button>
+            <button @click="copy('vue')" class="btn-copy">Vue</button>
+            <button @click="copy('react')" class="btn-copy">React</button>
+            <button @click="copy('svg')" class="btn-copy">Svg</button>
           </div>
         </div>
       </li>
       <li>
         <div class="px-4 py-3 flex-between text-sm">
           <p class="font-semibold">Download</p>
-          <div class="inline-flex">
-            <button
-              @click="copy('vue')"
-              class="
-                bg-gray-300
-                hover:bg-gray-400
-                dark:bg-gray-500
-                dark:hover:bg-gray-600
-                text-gray-800
-                dark:text-gray-300
-                py-1
-                px-2
-                rounded-l
-              "
-            >
-              Svg
-            </button>
-            <button
-              class="
-                bg-gray-300
-                hover:bg-gray-400
-                dark:bg-gray-500
-                dark:hover:bg-gray-600
-                text-gray-800
-                dark:text-gray-300
-                py-1
-                px-2
-                rounded-r
-              "
-            >
-              Png
-            </button>
+          <div class="inline-flex rounded overflow-hidden">
+            <button @click="downloadIcon('svg')" class="btn-copy">Svg</button>
+            <button @click="downloadIcon('png')" class="btn-copy">Png</button>
           </div>
         </div>
       </li>
@@ -148,7 +52,7 @@
 </template>
 
 <script>
-import { getIconSnippet } from "../../utils/icon";
+import { getIconSnippet, svgToImage } from "../../utils/icon";
 export default {
   props: {
     icon: {
@@ -161,6 +65,14 @@ export default {
   data() {
     return {
       color: "#212121",
+      pngDefaults: {
+        svg: null,
+        mimetype: "image/png",
+        width: 500,
+        height: 500,
+        quality: 1,
+        outputFormat: "base64",
+      },
     };
   },
   methods: {
@@ -177,6 +89,41 @@ export default {
         this.$toast.error(err.message);
       }
     },
+    downloadIcon(type) {
+      if (!type) return;
+      switch (type) {
+        case "svg":
+          this.downloadFile(
+            `/icons/${this.icon.svgFileName}`,
+            this.icon.svgFileName
+          );
+          break;
+        case "png":
+          let self = this;
+          svgToImage(this.pngDefaults)
+            .then(function (outputData) {
+              self.downloadFile(
+                outputData,
+                `${self.icon.svgFileName.replace(".svg", "")}.png`
+              );
+            })
+            .catch(function (err) {
+              console.log(err);
+            });
+          break;
+      }
+    },
+    downloadFile(url, filename) {
+      let link = document.createElement("a");
+      link.style.opacity = "0";
+      link.download = filename;
+      link.href = url;
+      link.click();
+      link.remove();
+    },
+  },
+  mounted() {
+    this.pngDefaults.svg = this.$refs.icon.$el;
   },
 };
 </script>

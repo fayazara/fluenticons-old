@@ -20,31 +20,31 @@ fs.readdirSync(iconsFolder).forEach(file => {
       svgFileName: file
     });
   }
-  // let ComponentName = `${pascalize(
-  //   file.replace("ic_fluent_", "").split("_24")[0]
-  // )}.vue`;
-  // let content = `<template>
-  //   ${readFile(`./static/icons/${file}`, "utf8")}
-  // </template>
+  let ComponentName = `${pascalize(
+    file.replace("ic_fluent_", "").split("_24")[0]
+  )}.vue`;
+  let content = `<template>
+    ${readFile(`./static/icons/${file}`, "utf8")}
+  </template>
 
-  // <script>
-  //   export default {
-  //     name: 'FluentIcon${capitalizeString(type)}${IconName}',
-  // };
-  // </script>`;
-  // if (type === "filled") {
-  //   createFile(
-  //     `../components/FluentIcon/Filled/${ComponentName}`,
-  //     IconName,
-  //     content
-  //   );
-  // } else {
-  //   createFile(
-  //     `../components/FluentIcon/Outlined/${ComponentName}`,
-  //     IconName,
-  //     content
-  //   );
-  // }
+  <script>
+    export default {
+      name: 'FluentIcon${capitalizeString(type)}${IconName}',
+  };
+  </script>`;
+  if (type === "filled") {
+    createFile(
+      `../components/FluentIcon/Filled/${ComponentName}`,
+      IconName,
+      content
+    );
+  } else {
+    createFile(
+      `../components/FluentIcon/Outlined/${ComponentName}`,
+      IconName,
+      content
+    );
+  }
 });
 
 createFile(

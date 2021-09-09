@@ -126,3 +126,15 @@ body {
   opacity: 1;
   transition: opacity 0.15s;
 }
+
+.btn-copy {
+  @apply bg-gray-300 hover:bg-gray-400 dark:bg-gray-500 dark:hover:bg-gray-600 text-gray-800 dark:text-gray-300 py-1 px-2;
+}
+
+.icon-editor-panel {
+  @apply m-4 h-full rounded-lg border dark:border-gray-700 bg-white dark:bg-gray-800 flex items-center justify-center;
+}
+
+.editor-sidebar {
+  @apply h-screen sticky top-0 border-l w-72 bg-gray-50 dark:bg-gray-800 dark:border-gray-700;
+}
