@@ -37,18 +37,7 @@
         </p>
       </div>
       <button
-        class="
-          block
-          border
-          dark:border-gray-700
-          rounded-lg
-          mx-auto
-          px-6
-          py-3
-          hover:bg-gray-100
-          dark:hover:bg-gray-700
-          text-sm
-        "
+        class="show-more-btn"
         @click="showMore"
         v-if="filteredIcons.length > elementsToShow"
       >

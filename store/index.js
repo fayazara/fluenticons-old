@@ -18,5 +18,9 @@ export const mutations = {
 export const getters = {
   favorites(state) {
     return state.favorites;
+  },
+  isAFavorite: state => payload => {
+    if (state.favorites.find(ic => ic.componentName === payload)) return true;
+    else return false;
   }
 };

@@ -20,8 +20,16 @@ export default {
     "@nuxt/content",
     "vue-swatches/nuxt",
     "nuxt-clipboard2",
-    "@nuxtjs/toast"
+    "@nuxtjs/toast",
+    "@nuxtjs/google-fonts"
   ],
+  googleFonts: {
+    families: {
+      Inter: [400, 700, 800]
+    },
+    display: "swap",
+    download: true
+  },
   colorMode: {
     classSuffix: ""
   },

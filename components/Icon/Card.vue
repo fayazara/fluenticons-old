@@ -9,6 +9,22 @@
       overflow-hidden
     "
   >
+    <div
+      class="
+        absolute
+        w-20
+        h-10
+        bg-gray-200
+        dark:bg-gray-800
+        top-0
+        right-0
+        translate-x-1/2
+        -translate-y-1/2
+        rotate-45
+        z-40
+      "
+      v-if="isAFavorite"
+    ></div>
     <div class="absolute inset-0">
       <button
         @click="selectIcon"
@@ -21,6 +37,8 @@
           relative
           hover:bg-gray-100
           dark:hover:bg-gray-700
+          focus:bg-gray-100
+          dark:focus:bg-gray-700
         "
         :class="{ 'bg-gray-100 dark:bg-gray-700': selected }"
         :aria-label="icon.name"
@@ -71,6 +89,11 @@ export default {
   methods: {
     selectIcon() {
       this.$emit("setIcon", this.icon);
+    },
+  },
+  computed: {
+    isAFavorite() {
+      return this.$store.getters.isAFavorite(this.icon.componentName);
     },
   },
 };

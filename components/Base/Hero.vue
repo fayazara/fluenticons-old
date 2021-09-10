@@ -23,6 +23,7 @@
           dark:bg-gray-800
           dark:text-gray-300
           font-semibold
+          focus:outline-none
         "
         ><svg
           id="Layer_1"
@@ -35,27 +36,27 @@
           <path
             id="path0_fill"
             d="M50 300c27.6 0 50-22.4 50-50v-50H50c-27.6 0-50 22.4-50 50s22.4 50 50 50z"
-            class="st0"
+            fill="#0acf83"
           ></path>
           <path
             id="path1_fill"
             d="M0 150c0-27.6 22.4-50 50-50h50v100H50c-27.6 0-50-22.4-50-50z"
-            class="st1"
+            fill="#a259ff"
           ></path>
           <path
             id="path1_fill_1_"
             d="M0 50C0 22.4 22.4 0 50 0h50v100H50C22.4 100 0 77.6 0 50z"
-            class="st2"
+            fill="#f24e1e"
           ></path>
           <path
             id="path2_fill"
             d="M100 0h50c27.6 0 50 22.4 50 50s-22.4 50-50 50h-50V0z"
-            class="st3"
+            fill="#ff7262"
           ></path>
           <path
             id="path3_fill"
             d="M200 150c0 27.6-22.4 50-50 50s-50-22.4-50-50 22.4-50 50-50 50 22.4 50 50z"
-            class="st4"
+            fill="#1abcfe"
           ></path>
         </svg>
         <p>Open Figma</p></a
@@ -77,6 +78,7 @@
           dark:bg-gray-800
           dark:text-gray-300
           font-semibold
+          focus:outline-none
         "
         ><svg width="24" height="24" fill="currentColor" class="mr-3">
           <path

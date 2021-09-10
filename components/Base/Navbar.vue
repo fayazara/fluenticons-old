@@ -29,6 +29,7 @@
           bg-gray-50
           dark:bg-gray-700
           focus-within:bg-gray-100
+          dark:focus-within:bg-gray-800
         "
       >
         <input
@@ -40,8 +41,9 @@
             h-full
             rounded-l-full
             px-6
+            text-sm
           "
-          placeholder="Press / to focus"
+          placeholder="Search (Press / to focus)"
           ref="search"
           @input="search"
         />
@@ -57,59 +59,26 @@
             focus:outline-none
             focus:bg-gray-200
           "
+          @click="$refs.search.focus()"
         >
           <FluentIconFilledSearch class="text-gray-500 h-5 w-5" />
         </button>
       </div>
       <nuxt-link
         :to="altIcons.path"
-        class="
-          h-10
-          w-10
-          rounded-full
-          flex-center
-          bg-gray-100
-          dark:bg-gray-800
-          hover:bg-gray-200
-          focus:outline-none
-          focus:bg-gray-200
-        "
+        class="navbar-btn"
         v-tooltip="`Switch to ${altIcons.name} Icons`"
       >
         <FluentIconFilledPositionBackward class="text-gray-500 h-5 w-5" />
       </nuxt-link>
       <button
         @click="toggleDarkMode"
-        class="
-          h-10
-          w-10
-          rounded-full
-          flex-center
-          bg-gray-100
-          dark:bg-gray-800
-          hover:bg-gray-200
-          focus:outline-none
-          focus:bg-gray-200
-        "
+        class="navbar-btn"
         v-tooltip="'Dark Mode'"
       >
         <FluentIconOutlinedWeatherMoon class="text-gray-500 h-5 w-5" />
       </button>
-      <nuxt-link
-        to="/favorites"
-        class="
-          h-10
-          w-10
-          rounded-full
-          flex-center
-          bg-gray-100
-          dark:bg-gray-800
-          hover:bg-gray-200
-          focus:outline-none
-          focus:bg-gray-200
-        "
-        v-tooltip="'Favorites'"
-      >
+      <nuxt-link to="/favorites" class="navbar-btn" v-tooltip="'Favorites'">
         <FluentIconOutlinedHeart class="text-gray-500 h-5 w-5" />
       </nuxt-link>
     </div>
@@ -150,7 +119,7 @@ export default {
   },
   methods: {
     search(e) {
-      this.query = null;
+      this.query = e.target.value;
       clearTimeout(this.debounce);
       this.debounce = setTimeout(() => {
         this.$emit("input", e.target.value);

@@ -11,6 +11,8 @@
           rounded-full
           focus:bg-gray-100
           hover:bg-gray-100
+          dark:focus:bg-gray-700
+          dark:hover:bg-gray-700
         "
         @click="favoriteToggle"
       >
@@ -105,7 +107,7 @@ export default {
     favoriteToggle() {
       if (this.isAFavorite) {
         this.$store.commit("unFavoriteIcon", this.icon);
-        this.showToast("Removed favorites");
+        this.showToast("Removed from favorites");
       } else {
         this.$store.commit("favoriteIcon", this.icon);
         this.showToast("Added to favorites");
@@ -182,11 +184,7 @@ export default {
   },
   computed: {
     isAFavorite() {
-      if (
-        this.$store.getters.favorites.find((ic) => ic.name === this.icon.name)
-      )
-        return true;
-      return false;
+      return this.$store.getters.isAFavorite(this.icon.componentName);
     },
   },
   mounted() {
