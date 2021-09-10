@@ -1,9 +1,25 @@
 <template>
   <aside class="editor-sidebar">
-    <div class="h-16 border-b dark:border-gray-700 flex items-center">
-      <div class="px-4 text-sm font-medium">
+    <div class="h-16 border-b dark:border-gray-700 flex-between px-4">
+      <div class="text-sm font-medium">
         {{ icon ? icon.name.replace(/([A-Z])/g, " $1") : "Preview" }}
       </div>
+      <button
+        class="
+          focus:outline-none
+          p-2
+          rounded-full
+          focus:bg-gray-100
+          hover:bg-gray-100
+        "
+        @click="favoriteToggle"
+      >
+        <FluentIconFilledHeart
+          class="text-gray-500 h-5 w-5"
+          v-if="isAFavorite"
+        />
+        <FluentIconOutlinedHeart class="text-gray-500 h-5 w-5" v-else />
+      </button>
     </div>
     <div class="h-64">
       <div class="icon-editor-panel dots-pattern-background">
@@ -25,6 +41,7 @@
             fallback-input-type="color"
             popover-x="left"
             :trigger-style="{ width: '30px', height: '30px' }"
+            @input="colorHasChanged = true"
           ></v-swatches>
         </div>
       </li>
@@ -73,9 +90,27 @@ export default {
         quality: 1,
         outputFormat: "base64",
       },
+      colorHasChanged: false,
     };
   },
+  watch: {
+    "$colorMode.preference": function (val) {
+      if (!this.colorHasChanged) {
+        if (val === "dark") this.color = "#fff";
+        else this.color = "#212121";
+      }
+    },
+  },
   methods: {
+    favoriteToggle() {
+      if (this.isAFavorite) {
+        this.$store.commit("unFavoriteIcon", this.icon);
+        this.showToast("Removed favorites");
+      } else {
+        this.$store.commit("favoriteIcon", this.icon);
+        this.showToast("Added to favorites");
+      }
+    },
     async copy(type) {
       try {
         let snippet = await getIconSnippet(
@@ -83,11 +118,34 @@ export default {
           this.icon.svgFileName,
           this.color
         );
+        this.showToast("Copied to clipboard");
         await this.$copyText(snippet);
-        this.$toast.success(`Copied to clipboard`);
       } catch (err) {
         this.$toast.error(err.message);
       }
+    },
+    showToast(message) {
+      this.$toast.show(`
+            <div class="flex items-center space-x-4">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                aria-hidden="true"
+                role="img"
+                class="h-5 w-5 flex-shrink-0 text-green-500"
+                preserveAspectRatio="xMidYMid meet"
+                viewBox="0 0 16 16"
+              >
+                <g fill="none">
+                  <path
+                    d="M8 2a6 6 0 1 1 0 12A6 6 0 0 1 8 2zm2.12 4.164L7.25 9.042L5.854 7.646a.5.5 0 1 0-.708.708l1.75 1.75a.5.5 0 0 0 .708 0l3.224-3.234a.5.5 0 0 0-.708-.706z"
+                    fill="currentColor"
+                  ></path>
+                </g>
+              </svg>
+              <p class="flex-1">${message}</p>
+            </div>
+        `);
     },
     downloadIcon(type) {
       if (!type) return;
@@ -120,6 +178,15 @@ export default {
       link.href = url;
       link.click();
       link.remove();
+    },
+  },
+  computed: {
+    isAFavorite() {
+      if (
+        this.$store.getters.favorites.find((ic) => ic.name === this.icon.name)
+      )
+        return true;
+      return false;
     },
   },
   mounted() {

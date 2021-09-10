@@ -1,19 +1,6 @@
 <template>
   <div class="py-12 px-8">
-    <h1
-      class="
-        text-5xl
-        font-bold
-        mb-6
-        text-transparent
-        bg-clip-text bg-gradient-to-br
-        from-blue-500
-        via-purple-500
-        to-indigo-600
-      "
-    >
-      Fluent Icons
-    </h1>
+    <h1 class="text-5xl font-bold mb-6">Fluent Icons</h1>
     <p class="text-lg mb-2">
       Open source icons by Microsoft. Viewer by Fayaz Ahmed
     </p>
@@ -36,7 +23,6 @@
           dark:bg-gray-800
           dark:text-gray-300
           font-semibold
-          animate4
         "
         ><svg
           id="Layer_1"
@@ -91,7 +77,6 @@
           dark:bg-gray-800
           dark:text-gray-300
           font-semibold
-          animate5
         "
         ><svg width="24" height="24" fill="currentColor" class="mr-3">
           <path

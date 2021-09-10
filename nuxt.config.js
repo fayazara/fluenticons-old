@@ -26,7 +26,7 @@ export default {
     classSuffix: ""
   },
   toast: {
-    position: "bottom-center",
+    position: "bottom-right",
     duration: 7000
   },
   axios: {

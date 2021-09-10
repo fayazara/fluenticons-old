@@ -1,7 +1,7 @@
 <template>
   <div class="container mx-auto p-8">
     <div class="grid grid-cols-6 gap-6">
-      <IconCard
+      <lazy-icon-card
         v-for="(icon, i) in filteredIcons.slice(0, elementsToShow)"
         :key="i"
         :icon="icon"
