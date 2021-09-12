@@ -136,7 +136,7 @@ body {
 }
 
 .editor-sidebar {
-  @apply h-screen sticky top-0 border-l w-72 bg-gray-50 dark:bg-gray-800 dark:border-gray-700 overflow-y-auto;
+  @apply h-screen sticky top-0 border-l w-72 bg-gray-50 dark:bg-gray-900 dark:border-gray-700 overflow-y-auto;
 }
 
 .toasted.toasted-primary {
@@ -156,4 +156,11 @@ body {
 .expand-enter,
 .expand-leave-to {
   opacity: 0;
+}
+
+.vue-swatches {
+  @apply flex;
+}
+.vue-swatches__trigger {
+  @apply border border-gray-300 dark:border-gray-700 shadow-lg;
 }

@@ -24,13 +24,23 @@
       </button>
     </div>
     <div class="h-64">
-      <div class="icon-editor-panel dots-pattern-background">
+      <div class="icon-editor-panel dots-pattern-background relative">
         <component
           :is="icon.componentName"
           class="h-32 w-32"
           :style="{ color }"
           ref="icon"
         />
+        <div class="absolute bottom-2 right-2">
+          <v-swatches
+            v-model="color"
+            show-fallback
+            fallback-input-type="color"
+            popover-x="left"
+            :trigger-style="{ width: '20px', height: '20px' }"
+            @input="colorHasChanged = true"
+          ></v-swatches>
+        </div>
       </div>
     </div>
     <ul
