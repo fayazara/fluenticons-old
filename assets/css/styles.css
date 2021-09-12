@@ -145,6 +145,9 @@ body {
 .show-more-btn {
   @apply block border dark:border-gray-700 rounded-lg mx-auto px-6 py-3 hover:bg-gray-100 dark:hover:bg-gray-700 text-sm focus:outline-none;
 }
+.sponsor-btn {
+  @apply border dark:border-gray-700 rounded-lg px-6 py-3 hover:bg-gray-100 dark:hover:bg-gray-700 text-sm focus:outline-none;
+}
 .navbar-btn {
   @apply h-10 w-10 rounded-full flex items-center justify-center bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 focus:outline-none focus:bg-gray-200;
 }
@@ -163,4 +166,17 @@ body {
 }
 .vue-swatches__trigger {
   @apply border border-gray-300 dark:border-gray-700 shadow-lg;
+}
+
+.hero-link {
+  @apply flex items-center justify-center px-5 py-3 rounded-lg shadow bg-white text-gray-600 dark:bg-gray-800 dark:text-gray-300 font-semibold focus:outline-none;
+}
+
+.hero-pattern {
+  background-image: url("/icon-pattern.png");
+  @apply bg-cover bg-center;
+}
+.dark .hero-pattern {
+  background-image: url("/icon-pattern-dark.png");
+  @apply bg-cover bg-center;
 }

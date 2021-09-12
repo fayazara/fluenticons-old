@@ -61,7 +61,7 @@
               form-select
               border-0
               focus:outline-none
-              text-sm
+              text-xs
               bg-transparent
             "
             v-model="selectedCopyType"
@@ -71,7 +71,15 @@
             </option>
           </select>
           <button
-            class="flex-between px-4 py-2 bg-gray-100 dark:bg-gray-900"
+            class="
+              flex-between
+              px-4
+              py-2
+              bg-gray-100
+              dark:bg-[#070d19]
+              border-l border-gray-300
+              dark:border-gray-700
+            "
             @click="copy()"
           >
             <p>Copy</p>
@@ -86,7 +94,7 @@
               form-select
               border-0
               focus:outline-none
-              text-sm
+              text-xs
               bg-transparent
             "
             v-model="selectedExportType"
@@ -100,11 +108,19 @@
             </option>
           </select>
           <button
-            class="flex-between px-4 py-2 bg-gray-100 dark:bg-gray-900"
+            class="
+              flex-between
+              px-4
+              py-2
+              bg-gray-100
+              dark:bg-[#070d19]
+              border-l border-gray-300
+              dark:border-gray-700
+            "
             @click="exportIcon"
           >
             <p>Download</p>
-            <FluentIconOutlinedArrowDown class="text-gray-500 h-4 w-4" />
+            <FluentIconOutlinedArrowDownload class="text-gray-500 h-4 w-4" />
           </button>
         </div>
       </li>
