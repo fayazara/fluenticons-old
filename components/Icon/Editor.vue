@@ -84,14 +84,6 @@ export default {
   data() {
     return {
       color: "#212121",
-      pngDefaults: {
-        svg: null,
-        mimetype: "image/png",
-        width: 500,
-        height: 500,
-        quality: 1,
-        outputFormat: "base64",
-      },
       colorHasChanged: false,
     };
   },
@@ -160,7 +152,15 @@ export default {
           break;
         case "png":
           let self = this;
-          svgToImage(this.pngDefaults)
+          let pngDefaults = {
+            svg: this.$refs.icon.$el,
+            mimetype: "image/png",
+            width: 500,
+            height: 500,
+            quality: 1,
+            outputFormat: "base64",
+          };
+          svgToImage(pngDefaults)
             .then(function (outputData) {
               self.downloadFile(
                 outputData,
@@ -186,9 +186,6 @@ export default {
     isAFavorite() {
       return this.$store.getters.isAFavorite(this.icon.componentName);
     },
-  },
-  mounted() {
-    this.pngDefaults.svg = this.$refs.icon.$el;
   },
 };
 </script>
