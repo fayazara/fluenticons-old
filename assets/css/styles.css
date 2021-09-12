@@ -136,7 +136,7 @@ body {
 }
 
 .editor-sidebar {
-  @apply h-screen sticky top-0 border-l w-72 bg-gray-50 dark:bg-gray-800 dark:border-gray-700;
+  @apply h-screen sticky top-0 border-l w-72 bg-gray-50 dark:bg-gray-800 dark:border-gray-700 overflow-y-auto;
 }
 
 .toasted.toasted-primary {
@@ -147,4 +147,13 @@ body {
 }
 .navbar-btn {
   @apply h-10 w-10 rounded-full flex items-center justify-center bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 focus:outline-none focus:bg-gray-200;
+}
+
+.expand-enter-active,
+.expand-leave-active {
+  transition-property: opacity, height;
+}
+.expand-enter,
+.expand-leave-to {
+  opacity: 0;
 }

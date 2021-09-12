@@ -33,37 +33,53 @@
         />
       </div>
     </div>
-    <ul class="divide-y divide-gray-300 dark:divide-gray-700">
+    <ul
+      class="
+        divide-y
+        border-t border-b border-gray-300
+        divide-gray-300
+        dark:divide-gray-700
+        text-xs
+        mt-4
+      "
+    >
       <li>
-        <div class="px-4 py-3 flex-between">
-          <p class="text-sm font-semibold">Color</p>
-          <v-swatches
-            v-model="color"
-            show-fallback
-            fallback-input-type="color"
-            popover-x="left"
-            :trigger-style="{ width: '30px', height: '30px' }"
-            @input="colorHasChanged = true"
-          ></v-swatches>
+        <div class="grid grid-cols-2">
+          <select
+            class="form-select border-0 focus:outline-none text-sm"
+            v-model="selectedCopyType"
+          >
+            <option v-for="(type, i) in copyTypes" :value="type.value" :key="i">
+              {{ type.name }}
+            </option>
+          </select>
+          <button class="flex-between px-4 py-2 bg-gray-100" @click="copy()">
+            <p>Copy</p>
+            <FluentIconOutlinedCopy class="text-gray-500 h-4 w-4" />
+          </button>
         </div>
       </li>
       <li>
-        <div class="px-4 py-3 flex-between text-sm">
-          <p class="font-semibold">Copy Snippet</p>
-          <div class="inline-flex rounded overflow-hidden">
-            <button @click="copy('vue')" class="btn-copy">Vue</button>
-            <button @click="copy('react')" class="btn-copy">React</button>
-            <button @click="copy('svg')" class="btn-copy">Svg</button>
-          </div>
-        </div>
-      </li>
-      <li>
-        <div class="px-4 py-3 flex-between text-sm">
-          <p class="font-semibold">Download</p>
-          <div class="inline-flex rounded overflow-hidden">
-            <button @click="downloadIcon('svg')" class="btn-copy">Svg</button>
-            <button @click="downloadIcon('png')" class="btn-copy">Png</button>
-          </div>
+        <div class="grid grid-cols-2">
+          <select
+            class="form-select border-0 focus:outline-none text-sm"
+            v-model="selectedExportType"
+          >
+            <option
+              v-for="(type, i) in exportTypes"
+              :value="type.value"
+              :key="i"
+            >
+              {{ type.name }}
+            </option>
+          </select>
+          <button
+            class="flex-between px-4 py-2 bg-gray-100"
+            @click="exportIcon"
+          >
+            <p>Download</p>
+            <FluentIconOutlinedArrowDown class="text-gray-500 h-4 w-4" />
+          </button>
         </div>
       </li>
     </ul>
@@ -72,6 +88,7 @@
 
 <script>
 import { getIconSnippet, svgToImage } from "../../utils/icon";
+import FileSaver from "file-saver";
 export default {
   props: {
     icon: {
@@ -85,6 +102,48 @@ export default {
     return {
       color: "#212121",
       colorHasChanged: false,
+      copyTypes: [
+        {
+          name: "SVG",
+          value: "svg",
+        },
+        {
+          name: "HTML Image",
+          value: "html",
+        },
+        {
+          name: "Vue Component",
+          value: "vue",
+        },
+        {
+          name: "React Component",
+          value: "react",
+        },
+      ],
+      exportTypes: [
+        {
+          name: "PNG",
+          value: "png",
+        },
+        {
+          name: "SVG",
+          value: "svg",
+        },
+        {
+          name: "WEBP",
+          value: "webp",
+        },
+        {
+          name: "Vue Component",
+          value: "vue",
+        },
+        {
+          name: "React Component",
+          value: "react",
+        },
+      ],
+      selectedCopyType: "svg",
+      selectedExportType: "png",
     };
   },
   watch: {
@@ -105,14 +164,14 @@ export default {
         this.showToast("Added to favorites");
       }
     },
-    async copy(type) {
+    async copy() {
       try {
         let snippet = await getIconSnippet(
-          type,
+          this.selectedCopyType,
           this.icon.svgFileName,
           this.color
         );
-        this.showToast("Copied to clipboard");
+        this.showToast(`Copied ${this.selectedCopyType} snippet`);
         await this.$copyText(snippet);
       } catch (err) {
         this.$toast.error(err.message);
@@ -141,45 +200,68 @@ export default {
             </div>
         `);
     },
-    downloadIcon(type) {
-      if (!type) return;
-      switch (type) {
+    async convertToImage(type) {
+      let imageDefaults = {
+        svg: this.$refs.icon.$el,
+        mimetype: `image/${type}`,
+        width: 500,
+        height: 500,
+        quality: 1,
+        outputFormat: "base64",
+      };
+      let image = await svgToImage(imageDefaults);
+      return image;
+    },
+    async exportIcon() {
+      if (!this.selectedExportType) return;
+      switch (this.selectedExportType) {
         case "svg":
-          this.downloadFile(
+          this.downloadImage(
             `/icons/${this.icon.svgFileName}`,
             this.icon.svgFileName
           );
           break;
         case "png":
-          let self = this;
-          let pngDefaults = {
-            svg: this.$refs.icon.$el,
-            mimetype: "image/png",
-            width: 500,
-            height: 500,
-            quality: 1,
-            outputFormat: "base64",
-          };
-          svgToImage(pngDefaults)
-            .then(function (outputData) {
-              self.downloadFile(
-                outputData,
-                `${self.icon.svgFileName.replace(".svg", "")}.png`
-              );
-            })
-            .catch(function (err) {
-              console.log(err);
-            });
+          this.downloadImage(
+            await this.convertToImage("png"),
+            `${this.icon.svgFileName.replace(".svg", "")}.png`
+          );
           break;
+        case "webp":
+          this.downloadImage(
+            await this.convertToImage("webp"),
+            `${this.icon.svgFileName.replace(".svg", "")}.webp`
+          );
+          break;
+        case "vue":
+          this.downloadComponent("vue");
+        case "react":
+          this.downloadComponent("react");
       }
     },
-    downloadFile(url, filename) {
+    downloadImage(url, filename) {
       let link = document.createElement("a");
       link.style.opacity = "0";
       link.download = filename;
       link.href = url;
       link.click();
       link.remove();
+    },
+    async downloadComponent() {
+      let snippet = await getIconSnippet(
+        this.selectedExportType,
+        this.icon.svgFileName,
+        this.color
+      );
+      let blob = new Blob([snippet], {
+        type: "text/plain;charset=utf-8",
+      });
+      FileSaver.saveAs(
+        blob,
+        `${this.icon.svgFileName.replace(".svg", "")}.${
+          this.selectedExportType === "vue" ? "vue" : "js"
+        }`
+      );
     },
   },
   computed: {

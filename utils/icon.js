@@ -9,24 +9,40 @@ export async function getSvg(icon, color) {
 }
 
 export async function svgToVue(svgString, iconName) {
-  return `
-  <template>
-    ${svgString}
-  </template>
-  <script>
-  export default {
-    name: '${iconName.replace(".svg", "")}'
-  }
-  </script>`;
+  return `<template>
+  ${svgString}
+</template>
+<script>
+export default {
+  name: '${iconName.replace(".svg", "")}'
+}
+</script>`;
 }
 
 export async function svgToReact(svgString, iconName) {
-  return `
-  export function ${iconName.replace(".svg", "")}(props) {
-    return (
-      ${svgString}
-    )
-  }`;
+  return `export function ${iconName.replace(".svg", "")}(props) {
+  return (
+  ${svgString}
+  )
+}`;
+}
+
+export async function svgToHtml(svgString, iconName) {
+  let imageDefaults = {
+    svg: svgString,
+    mimetype: "image/png",
+    width: 500,
+    height: 500,
+    quality: 1,
+    outputFormat: "base64"
+  };
+  return svgToImage(imageDefaults)
+    .then(function(outputData) {
+      return `<img src="${outputData}" alt=" ${iconName.replace(".svg", "")}" />`;
+    })
+    .catch(function(err) {
+      console.log(err);
+    });
 }
 
 export async function getIconSnippet(type, icon, color) {
@@ -38,15 +54,17 @@ export async function getIconSnippet(type, icon, color) {
       return svgToVue(await getSvg(icon, color), icon);
     case "react":
       return svgToReact(await getSvg(icon, color), icon);
+    case "html":
+      return svgToHtml(await getSvg(icon, color), icon);
   }
 }
 
-export function svgToImage(settings) {
+export async function svgToImage(settings) {
   let _settings = {
     svg: null,
     // Usually all SVG have transparency, so PNG is the way to go by default
     mimetype: "image/png",
-    quality: 0.92,
+    quality: 1,
     width: "auto",
     height: "auto",
     outputFormat: "base64"
@@ -57,7 +75,7 @@ export function svgToImage(settings) {
     _settings[key] = settings[key];
   }
 
-  return new Promise(function(resolve, reject) {
+  return new Promise(function(resolve) {
     let svgNode;
 
     // Create SVG Node if a plain string has been provided
@@ -130,24 +148,3 @@ export function svgToImage(settings) {
     image.src = svgBase64;
   });
 }
-
-// document.getElementById("create-image").addEventListener(
-//   "click",
-//   function() {
-//     SVGToImage({
-//       svg: document.getElementById("your-svg").value,
-//       mimetype: "image/png",
-//       width: 500,
-//       quality: 1
-//     })
-//       .then(function(base64image) {
-//         let img = document.createElement("img");
-//         img.src = base64image;
-//         document.getElementById("images-container").appendChild(img);
-//       })
-//       .catch(function(err) {
-//         console.log(err);
-//       });
-//   },
-//   false
-// );
