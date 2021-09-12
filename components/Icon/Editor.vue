@@ -39,6 +39,7 @@
         border-t border-b border-gray-300
         divide-gray-300
         dark:divide-gray-700
+        dark:border-gray-700
         text-xs
         mt-4
       "
@@ -46,14 +47,23 @@
       <li>
         <div class="grid grid-cols-2">
           <select
-            class="form-select border-0 focus:outline-none text-sm"
+            class="
+              form-select
+              border-0
+              focus:outline-none
+              text-sm
+              bg-transparent
+            "
             v-model="selectedCopyType"
           >
             <option v-for="(type, i) in copyTypes" :value="type.value" :key="i">
               {{ type.name }}
             </option>
           </select>
-          <button class="flex-between px-4 py-2 bg-gray-100" @click="copy()">
+          <button
+            class="flex-between px-4 py-2 bg-gray-100 dark:bg-gray-900"
+            @click="copy()"
+          >
             <p>Copy</p>
             <FluentIconOutlinedCopy class="text-gray-500 h-4 w-4" />
           </button>
@@ -62,7 +72,13 @@
       <li>
         <div class="grid grid-cols-2">
           <select
-            class="form-select border-0 focus:outline-none text-sm"
+            class="
+              form-select
+              border-0
+              focus:outline-none
+              text-sm
+              bg-transparent
+            "
             v-model="selectedExportType"
           >
             <option
@@ -74,7 +90,7 @@
             </option>
           </select>
           <button
-            class="flex-between px-4 py-2 bg-gray-100"
+            class="flex-between px-4 py-2 bg-gray-100 dark:bg-gray-900"
             @click="exportIcon"
           >
             <p>Download</p>
@@ -147,11 +163,14 @@ export default {
     };
   },
   watch: {
-    "$colorMode.preference": function (val) {
-      if (!this.colorHasChanged) {
-        if (val === "dark") this.color = "#fff";
-        else this.color = "#212121";
-      }
+    "$colorMode.preference": {
+      immediate: true,
+      handler(val) {
+        if (!this.colorHasChanged) {
+          if (val === "dark") this.color = "#fff";
+          else this.color = "#212121";
+        }
+      },
     },
   },
   methods: {
@@ -269,6 +288,9 @@ export default {
   computed: {
     isAFavorite() {
       return this.$store.getters.isAFavorite(this.icon.componentName);
+    },
+    colorPreference() {
+      return this.$colorMode.preference;
     },
   },
 };
