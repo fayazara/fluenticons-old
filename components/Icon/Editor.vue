@@ -235,8 +235,10 @@ export default {
           break;
         case "vue":
           this.downloadComponent("vue");
+          break;
         case "react":
           this.downloadComponent("react");
+          break;
       }
     },
     downloadImage(url, filename) {
