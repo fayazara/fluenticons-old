@@ -1,8 +1,11 @@
 <template>
   <div class="text-gray-500">
     <p class="text-sm text-center mb-2">
-      <nuxt-link class="underline" to="/new-sponsor"
-        >Showcase your brand here</nuxt-link
+      <a
+        class="underline"
+        href="https://twitter.com/messages/compose?text=I%27d+like+a+sponsor+spot+on+fluenticons+website&recipient_id=252099921
+"
+        >Showcase your brand here</a
       >
     </p>
     <div
