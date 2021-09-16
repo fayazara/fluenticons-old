@@ -15,6 +15,7 @@
           dark:hover:bg-gray-700
         "
         @click="favoriteToggle"
+        aria-label="Favorite"
       >
         <FluentIconFilledHeart
           class="text-gray-500 h-5 w-5"

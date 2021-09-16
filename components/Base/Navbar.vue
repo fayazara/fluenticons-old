@@ -60,6 +60,7 @@
             focus:bg-gray-200
           "
           @click="$refs.search.focus()"
+          aria-label="Search"
         >
           <FluentIconFilledSearch class="text-gray-500 h-5 w-5" />
         </button>
@@ -68,6 +69,7 @@
         :to="altIcons.path"
         class="navbar-btn"
         v-tooltip="`Switch to ${altIcons.name} Icons`"
+        :aria-label="`${altIcons.name} Icons`"
       >
         <FluentIconFilledPositionBackward class="text-gray-500 h-5 w-5" />
       </nuxt-link>
@@ -75,10 +77,16 @@
         @click="toggleDarkMode"
         class="navbar-btn"
         v-tooltip="'Dark Mode'"
+        aria-label="Dark Mode"
       >
         <FluentIconOutlinedWeatherMoon class="text-gray-500 h-5 w-5" />
       </button>
-      <nuxt-link to="/favorites" class="navbar-btn" v-tooltip="'Favorites'">
+      <nuxt-link
+        to="/favorites"
+        class="navbar-btn"
+        v-tooltip="'Favorites'"
+        aria-label="Favorites"
+      >
         <FluentIconOutlinedHeart class="text-gray-500 h-5 w-5" />
       </nuxt-link>
     </div>
