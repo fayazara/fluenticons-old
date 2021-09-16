@@ -6,7 +6,8 @@ import {
   plugins,
   toast,
   buildModules,
-  modules
+  modules,
+  colorMode
 } from "./constants";
 
 export default {
@@ -20,6 +21,7 @@ export default {
   modules,
   axios,
   toast,
+  colorMode,
   content: {},
   build: {}
 };
