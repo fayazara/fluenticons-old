@@ -1,4 +1,32 @@
-# fluenticons-next
+# Fluenticons Viewer
+
+
+New version disclaimer.
+This is still under development and I have been trying to work on this a little at a time. It can over time without any announcement, if you'd like to contribute, you're welcome to open a PR and have a go at it.
+
+---
+What's new in v2?
+1. No more hacks, I've used actual SVG's now, so I was able to add some new features like manipulating them.
+2. You can copy snippets for SVGs, Vue component, React Component, HTML Image.
+3. You can download SVGs, PNGs, WEBP, Vue component, React Component now.
+4. Manipulate colors to see how the icon looks.
+5. More performant, loads way too fast now. (Scores 100 on Lighthouse Yay!!). Was surprised to see the site loading in 600ms when I moved from vercel to cloudflare pages.
+
+What's next?
+1. Make an advanced editor like adding frames behind the icons. Inspiration - [Bakery](https://apps.apple.com/ne/app/bakery-simple-icon-maker/id1575220747?mt=12) & [Iconscout's Icon Editor](https://iconscout.com/icon-editor) (requires a lot a math, which I am not good at.)
+2. Make a npm package for other to use the components in their own projects.
+
+
+---
+
+
+4000+ pixel perfect open source icons from [Microsoft](https://github.com/microsoft/fluentui-system-icons).
+![Fluent Icons](https://fluenticons.co/social/icon.png)
+
+This site is not affiliated or connected to Microsoft in any way, this is just a viewer for the open-source icons from them.
+
+This was made because I had to open their [Figma](https://www.figma.com/community/file/836835755999342788) file every time I wanted any icons from their list, there was no search or proper tool to view them, hence I made this website as a small weekend project.
+
 
 ## Build Setup
 
