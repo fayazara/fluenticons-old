@@ -6,7 +6,7 @@
     <transition name="scroll" mode="out-in">
       <scroll-up v-if="show" />
     </transition>
-    <v2-badge />
+    <new-version-preview />
   </main>
 </template>
 
