@@ -125,6 +125,26 @@
           </button>
         </div>
       </li>
+      <li>
+        <button
+          class="flex-between px-4 py-2 w-full"
+          @click="showAdvancedEditor = !showAdvancedEditor"
+        >
+          <p>Advanced Editor</p>
+          <FluentIconOutlinedAdd class="text-gray-500 h-4 w-4" />
+        </button>
+        <base-accordian>
+          <div v-if="showAdvancedEditor">
+            <div class="px-4 py-2">
+              <p>Editor Setting 1</p>
+              <p>Editor Setting 2</p>
+              <p>Editor Setting 3</p>
+              <p>Editor Setting 4</p>
+              <p>Editor Setting 5</p>
+            </div>
+          </div>
+        </base-accordian>
+      </li>
     </ul>
   </aside>
 </template>
@@ -187,6 +207,7 @@ export default {
       ],
       selectedCopyType: "svg",
       selectedExportType: "png",
+      showAdvancedEditor: false,
     };
   },
   watch: {
