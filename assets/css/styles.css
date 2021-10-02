@@ -180,3 +180,7 @@ body {
   background-image: url("/icon-pattern-dark.png");
   @apply bg-cover bg-center;
 }
+
+.shape-bg {
+  background-image: url("/shape.svg");
+}

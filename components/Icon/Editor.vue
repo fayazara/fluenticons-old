@@ -48,9 +48,9 @@
       class="
         divide-y
         border-t border-b border-gray-300
+        dark:border-gray-700
         divide-gray-300
         dark:divide-gray-700
-        dark:border-gray-700
         text-xs
         mt-4
       "
@@ -130,19 +130,17 @@
           class="flex-between px-4 py-2 w-full"
           @click="showAdvancedEditor = !showAdvancedEditor"
         >
-          <p>Advanced Editor</p>
-          <FluentIconOutlinedAdd class="text-gray-500 h-4 w-4" />
+          <div class="flex-space-x-2">
+            <FluentIconOutlinedSettings class="text-gray-500 h-4 w-4" />
+            <p>Advanced Editor</p>
+          </div>
+          <FluentIconOutlinedAdd
+            class="text-gray-500 h-4 w-4 transform transition-transform"
+            :class="{ 'rotate-45': showAdvancedEditor }"
+          />
         </button>
         <base-accordian>
-          <div v-if="showAdvancedEditor">
-            <div class="px-4 py-2">
-              <p>Editor Setting 1</p>
-              <p>Editor Setting 2</p>
-              <p>Editor Setting 3</p>
-              <p>Editor Setting 4</p>
-              <p>Editor Setting 5</p>
-            </div>
-          </div>
+          <base-advanced-editor v-if="showAdvancedEditor" />
         </base-accordian>
       </li>
     </ul>
@@ -271,8 +269,8 @@ export default {
       let imageDefaults = {
         svg: this.$refs.icon.$el,
         mimetype: `image/${type}`,
-        width: 500,
-        height: 500,
+        width: 512,
+        height: 512,
         quality: 1,
         outputFormat: "base64",
       };
